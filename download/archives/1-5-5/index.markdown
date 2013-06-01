@@ -1,0 +1,342 @@
+---
+author: Gabriel Burt
+comments: false
+date: 2010-03-11 06:18:29+00:00
+layout: page
+slug: 1-5-5
+title: Banshee 1.5.5
+wordpress_id: 462
+---
+
+
+	
+  * **Release Date:** March 10, 2010
+
+	
+  * **Source Tarball:** [banshee-1-1.5.5.tar.bz2](http://download.banshee-project.org/banshee/stable/1.5.5/banshee-1-1.5.5.tar.bz2)
+
+	
+  * **Release Information:**
+[NEWS](http://download.banshee-project.org/banshee/stable/1.5.5/banshee-1-1.5.5.news),
+[sha256sum](http://download.banshee-project.org/banshee/stable/1.5.5/banshee-1-1.5.5.sha256sum)
+
+
+
+
+[![Download Now](/theme/css/images/download-button.png)](/download)
+
+
+
+Banshee 1.5.5 is mostly a bug fix release, with a few enhancements.  This
+release marks the start of our string freeze in preparation for 1.6.
+
+
+### New Features
+
+
+
+          
+
+####  Gapless Playback / Playbin2
+
+
+          
+
+Banshee now uses the playbin2 GStreamer element.  With this comes
+          support for gapless playback, which is the default now for users
+          with GStreamer > 0.10.25.2.
+
+
+
+          
+
+####  Grid View
+
+
+
+
+![screenshot showing the album browser in grid mode](http://download.banshee-project.org/shots/1.5.5/banshee-album-grid.png)
+
+
+          
+
+We are debuting a new grid mode for our custom list widget, visible
+          in the modified Album browser.  It will be used for Videos,
+          Audiobooks, and more in future releases.
+
+
+            
+
+
+          
+
+####  YouTube Extension
+
+
+          
+
+This extension shows YouTube videos in the Context Pane related to
+          what you're playing, and lets you watch them within Banshee.  You
+          can enable it in the Extensions tab of the Preferences dialog.
+
+
+
+
+![screenshot showing thumbnails of YouTube videos related to the playing song](http://download.banshee-project.org/shots/1.5.5/banshee-youtube.png)
+
+
+
+
+
+### Other Enhancements
+
+
+
+
+
+    
+  * Improve search responsiveness on large libraries
+
+    
+  * Add icons for Nexus One and Audiobooks
+
+    
+  * Play Queue item count, size, duration now ignores old tracks
+
+    
+  * Muinshee fixes: disable Auto-DJ, allow reordering, hide previous song
+
+
+
+
+### Notable Bug Fixes
+
+
+**26 bugs were fixed since 1.5.4!**
+
+
+
+    
+  * Fix a very common, SQL-related crash in 1.5.4
+
+    
+  * Fix saving equalizer settings in culture-invariant way
+
+    
+  * Jumping to a source's prefs via its context menu works again
+
+    
+  * Usage data not submitted more than every 48 hours
+
+    
+  * Fix repeatedly resyncing some files to a device b/c transcoded
+
+    
+  * Clear the redo stack on shuffle mode change
+
+    
+  * Accept feeds with empty title
+
+    
+  * Uri encode file location queries, making them work properly
+
+    
+  * Fixes to the OS X build
+
+
+
+
+#### Banshee has a lot more to offer! Check out the previous major release notes...
+
+
+
+
+
+	
+  * [Read about features added in Banshee 1.5.4](/download/archives/1.5.4)
+
+	
+  * [Read about features added in Banshee 1.5.3](/download/archives/1.5.3)
+
+	
+  * [Read about features added in Banshee 1.5.2](/download/archives/1.5.2)
+
+	
+  * [Read about features added in Banshee 1.5.1](/download/archives/1.5.1)
+
+	
+  * [Read about features added in Banshee 1.5.0](/download/archives/1.5.0)
+
+	
+  * [Read about features added in Banshee 1.4.3](/download/archives/1.4.3)
+
+	
+  * [Read about features added in Banshee 1.4.2](/download/archives/1.4.2)
+
+	
+  * [Read about features added in Banshee 1.4.1](/download/archives/1.4.1)
+
+	
+  * [Read about features added in Banshee 1.2](/download/archives/1.2.0)
+
+	
+  * [Read about features added in Banshee 1.0](/download/archives/1.0.0)
+
+
+
+
+### Dependencies
+
+
+
+
+
+	
+  * Mono 1.9.1 (.NET 2.0 Profile / gmcs)
+
+	
+  * SQlite 3.4
+
+	
+  * Gtk# 2.12
+
+	
+  * GStreamer 0.10.13
+
+	
+  * NDesk DBus (ndesk-dbus) 0.5
+
+	
+  * NDesk DBus GLib (ndesk-dbus-glib) 0.3
+
+	
+  * Mono.Addins (mono-addins) 0.3.1
+
+	
+  * TagLib# (taglib-sharp) >= 2.0.3.5
+
+	
+  * Required to build default feature stack:
+
+	
+    * libmtp >= 0.2.0
+
+	
+    * ipod-sharp >= 0.8.5
+
+	
+    * mono-zeroconf >= 0.8.0
+
+	
+    * boo >= 0.8.1
+
+    
+    * webkit-sharp-1.0 >= 0.2
+
+    
+    * gdata-sharp >= 1.4
+
+
+
+
+	
+  * Run-time requirements for default feature stack:
+
+	
+    * podsleuth >= 0.6.6
+
+	
+    * brasero
+
+	
+    * avahi
+
+
+
+
+
+
+
+### Community
+
+
+
+
+
+#### Contributors For This Release
+
+
+The following people directly contributed to the release of this version of Banshee. Without their help, there would be no release!
+
+
+> 
+      Aaron Bockover, Alan McGovern, Alex Launi, Alexander Kojevnikov,
+      Andreas Nilsson, AndrÃ©s G. Aragoneses, Bertrand Lorentz,
+      Christian Hergert, Christopher James Halse Rogers, Fernando Casanova,
+      Gabriel Burt, Jakub Steiner, JÃ¡n Sokoly, Kevin Duffus, Ruben Vermeersch,
+      Travis Reitter
+
+
+
+The following people contributed updated translations to this release.    Without them, our project's reach would be much more limited.
+
+
+> 
+      Andrej Å½nidarÅ¡iÄ, Benjamin Valero Espinosa, Bruno Brouard,
+      Laurent Coudeur, Marek ÄŒernockÃ½, Mario BlÃ¤ttermann, MiloÅ¡ PopoviÄ‡,
+      Petr Kovar
+
+
+
+
+
+#### Contributors In Past Releases
+
+
+
+
+> 
+    Aaron Bockover, Alan McGovern, Alex Bennee, Alex Kloss, Alex Launi,
+    Alexander Hixon, Alexander Kojevnikov, Alexandros Frantzis, Alp Toker,
+    Anders Petersson, Andrea Cimitan, Andreas Neustifter, Andreas Nilsson,
+    Andrew Conkling, AndrÃ©s G. Aragoneses, Andy Midgette, Arthur Carli,
+    Aydemir UlaÅŸ Åžahin, Ben Maurer, BenjamÃ­n Valero Espinosa,
+    Bertrand Lorentz, Bertrand Lorentz, Bill Dawson, Bob Copeland,
+    Bojan Rajkovic, Brad Taylor, Brandon Perry, Brian Lucas, Brian Nickel,
+    Brian Teague, Chow Loong Jin, Chris Howie, Chris Jones, Chris Lahey,
+    Chris Toshok, Chris Turchin, Christian Hergert, Christian Krause,
+    Christoph Burgdorf, Christopher James Halse Rogers, Cody Russell,
+    Cosmin Banu, Dan Wilson, Dan Winship, Daniel Munkton, Daniel Siegel,
+    David Spreen, David Stone, Diego E. PettenÃ², Eitan Isaacson, Elena Grassi,
+    Eoin Hennessy, Eric Butler, Erik Schmidt, Fabian Jost,
+    Felipe Almeida Lessa, Fernando Casanova, Florent Thoumie, Fredrik Hedberg,
+    FÃ©lix Velasco, Gabriel Burt, Garrett LeSage, GÃ¶tz Waschk, Haitao Feng,
+    Hans Petter Jansson, Iain Lane, Igor Guerrero Fonseca, Ilya Konstantinov,
+    Ivan N. Zlatev, Jack Deslippe, Jakub Steiner, James Willcox,
+    Jan Arne Petersen, Jason Conti, Jason Taylor, Jeff Tickle, Jeff Wheeler,
+    Jensen Somers, Jo Shields, Johannes Kuhn, John Millikin, Jorge Castro,
+    Juri Pakaste, JÃ¡n Sokoly, JÃ©rÃ©mie Laval, K. Vishnoo Charan Reddy,
+    Ken Vandine, Kevin Duffus, Larry Ewing, Lauri Kotilainen, Lukas Lipka,
+    Matt Enright, Michael Kaiser, Michael Martin-Smucker, Michael Monreal,
+    Michael Monreal, Miguel de Icaza, Mike Urbanski, Moritz SchallabÃ¶ck,
+    Nathan Palmer, Neil Loknath, Nicholas Doyle, Nicholas Parker,
+    NicolÃ² Chieffo, Nils Naumann, Oben Sonne, Olivier Duff, Oscar Forero,
+    Pacho Ramos, Patrick van Staveren, Paul Lange, Pavel Antonov,
+    Pepijn van de Geer, Peter de Kraker, Pratik Patel, PrzemysÅ‚aw Grzegorczyk,
+    Roderich Schupp, Romain TartiÃ¨re, Ruben Vermeersch, Ryan Collier,
+    Sandy Armstrong, Scott Peterson, Sebastian DrÃ¶ge, Tim Yamin,
+    Tobias Mueller, Todd Berman, Travis Glenn Hansen, Travis Reitter,
+    Trey Ethridge, Valentin Sawadski, Will Farrington, William Pettersson,
+    Wouter Bolsterlee
+
+
+
+
+
+#### Reporting Bugs, Joining the Community
+
+
+If you encounter any bad behavior with this release, please do not hesitate to [file bugs](/contribute/file-bugs/)!
+
+We welcome new contributors - developers, translators, artists, writers, support gurus - to join our community.  [Join us!](/contribute)
+

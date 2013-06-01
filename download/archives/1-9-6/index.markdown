@@ -1,0 +1,340 @@
+---
+author: alexk
+comments: false
+date: 2011-03-24 02:10:12+00:00
+layout: page
+slug: 1-9-6
+title: Banshee 1.9.6
+wordpress_id: 882
+---
+
+
+	
+  * **Release Date:** March 24, 2011
+
+	
+  * **Source Tarball:** [banshee-1.9.6.tar.bz2](http://download.banshee-project.org/banshee/unstable/1.9.6/banshee-1.9.6.tar.bz2)
+
+	
+  * **Release Information:**
+[NEWS](http://download.banshee-project.org/banshee/unstable/1.9.6/banshee-1.9.6.news),
+[sha256sum](http://download.banshee-project.org/banshee/unstable/1.9.6/banshee-1.9.6.sha256sum)
+
+
+
+
+[![Download Now](/theme/css/images/download-button.png)](/download)
+
+
+
+
+
+
+    Banshee 1.9.6 is a development release, part of the 1.9 series leading up to Banshee 2.0. 
+
+
+
+
+
+
+
+### Enhancements
+
+
+
+
+
+    
+
+      
+  * Rename banshee-1 to banshee in preparation for 2.0
+      
+  * AmazonMp3.Store: amazon.ca support
+      
+  * MiroGuide: Handle Listen links from front page
+      
+  * Dap: Add support for Sharp IS01 (bgo#645361)
+      
+  * Playlists: Recognize m3u playlists without header (bgo#645351)
+      
+  * LibraryWatcher: Guard against watching incorrect dirs (bgo#633309)
+      
+  * MassStorage: Support Sirius Alpha Android phone (bgo#643960)
+      
+  * WebOSDevice: Support playlists (bgo#641486)
+      
+  * Windows: Auto-update functionality (bgo#641960)
+
+    
+
+
+
+
+### Notable Bug Fixes (26 fixed since 1.9.5!)
+
+
+
+
+
+    
+      
+  * MiroGuide: Properly escape search query strings
+      
+  * AmazonMp3.Store: Fix search query escaping
+      
+  * [bgo#623183](http://bugzilla.gnome.org/show_bug.cgi?id=623183): DatabaseTrackInfo: Fix rating update on current track
+      
+  * [bgo#637717](http://bugzilla.gnome.org/show_bug.cgi?id=637717): audio-profiles: fix duration for CBR lame profile
+      
+  * [bgo#614192](http://bugzilla.gnome.org/show_bug.cgi?id=614192): GStreamer: Fix inappropriate repeating
+      
+  * [bgo#643782](http://bugzilla.gnome.org/show_bug.cgi?id=643782): Mpris: Distinguish between music and video playlists
+      
+  * [bgo#641515](http://bugzilla.gnome.org/show_bug.cgi?id=641515): Workaround X BadMatch crash
+      
+  * [bgo#619609](http://bugzilla.gnome.org/show_bug.cgi?id=619609): Metadata: Do not fetch covers for unknown albums/artists
+      
+  * [bgo#631012](http://bugzilla.gnome.org/show_bug.cgi?id=631012): Audiobook: Fix crash when switch to playlist
+      
+  * [bgo#628087](http://bugzilla.gnome.org/show_bug.cgi?id=628087): Handle setting SearchEntry.Query to nullb
+      
+  * [bgo#602145](http://bugzilla.gnome.org/show_bug.cgi?id=602145): InternetRadio: Clear playback errors when playing
+      
+  * [bgo#635951](http://bugzilla.gnome.org/show_bug.cgi?id=635951): Fix skipping removed/deleted tracks
+
+
+
+
+
+
+#### Banshee has a lot more to offer! Check out the previous major release notes...
+
+
+
+
+
+	
+  * [Read about features added in Banshee 1.9.5](/download/archives/1.9.5)
+
+	
+  * [Read about features added in Banshee 1.9.4](/download/archives/1.9.4)
+
+	
+  * [Read about features added in Banshee 1.9.3](/download/archives/1.9.3)
+
+	
+  * [Read about features added in Banshee 1.9.2](/download/archives/1.9.2)
+
+	
+  * [Read about features added in Banshee 1.9.1](/download/archives/1.9.1)
+
+	
+  * [Read about features added in Banshee 1.9.0](/download/archives/1.9.0)
+
+	
+  * [Read about features added in Banshee 1.8.0](/download/archives/1.8.0)
+
+	
+  * [Read about features added in Banshee 1.7.6](/download/archives/1.7.6)
+
+	
+  * [Read about features added in Banshee 1.7.5](/download/archives/1.7.5)
+
+	
+  * [Read about features added in Banshee 1.7.4](/download/archives/1.7.4)
+
+	
+  * [Read about features added in Banshee 1.7.3](/download/archives/1.7.3)
+
+	
+  * [Read about features added in Banshee 1.7.2](/download/archives/1.7.2)
+
+	
+  * [Read about features added in Banshee 1.7.1](/download/archives/1.7.1)
+
+	
+  * [Read about features added in Banshee 1.7.0](/download/archives/1.7.0)
+
+	
+  * [Read about features added in Banshee 1.6.0](/download/archives/1.6.0)
+
+
+
+
+### Dependencies
+
+
+
+
+
+	
+  * Mono 1.9.1 (.NET 2.0 Profile / gmcs)
+
+	
+  * SQlite 3.4
+
+	
+  * Gtk# 2.12
+
+	
+  * GStreamer 0.10.13
+
+	
+  * NDesk DBus (ndesk-dbus) 0.5
+
+	
+  * NDesk DBus GLib (ndesk-dbus-glib) 0.3
+
+	
+  * Mono.Addins (mono-addins) 0.3.1
+
+	
+  * TagLib# (taglib-sharp) >= 2.0.3.7
+
+	
+  * Required to build default feature stack:
+
+	
+    * libmtp >= 0.2.0
+
+	
+    * mono-zeroconf >= 0.8.0
+
+	
+    * boo >= 0.8.1
+
+    
+    * webkit-1.0 >= 1.2.2
+
+    
+    * gdata-sharp >= 1.4
+
+    
+    * glib >= 2.22, gio-sharp >= 2.22.2, gtk-sharp-beans >= 2.14.1, gudev-sharp and gkeyfile-sharp
+
+    
+    * libgpod-sharp >= 0.7.95
+
+
+
+
+	
+  * Run-time requirements for default feature stack:
+
+	
+    * GIO/udev
+
+    
+    * Brasero >= 0.8.1
+
+	
+    * Avahi
+
+    
+    * gst-plugins-bad (providing the bpmdetect GStreamer plugin)
+
+
+
+
+
+
+
+### Community
+
+
+
+
+
+#### Contributors For This Release
+
+
+The following people directly contributed to the release of this version of Banshee. Without their help, there would be no release!
+
+
+> 
+    
+
+      Aaron Bockover, Alex Willmy, Alexander Kojevnikov,
+      Benjamín Valero Espinosa, Bertrand Lorentz, Chow Loong Jin,
+      Frank Ziegler, Gabriel Burt, Ján Sokoly, Kentaro KAZUHAMA, Mark Busby,
+      Mackenan Grassi, Olivier Dufour, Yuuto Tokunaga, Zhou Ting
+
+    
+
+
+
+The following people contributed updated translations to this release.    Without them, our project's reach would be much more limited.
+
+
+> 
+    
+
+      António Lima, Aron Xu, Bruce Cowan, Bruno Brouard, Cheng-Chia Tseng,
+      Daniel Mustieles, Daniel Nylander, Gabor Kelemen, Gianvito Cavasoli,
+      Joe Hansen, Kentaro KAZUHAMA, Lucian Adrian Grijincu, Michael Kotsarinis
+
+
+
+
+
+
+
+#### Contributors In Past Releases
+
+
+
+
+> 
+    
+    Aaron Bockover, Alan McGovern, Alex Bennee, Alex Kloss, Alex Launi,
+    Alex Mauer, Alex Willmy, Alexander Hixon, Alexander Kojevnikov,
+    Alexandros Frantzis, Alp Toker, Anders Petersson, Andrea Cimitan,
+    Andreas Neustifter, Andreas Nilsson, Andrew Conkling, Andrés G. Aragoneses,
+    Andy Midgette, Aran Cox, Arthur Carli, Arun Raghavan, Aurélien Mino,
+    Aydemir Ula? ?ahin, Ben Maurer, Benjamín Valero Espinosa,
+    Bertrand Lorentz, Bill Dawson, Bob Copeland, Bojan Rajkovic, Brad Taylor,
+    Brandon Perry, Brian Lucas, Brian Nickel, Brian Teague, Chow Loong Jin,
+    Chris Howie, Chris Jones, Chris Lahey, Chris Toshok, Chris Turchin,
+    Christian Hergert, Christian Krause, Christoph Burgdorf,
+    Christopher James Halse Rogers, Claude Paroz, Cody Russell, Cosmin Banu,
+    Dan Wilson, Dan Winship, Daniel Munkton, Daniel Siegel, David Nielsen,
+    David Spreen, David Stone, Diego E. Pettenò, Dougal Stanton,
+    Dustin C. Hatch, Eitan Isaacson, Elena Grassi, Eoin Hennessy, Eric Butler,
+    Erik Schmidt, Fabian Jost, Felipe Almeida Lessa, Fernando Casanova,
+    Florent Thoumie, Frank Ziegler, Fredrik Hedberg, Félix Velasco,
+    Gabriel Burt, Garrett LeSage, Ghislain Lacroix, Götz Waschk, Haitao Feng,
+    Hans Petter Jansson, Harold Schreckengost, Iain Lane,
+    Igor Guerrero Fonseca, Ilya Konstantinov, Ivan N. Zlatev, Jack Deslippe,
+    Jakub Steiner, James Willcox, Jan Arne Petersen, Jason Conti, Jason Taylor,
+    Jeff Tickle, Jeff Wheeler, Jensen Somers, Jeroen Budts, Jo Shields,
+    Johannes Kuhn, John Millikin, Jordi Mas, Jorge Castro, Julien Moutte,
+    Juri Pakaste, Ján Sokoly, Jérémie Laval, K. Vishnoo Charan Reddy,
+    Ken Vandine, Kentaro KAZUHAMA, Kevin Duffus, Konstantin Oshiyko,
+    Larry Ewing, Lauri Kotilainen, Lukas Lipka, Mackenan Grassi, Marijn Ros,
+    Mark Busby, Matt Enright, Matt Sturgeon, Michael Kaiser,
+    Michael Martin-Smucker, Michael Monreal, Michael Monreal, Micha? Sawicz,
+    Miguel de Icaza, Mike Gemünde, Mike Urbanski, Moritz Schallaböck,
+    Nathan Palmer, Neil Loknath, Nicholas Doyle, Nicholas Parker,
+    Nicolò Chieffo, Nils Naumann, Oben Sonne, Olivier Dufour, Oscar Forero,
+    Pacho Ramos, Patrick van Staveren, Paul Cutler, Paul Lange, Pavel Antonov,
+    Pepijn van de Geer, Pete Johanson, Peter de Kraker, Pratik Patel,
+    Przemys?aw Grzegorczyk, Raimo Radczewski, Robin Stocker, Roderich Schupp,
+    Rodney Dawes, Romain Tartière, Ruben Vermeersch, Ryan Collier, Samuel Gyger,
+    Sandy Armstrong, Scott Peterson, Sebastian Dröge, Shaun McCance,
+    Sjoerd Simons, Tim Fisken, Tim Yamin, Tobias Mueller, Todd Berman,
+    Travis Glenn Hansen, Travis Reitter, Trey Ethridge, Valentin Sawadski,
+    Will Farrington, William Friesen, William Pettersson, Wouter Bolsterlee,
+    Yuuto Tokunaga, Zhou Ting
+
+
+
+
+
+
+#### Reporting Bugs, Joining the Community
+
+
+If you encounter any bad behavior with this release, please do not hesitate to [file bugs](/contribute/file-bugs/)!
+
+We welcome new contributors - developers, translators, artists, writers, support gurus - to join our community.  [Join us!](/contribute)
+

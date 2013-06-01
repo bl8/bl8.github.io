@@ -1,0 +1,512 @@
+---
+author: Gabriel Burt
+comments: false
+date: 2009-06-01 21:53:52+00:00
+layout: page
+slug: 1-5-0
+title: Banshee 1.5.0
+wordpress_id: 125
+---
+
+
+
+    
+  * **Release Date:** June 1, 2009
+
+    
+  * **Source Tarball:** [banshee-1-1.5.0.tar.bz2](http://download.banshee-project.org/banshee/unstable/1.5.0/banshee-1-1.5.0.tar.bz2)
+
+    
+  * **Release Information:**
+      [NEWS](http://download.banshee-project.org/banshee/unstable/1.5.0/banshee-1-1.5.0.news),
+      [sha256sum](http://download.banshee-project.org/banshee/unstable/1.5.0/banshee-1-1.5.0.sha256sum)
+
+    
+
+  
+  
+
+[![Download Now](/theme/css/images/download-button.png)](/download#beta)
+
+ 
+  
+
+
+
+
+
+Banshee 1.5.0 is a beta release with tons of bug fixes and new features.  It is the result of six months work by more than 30 contributors.
+
+
+
+### New Features
+
+
+
+
+
+#### Rhythmbox Migrator
+
+
+
+
+[![](http://download.banshee-project.org/shots/1.5.0/thumbs/import-from-rhythmbox.png)](http://download.banshee-project.org/shots/1.5.0/import-from-rhythmbox.png)
+
+
+
+
+Banshee 1.5.0 can import your Rhythmbox collection, including ratings, play counts, and playlists.
+
+
+  
+
+
+
+
+#### Beats Per Minute (BPM)
+
+
+
+
+[![](http://download.banshee-project.org/shots/1.5.0/thumbs/bpm-license-editor.png)](http://download.banshee-project.org/shots/1.5.0/bpm-license-editor.png)
+
+
+
+
+With Banshee 1.5.0, you can autodetect the BPM of songs in your library, or you can manually set it by tapping the beat.  Then, you can sort, search, or make smart playlists based on BPM.
+  
+
+_Autodetection requires the bpmdetect GStreamer plugin, found in gst-plugins-bad_
+
+
+  
+
+
+
+
+#### Automatic Scoring
+
+
+
+
+[![](http://download.banshee-project.org/shots/1.5.0/thumbs/bpm-score-columns.png)](http://download.banshee-project.org/shots/1.5.0/bpm-score-columns.png)
+
+
+
+
+As you play songs in Banshee 1.5.0, it will automatically assign them scores (0 - 100) based on if/when you press skip.
+
+
+  
+
+
+
+
+#### Creative Commons
+
+
+
+
+
+[![](http://download.banshee-project.org/shots/1.5.0/thumbs/license-column.png)](http://download.banshee-project.org/shots/1.5.0/license-column.png)
+
+
+
+
+A new column displays Creative Commons licensing info where applicable (and properly tagged).  The license can be edited in the track editor (see above).  There is also a new default Last.fm station for songs tagged 'Creative Commons'.
+
+
+  
+
+
+
+
+#### Separate Library Locations
+
+
+
+
+[![](http://download.banshee-project.org/shots/1.5.0/thumbs/separate-library-locations.png)](http://download.banshee-project.org/shots/1.5.0/separate-library-locations.png)
+
+
+
+
+You can now specify separate library locations for your music, video, and podcast libraries.  _Also note the BPM preference in the screenshot._
+
+
+  
+
+
+
+
+#### More New Features
+
+
+
+
+
+
+  * Powerful unicode-aware case-insensitive search; i.e. n matches Ã‘ and vice-versa
+
+
+
+  * Locale-specific, case-insensitive, unicode-aware sorting
+
+
+  * Artist/album/track sort fields support; i.e. can set artist sort to "Beatles, The"
+
+
+
+
+
+### Other Enhancements
+
+
+
+
+
+
+
+  * Support importing/exporting XSPF playlists
+
+
+  * Support loading ASF playlists (BGO #545646)
+
+
+  * Whitelist .spx, 669, it, med, mod, mol, mtm, nst, s3m, stm, ult, wow, xm, and xnm (BGO #580014)
+
+
+  * Source-specific preferences, accessible via Preferences dialog and via sources' context menu
+
+
+
+  * Much improved child source sorting - live, persistent, with group-by-type option
+
+
+  * Priorty and resource-ware job scheduler; i.e. pauses BPM detection while importing (BGO #577772)
+
+
+  * Podcast espisode details tabs in track information/editor
+
+
+  * Can rename podcasts
+
+
+  * Can unsubscribe/download/refresh multiple podcasts at a time
+
+
+  * New 'Creative Commons' default Last.fm station
+
+
+  * New Refresh button for Last.fm stations
+
+
+  * More accurate seeking with click/DnD, can use mouse scrollwheel
+
+
+  * Make it easier to edit and reset ratings
+
+
+
+  * Compatibile with new actionless notification systems
+
+
+  * Only scale cover art for notification-daemon system
+
+
+  * Add mnemonics to track editor fields and import dialog
+
+
+  * Show device sync summary; how items sync would add/remove
+
+
+  * Make previous button go back if less than 4 seconds into a song
+
+
+
+
+
+### Notable Bug Fixes
+
+
+
+
+
+**165 bugs were fixed since 1.4.3!**
+
+
+
+
+
+ 
+  * Fix problems with subscribing and downloading some podcasts (BGO #538397, BGO #536047, BGO #567293)
+
+
+  * Unescape URLs received from Last.fm so can open in browser (BGO #563076)
+
+
+  * Don't show Skip button in now-playing notification for radio tracks (BGO #572971)
+
+
+  * Fixed notification area popup position on multi-monitor systems (BGO #537696)
+
+
+  * Support and default to using %album_artist% in folder organization preference (BGO #570298)
+
+
+  * Revamped illegal filename characters code to not be overly strict (BGO #458224)
+
+
+  * Trim periods and spaces appropriately for NTFS compatibility (BGO #572999)
+
+
+  * Make the source list accessible
+
+
+
+  * Visibly disable repeat/shuffle when in Play Queue (BGO #577681)
+
+
+  * Update UI when changing repeat/shuffle via dbus (BGO #575383)
+
+
+  * Better feedback while waiting for network streams to connect
+
+
+  * Fix bugs with device playlist sync (BGO #560970)
+
+
+  * Fix bugs with MTP device track transfer (BGO #571023, BGO #567093)
+
+
+  * Fix bug with device sync where it would repeatedly remove/add the same tracks
+
+
+  * Fix mass storage device support to respect folder_depth (like it used to) (BGO #537367)
+
+
+  * Fix bug with transferring ratings to iPods (BGO #577396)
+
+
+  * Focus the track list on jump-to-playing item (BGO #558940)
+
+
+
+  * Fix several relatively minor ListView rendering and interaction issues
+
+
+  * Right-align the header text of right-aligned columns (BGO #560918)
+
+
+  * Fix size/position restoration on startup/notification-area toggle
+
+
+  * Fix the track editor forward/back buttons to focus/select the current field
+
+
+  * Disable track editor field-sync for Track Artist when is compilation checked
+
+
+  * Fix bug with reading bitrate on VBR tracks (BGO #562582)
+
+
+  * Fix bug with getting the release year from MusicBrainz (BGO #578073)
+
+
+  * Improve the rating rendering, including fixing it for dark themes (BGO #576459)
+
+
+
+
+
+#### Banshee has a lot more to offer! Check out the previous major release notes...
+
+
+
+
+
+  
+  * [Read about features added in Banshee 1.4.3](/download/archives/1.4.3)
+
+  
+  * [Read about features added in Banshee 1.4.2](/download/archives/1.4.2)
+
+  
+  * [Read about features added in Banshee 1.4.1](/download/archives/1.4.1)
+
+  
+  * [Read about features added in Banshee 1.2](/download/archives/1.2.0)
+
+  
+  * [Read about features added in Banshee 1.0](/download/archives/1.0.0)
+
+
+
+
+
+
+### Dependencies
+
+
+
+
+
+
+  
+  * Mono 1.9.1 (.NET 2.0 Profile / gmcs)
+
+  
+  * SQlite 3.4
+
+  
+  * Gtk# 2.10
+
+  
+  * GStreamer 0.10.13
+
+
+  
+  * NDesk DBus (ndesk-dbus) 0.5
+
+  
+  * NDesk DBus GLib (ndesk-dbus-glib) 0.3
+
+  
+  * Mono.Addins (mono-addins) 0.3.1
+
+  
+  * TagLib# (taglib-sharp) 2.0.3.2
+
+  
+  * Required to build default feature stack:
+    
+      
+    * libmtp >= 0.2.0
+
+
+      
+    * ipod-sharp >= 0.8.0
+
+      
+    * mono-zeroconf >= 0.7.3
+
+      
+    * boo >= 0.8.1
+
+    
+  
+
+  
+  * Run-time requirements for default feature stack:
+    
+
+      
+    * podsleuth 0.6.4
+
+      
+    * brasero
+
+      
+    * avahi
+
+    
+  
+
+
+
+
+
+### Community
+
+
+
+
+
+#### Contributors For This Release
+
+
+
+
+
+The following people directly contributed to the release of this version of Banshee. Without their help, there would be no release!
+
+
+
+
+
+> 
+      Aaron Bockover, Alexander Kojevnikov, Alex Launi, Andreas Neustifter,
+      AndrÃ©s G. Aragoneses, Bertrand Lorentz, Brian Lucas, Chris Howie,
+      Chris Jones, Christian Krause, Christoph Burgdorf, Cody Russell,
+      Daniel Siegel, David Spreen, Diego E. PettenÃ², Eoin Hennessy,
+      FÃ©lix Velasco, Gabriel Burt, John Millikin, Matt Enright, Mike Urbanski,
+      Moritz SchallabÃ¶ck, Neil Loknath, NicolÃ² Chieffo, Paul Lange,
+      PrzemysÅ‚aw Grzegorczyk, Roderich Schupp, Valentin Sawadski,
+      William Pettersson, Wouter Bolsterlee
+
+
+
+
+
+
+The following people contributed updated translations to this release.    Without them, our project's reach would be much more limited.
+
+
+
+
+
+> 
+AntÃ³nio Lima, Benjamin Valero, Daniel Nylander, Daniel S. Koda,
+      Gabor Kelemen, Hendrik Richter, Inaki Larranaga Murgoitio, Jen Ockwell,
+      Jiri Eischmann, Jordi Mas, Mario BlÃ¤ttermann, Maxim V. Dziumanenko,
+      Philip Withnall, Sweta Kothari, Ville-Pekka Vainio, Wadim Dziedzic,
+      Wouter Bolsterlee
+
+
+
+
+
+
+
+#### Contributors In Past Releases
+
+
+
+
+
+> 
+    Aaron Bockover, Gabriel Burt, Bertrand Lorentz, John Millikin,
+    Scott Peterson, Alan McGovern, Alex Kloss, Alex Launi, Alexander Hixon,
+    Alexandros Frantzis, Alp Toker, AndrÃ©s G. Aragoneses, Andrew Conkling,
+    Andy Midgette, Arthur Carli, Aydemir UlaÅŸ Åžahin, Ben Maurer,
+    BenjamÃ­n Valero Espinosa, Bill Dawson, Bob Copeland, Bojan Rajkovic,
+    Brad Taylor, Brandon Perry, Brian Nickel, Brian Teague, Chris Howie,
+    Chris Jones, Chris Lahey, Chris Toshok, Chris Turchin, Christian Krause,
+    Christoph Burgdorf, Christopher Halse Rogers, Cosmin Banu, Dan Wilson,
+    Dan Winship, Daniel Munkton, David Spreen, Eoin Hennessy, Eric Butler,
+    Erik Schmidt, Fabian Jost, Fredrik Hedberg, FÃ©lix Velasco,
+    Fredrik Hedberg, Hans Petter Jansson, Iain Lane, Igor Guerrero Fonseca,
+    Ilya Konstantinov, Ivan N. Zlatev, James Willcox, Jan Arne Petersen,
+    Jason Conti, Jeff Tickle, Jo Shields, Jorge Castro, Juri Pakaste,
+    Ken Vandine, Larry Ewing, Lauri Kotilainen, Michael Kaiser,
+    Michael Monreal, Miguel de Icaza, Mike Urbanski, Nathan Palmer,
+    Nicholas Doyle, Nicholas Parker, Oscar Forero, Pacho Ramos,
+    Patrick van Staveren, Paul Lange, Pepijn van de Geer, Peter de Kraker,
+    Ruben Vermeersch, Sandy Armstrong, Sebastian DrÃ¶ge, Tim Yamin,
+    Todd Berman, Trey Ethridge, Will Farrington, William Pettersson,
+    Wouter Bolsterlee
+
+
+
+
+
+
+#### Reporting Bugs, Joining the Community
+
+
+
+
+
+If you encounter any bad behavior with this release, please do not hesitate to [file bugs](/contribute/file-bugs/)!
+
+We welcome new contributors - developers, translators, artists, writers, support gurus - to join our community.  [Join us!](/contribute)

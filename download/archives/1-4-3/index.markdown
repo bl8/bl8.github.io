@@ -1,0 +1,246 @@
+---
+author: Gabriel Burt
+comments: false
+date: 2009-03-04 23:30:32+00:00
+layout: page
+slug: 1-4-3
+title: Banshee 1.4.3
+wordpress_id: 94
+---
+
+
+    
+  * **Release Date:** March 4, 2009
+
+    
+  * **Source Tarball:** [banshee-1-1.4.3.tar.bz2](http://download.banshee-project.org/banshee/banshee-1-1.4.3.tar.bz2)
+
+
+    
+  * **Release Information:**
+      [NEWS](http://download.banshee-project.org/banshee/banshee-1-1.4.3.news),
+      [sha1sum](http://download.banshee-project.org/banshee/banshee-1-1.4.3.sha1sum),
+      [ChangeLog](http://download.banshee-project.org/banshee/banshee-1-1.4.3.changes)
+    
+
+  
+  
+
+[![Download Now](/theme/css/images/download-button.png)](/download)
+
+ 
+  
+
+
+
+
+
+Banshee 1.4.3 is a stable, bug-fix release.
+
+
+
+
+### Notable Bug Fixes
+
+
+
+
+
+**17 important bugs were fixed since 1.4.2!**
+
+
+
+
+
+ 
+  * Common freeze triggered by column resizing
+
+  
+  * Vastly improved MTP support
+
+  
+  * Occasional freeze when loading some devices
+
+  
+  * Playing internet radio playlists blocking the UI
+
+
+  
+  * Device playlist sync
+
+  
+  * Some podcast files not downloadable due to illegal filename
+
+  
+  * Show Recommendations check box state set properly
+
+  
+  * Crash on delete from File System Queue
+
+  
+  * Minor recommendations theming issue
+
+
+
+
+
+#### Banshee has a lot more to offer! Check out the previous major release notes...
+
+
+
+
+
+  
+  * [Read about features added in Banshee 1.4.2](/download/archives/1.4.2)
+
+  
+  * [Read about features added in Banshee 1.4.1](/download/archives/1.4.1)
+
+  
+  * [Read about features added in Banshee 1.2](/download/archives/1.2.0)
+
+  
+  * [Read about features added in Banshee 1.0](/download/archives/1.0.0)
+
+
+
+
+
+### Dependencies
+
+
+
+
+
+
+  
+  * Mono 1.2.5 (.NET 2.0 Profile / gmcs)
+
+  
+  * SQlite 3.4
+
+  
+  * Gtk# 2.10
+
+  
+  * GStreamer 0.10.13
+
+  
+  * NDesk DBus (ndesk-dbus) 0.5
+
+
+  
+  * NDesk DBus GLib (ndesk-dbus-glib) 0.3
+
+  
+  * Mono.Addins (mono-addins) 0.3.1
+
+  
+  * TagLib# (taglib-sharp) 2.0.3.1
+
+  
+  * Required to build default feature stack:
+    
+      
+    * libmtp >= 0.2.0 (0.2.6 recommended)
+
+      
+    * ipod-sharp >= 0.8.0
+
+
+      
+    * mono-zeroconf >= 0.7.3
+
+      
+    * boo >= 0.8.1
+
+    
+  
+
+  
+  * Run-time requirements for default feature stack:
+    
+      
+    * podsleuth 0.6.4
+
+
+      
+    * brasero
+
+      
+    * avahi
+
+    
+  
+
+
+
+
+
+### Community
+
+
+
+
+
+#### Contributors For This Release
+
+
+
+
+
+The following people directly contributed to the release of this version of Banshee. Without their help, there would be no release!
+
+
+
+
+
+> 
+      Aaron Bockover, AndrÃ©s G. Aragoneses, Bertrand Lorentz, Chris Jones,
+      Christian Krause, Eoin Hennessy, FÃ©lix Velasco, Gabriel Burt,
+      John Millikin, William Pettersson
+
+
+
+
+
+
+#### Contributors In Past Releases
+
+
+
+
+
+> 
+    Aaron Bockover, Alan McGovern, Alexander Hixon, Alexandros Frantzis,
+    Alex Kloss, Alex Launi, Alp Toker, AndrÃ©s G. Aragoneses, Andy Midgette,
+    Arthur Carli, Aydemir UlaÅŸ Åžahin, BenjamÃ­n Valero Espinosa, Ben Maur,
+    Bertrand Lorentz, Bill Dawson, Bob Copeland, Bojan Rajkovic, Brad Taylor,
+    Brandon Perry, Brian Nickel, Brian Teague, Chris Howie, Chris Lahey,
+    Christian Krause, Christoph Burgdorf, Christopher Halse Rogers,
+    Chris Toshok, Chris Turchin, Daniel Munkton, Dan Wilson, Dan Winship,
+    David Spreen, Eoin Hennessy, Eric Butler, Fabian Jost, FÃ©lix Velasco,
+    Fredrik Hedberg, Gabriel Burt, Hans Petter Jansson, Iain Lane,
+    Igor Guerrero Fonseca, Ilya Konstantinov, Ivan N. Zlatev, James Willcox,
+    Jan Arne Petersen, Jason Conti, Jeff Tickle, Jorge Castro, Jo Shields,
+    Juri Pakaste, Ken Vandine, Larry Ewing, Lauri Kotilainen, Michael Kaiser,
+    Michael Monreal, Miguel de Icaza, Mike Urbanski, Nathan Palmer,
+    Nicholas Doyle, Nicholas Parker, Oscar Forero, Pacho Ramos,
+    Patrick van Staveren, Pepijn van de Geer, Peter de Kraker,
+    Ruben Vermeersch, Sandy Armstrong, Scott Peterson, Sebastian DrÃ¶ge,
+    Tim Yamin, Todd Berman, Trey Ethridge, Will Farrington, Wouter Bolsterlee
+
+
+
+
+
+
+#### Reporting Bugs, Joining the Community
+
+
+
+
+
+If you encounter any bad behavior with this release, please do not hesitate to [file bugs](/contribute/file-bugs/)!
+
+We welcome new contributors - developers, translators, artists, writers, support gurus - to join our community.  [Join us!](/contribute)

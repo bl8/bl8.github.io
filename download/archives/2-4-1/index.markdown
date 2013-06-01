@@ -1,0 +1,273 @@
+---
+author: Bertrand
+comments: false
+date: 2012-06-01 01:50:58+00:00
+layout: page
+slug: 2-4-1
+title: Banshee 2.4.1
+wordpress_id: 1220
+---
+
+
+	
+  * **Release Date:** 2012-05-31
+
+	
+  * **Source Tarball:** [banshee-2.4.1.tar.xz](http://ftp.gnome.org/pub/GNOME/sources/banshee/2.4/banshee-2.4.1.tar.xz)
+
+	
+  * **Release Information:**
+[NEWS](http://ftp.gnome.org/pub/GNOME/sources/banshee/2.4/banshee-2.4.1.news),
+[sha256sum](http://ftp.gnome.org/pub/GNOME/sources/banshee/2.4/banshee-2.4.1.sha256sum)
+
+
+
+
+[![Download Now](/theme/css/images/download-button.png)](/download)
+
+
+
+
+
+
+    Banshee 2.4.1 is a stable, bug-fix-only release building on Banshee 2.4.0.
+
+
+
+
+
+
+### Notable Bug Fixes (12 fixed since 2.4.0)
+
+
+
+
+
+      
+  * Migo.Syndication: Handle feeds with malformed enclosure URLs
+      
+  * [bgo#626659](http://bugzilla.gnome.org/show_bug.cgi?id=626659): ServiceManager: check properly if a service is required
+      
+  * [bgo#634758](http://bugzilla.gnome.org/show_bug.cgi?id=634758): PlaylistSource: Make sure the right tracks are removed
+      
+  * [bgo#662909](http://bugzilla.gnome.org/show_bug.cgi?id=662909): PlaylistParser: Retry HTTP request after timeout
+      
+  * [bgo#666696](http://bugzilla.gnome.org/show_bug.cgi?id=666696): DapSource: Flush pending changes when quitting
+      
+  * [bgo#672744](http://bugzilla.gnome.org/show_bug.cgi?id=672744): UPnPServerSource: Fix crash when getting the root object
+      
+  * [bgo#673037](http://bugzilla.gnome.org/show_bug.cgi?id=673037): libossifer: Fix certificate validation with libsoup 2.38
+      
+  * [bgo#673416](http://bugzilla.gnome.org/show_bug.cgi?id=673416): DbIteratorJob: Abort job after several consecutive failures
+      
+  * [bgo#676144](http://bugzilla.gnome.org/show_bug.cgi?id=676144): PlayQueueSource: Fix high memory usage when shuffling
+
+  
+
+
+
+#### Banshee has a lot more to offer! Check out the previous major release notes...
+
+
+
+
+
+	
+  * [Read about features added in Banshee 2.4.0](/download/archives/2.4.0)
+
+	
+  * [Read about features added in Banshee 2.2.0](/download/archives/2.2.0)
+
+	
+  * [Read about features added in Banshee 2.0.0](/download/archives/2.0.0)
+
+	
+  * [Read about features added in Banshee 1.8.0](/download/archives/1.8.0)
+
+	
+  * [Read about features added in Banshee 1.6.0](/download/archives/1.6.0)
+
+	
+  * [Read about features added in Banshee 1.4.0](/download/archives/1.4.0)
+
+
+
+
+### Dependencies
+
+
+
+
+
+	
+  * Mono 2.4.3 (.NET 2.0 Profile / gmcs)
+
+	
+  * SQlite 3.4
+
+	
+  * Gtk# 2.12.10
+
+	
+  * GStreamer 0.10.26
+
+	
+  * GLib 2.22
+
+	
+  * dbus-sharp 0.7
+
+	
+  * dbus-sharp-glib 0.5
+
+	
+  * Mono.Addins (mono-addins) 0.6.2
+
+	
+  * TagLib# (taglib-sharp) >= 2.0.3.7
+
+	
+  * Required to build default feature stack:
+
+	
+    * libmtp >= 0.3.0
+
+	
+    * mono-zeroconf >= 0.8.0
+
+	
+    * boo >= 0.8.1
+
+	
+    * webkit-1.0 >= 1.2.2
+
+	
+    * gdata-sharp-youtube >= 1.4
+
+	
+    * gio-sharp >= 2.22.3, gtk-sharp-beans >= 2.14.1, gudev-sharp and gkeyfile-sharp
+
+	
+    * libgpod-sharp >= 0.7.95
+
+	
+    * Mono.Upnp >= 0.1
+
+
+
+
+	
+  * Run-time requirements for default feature stack:
+
+	
+    * udev
+
+	
+    * media-player-info
+
+	
+    * Brasero >= 0.8.1
+
+	
+    * Avahi
+
+	
+    * gst-plugins-bad (providing the bpmdetect GStreamer plugin)
+
+
+
+
+
+
+
+### Community
+
+
+
+
+
+#### Contributors For This Release
+
+
+The following people directly contributed to the release of this version of Banshee. Without their help, there would be no release!
+
+
+> 
+     Andres G. Aragoneses, Bertrand Lorentz, Olivier Dufour
+
+
+
+The following people contributed updated translations to this release.    Without them, our project's reach would be much more limited.
+
+
+> 
+     Andika Triwidada, Bruno Brouard, Daniel Mustieles, Gabor Kelemen,
+     Matej Urban?i?, Piotr Dr?g
+
+
+
+
+
+#### Contributors In Past Releases
+
+
+
+
+> 
+        Aaron Bockover, Abner Silva, Adam Lofts, Age Bosma, Alan McGovern,
+    Alban Crequy, Alberto Gonzalez, Alex Bennee, Alex Kloss, Alex Launi,
+    Alex Mauer, Alex Willmy, Alexander Hixon, Alexander Kojevnikov,
+    Alexandros Frantzis, Alp Toker, Anders Petersson, Andre Klapper,
+    Andrea Cimitan, Andreas Neustifter, Andreas Nilsson, Andrew Conkling,
+    Andrés G. Aragoneses, Andy Midgette, Andy Street, Aran Cox, Arthur Carli,
+    Arun Raghavan, Aurélien Mino, Aydemir Ula? ?ahin, Ben Maurer,
+    Benjamín Valero Espinosa, Bertrand Lorentz, Bill Dawson, Bob Copeland,
+    Bojan Rajkovic, Brad Taylor, Brandon Perry, Brian Lucas, Brian Nickel,
+    Brian Teague, Carlos Sanchez, Chase Geigle, Chow Loong Jin, Chris Howie,
+    Chris Jones, Chris Lahey, Chris Toshok, Chris Turchin, Christian Hergert,
+    Christian Krause, Christoph Burgdorf, Christopher James Halse Rogers,
+    Claude Paroz, Cody Russell, Corec, Cosmin Banu, Dan Wilson, Dan Winship,
+    Daniel Munkton, Daniel Siegel, David Nielsen, David Spreen, David Stone,
+    Diego E. Pettenò, Dinh Ngoc Tu, Dougal Stanton, Dustin C. Hatch,
+    Eitan Isaacson, Elena Grassi, Eoin Hennessy, Eric Butler, Erik Schmidt,
+    Fabian Jost, Felipe Almeida Lessa, Felipe Castillo, Fernando Casanova,
+    Florent Thoumie, Frank Ziegler, Fredrik Hedberg, Félix Velasco,
+    Gabriel Burt, Garrett LeSage, Ghislain Lacroix, Götz Waschk, Haitao Feng,
+    Hajime Mizuno, Hans Petter Jansson, Harold Schreckengost, Iain Lane,
+    Igor Guerrero Fonseca, Ilya Konstantinov, Ivan N. Zlatev, Jack Deslippe,
+    Jakub Steiner, James Otting, James Willcox, Jan Arne Petersen, Jason Conti,
+    Jason Taylor, Jeff Tickle, Jeff Wheeler, Jensen Somers, Jeroen Budts,
+    Jo Shields, Johannes Koch, Johannes Kuhn, John Millikin, Jonas Urth Olsen,
+    Jordi Mas, Jorge Castro, Julien Moutte, Juri Pakaste, Ján Sokoly,
+    Jérémie Laval, K. Vishnoo Charan Reddy, Ken Vandine, Kentaro KAZUHAMA,
+    Kevin Anthony, Kevin Duffus, Koichi Akabe, Konstantin Oshiyko, Larry Ewing,
+    Lauri Kotilainen, Lukas Lipka, Mackenan Grassi, Marijn Ros, Mark Busby,
+    Mark Saunders, Martin Pitt, Matt Enright, Matt Sturgeon, Michael Kaiser,
+    Michael Martin-Smucker, Michael Monreal, Michael Monreal, Micha? Sawicz,
+    Miguel de Icaza, Mike Gemünde, Mike Urbanski, Moritz Schallaböck,
+    Nathan Palmer, Neil Loknath, Nicholas Doyle, Nicholas Parker,
+    Nicolò Chieffo, Nils Naumann, Nuno Araujo, Oben Sonne, Okano Takayoshi,
+    Olivier Dufour, Oscar Forero, Pacho Ramos, Patrick van Staveren,
+    Paul Cutler, Paul Lange, Pavel Antonov, Pepijn van de Geer, Pete Johanson,
+    Peter de Kraker, Phil Trimble, Pratik Patel, Przemys?aw Grzegorczyk,
+    Raimo Radczewski, Robin Stocker, Roderich Schupp, Rodney Dawes,
+    Romain Tartière, Ruben Vermeersch, Ryan Collier, Samuel Gyger,
+    Sandy Armstrong, Scott Peterson, Sebastian Dröge, Shaun McCance,
+    Sjoerd Simons, Tim Fisken, Tim Yamin, Timothy Arceri, Tobias Arrskog,
+    Tobias Mueller, Todd Berman, Travis Glenn Hansen, Travis Patterson,
+    Travis Reitter, Trey Ethridge, Udesh Liyanaarachchi, Valentin Sawadski,
+    Victor Vargas, Will Farrington, Will Thompson, William Friesen,
+    William Pettersson, William Witt, Wouter Bolsterlee, Yuuto Tokunaga,
+    Zhou Ting.
+
+
+
+
+
+
+#### Reporting Bugs, Joining the Community
+
+
+If you encounter any bad behavior with this release, please do not hesitate to [file bugs](/contribute/file-bugs/)!
+
+We welcome new contributors - developers, translators, artists, writers, support gurus - to join our community.  [Join us!](/contribute)

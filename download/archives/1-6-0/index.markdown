@@ -1,0 +1,640 @@
+---
+author: Gabriel Burt
+comments: false
+date: 2010-03-31 18:26:38+00:00
+layout: page
+slug: 1-6-0
+title: Banshee 1.6.0
+wordpress_id: 512
+---
+
+
+	
+  * **Release Date:** March 31, 2010
+
+	
+  * **Source Tarball:** [banshee-1-1.6.0.tar.bz2](http://download.banshee-project.org/banshee/stable/1.6.0/banshee-1-1.6.0.tar.bz2)
+
+	
+  * **Release Information:**
+[NEWS](http://download.banshee-project.org/banshee/stable/1.6.0/banshee-1-1.6.0.news),
+[sha256sum](http://download.banshee-project.org/banshee/stable/1.6.0/banshee-1-1.6.0.sha256sum)
+
+
+
+
+[![Download Now](/theme/css/images/download-button.png)](/download)
+
+
+
+    Banshee 1.6 is a stable release, the culmination of a year's work.  There
+    are so many new features, bug fixes, and polish in this release, we won't
+    be able to do it all justice in these notes, but we'll try.  These notes
+    aggregate the highlights from the 1.5 series releases.
+
+
+
+### New Features Since 1.4
+
+
+
+
+
+#### Play Queue Auto DJ keeps the tunes coming
+
+
+
+
+Keep your Play Queue filled with endless music, selected randomly
+          by artist, album, song, rating, or score mode.
+
+
+![screenshot of new auto dj feature, showing options of how to auto-fill the play queue](http://download.banshee-project.org/shots/1.5.1/banshee-autodj.png)
+
+
+Alexander blogged [more about this feature](http://versia.com/2009/09/23/updated-play-queue-in-banshee/).
+
+         
+
+
+
+#### Sync Device From Playlist Option
+
+
+
+
+![screenshot showing sync device from playlist options](http://download.banshee-project.org/shots/1.5.3/banshee-1.5.3-sync-from-playlist.png)
+
+
+
+
+Either manually manage what files are added/removed to your device,
+or choose a playlist to sync from.  You can make a size-limited smart
+playlist to sync just the right amount to your device.
+
+
+  
+
+
+
+
+####  Grid View
+
+
+
+
+![screenshot showing the album browser in grid mode](http://download.banshee-project.org/shots/1.5.5/banshee-album-grid.png)
+
+
+
+
+We are debuting a new grid mode for our custom list widget, visible
+in the modified Album browser.  It will be used for Videos,
+Audiobooks, and more in future releases.
+
+
+  
+
+
+
+
+#### Banshee Community Extensions
+
+
+
+
+A new sub-project named Banshee Community Extensions has been
+created.  Its code is hosted on Gitorious, and its bugs tracked
+in bugzilla.gnome.org.  It already contains 15 extensions, including
+Lyrics, Telepathy and Mirage, and has 19 maintainers.  Its releases
+track Banshee's.  [More information.](http://banshee-project.org/download/extensions/)
+
+
+
+
+
+#### Type-ahead Find in Track, Artist, and Album Lists
+
+
+
+
+![screenshot showing typeahead find in the Banshee track list](http://download.banshee-project.org/shots/1.5.3/banshee-1.5.3-typeahead-find.png)
+
+
+
+
+An alternative to filtering, type-ahead find jumps you to the first
+track to match your query.  Activate with shift+/, cancel with Esc,
+and jump to next match with F3.  In track list it matches against
+artist, album, or title.
+
+
+
+
+
+#### Automatic Scoring
+
+
+
+
+Songs now have scores, updated as you play and skip.  The score
+can be used in searches and smart playlists, and serve as a basis
+for ratings.
+
+
+
+
+
+#### New Shuffle Modes
+
+
+
+
+Shuffle by artist or album let you listen to everything by an artist or on an album before jumping to a new random artist or album.
+
+
+
+
+Shuffle by rating or score lets you shuffle through your songs, with higher rated or scored tracks being more likely to play.
+
+
+
+
+Alexander blogged [more about this feature](http://versia.com/2009/09/21/new-shuffle-modes-in-banshee/).
+
+
+
+
+
+#### Audiobooks Library
+
+
+
+
+![screenshot showing the audiobooks extension listed in Preferences](http://download.banshee-project.org/shots/1.5.3/banshee-1.5.3-audiobooks-pref.png)
+
+
+
+
+Rough first version, main benefits are separating your books from
+your music and defining a different file system organization.  In
+future versions we plan to add intuitive bookmarking and a better
+browsing experience.  Enable in Extensions tab of Preferences.
+
+
+
+
+
+#### Library-folder Watcher
+
+
+
+
+![screenshot showing Library Watcher extension listed in Preferences ](http://download.banshee-project.org/shots/1.5.3/banshee-1.5.3-library-watcher.png)
+
+
+
+
+Watches your libraries' folders for added, renamed, or deleted
+files, and updates your libraries appropriately.  Requires
+Mono >= 2.4.3.  Enable in Extensions tab of Preferences.
+
+
+  
+
+
+
+
+#### eMusic Importer/Downloader
+
+
+
+
+![screenshot showing eMusic extension in the Import Media dialog](http://download.banshee-project.org/shots/1.5.3/banshee-1.5.3-emusic.png)
+
+
+
+
+If you have purchased music from eMusic and have a .emx file, Banshee
+will download and import the music files for you.  Select
+'eMusic Files' from the normal Media > Import Media dialog. Enable
+in Extensions tab of Preferences.
+
+
+  
+
+
+
+
+#### GIO File Backend, Supports Non-local Files
+
+
+
+
+This backend uses the GIO library to support importing local files
+and network-share files alike.  Requires glib >= 2.22 and Gio#.
+
+
+
+
+
+#### Internet Archive extension
+
+
+
+
+Search and stream content from the Internet Archive's vast store of
+media, including 70,000 concerts and 200,000 videos.  Enable it in
+the Extensions tab of the Preferences dialog.
+
+
+
+
+
+####  YouTube Extension
+
+
+
+
+This extension shows YouTube videos in the Context Pane related to
+what you're playing, and lets you watch them within Banshee.  You
+can enable it in the Extensions tab of the Preferences dialog.
+
+
+
+
+![screenshot showing thumbnails of YouTube videos related to the playing song](http://download.banshee-project.org/shots/1.5.5/banshee-youtube.png)
+
+
+
+
+
+#### Improved Metadata Handling
+
+
+
+
+Banshee is now able to read and write rating and playcount
+information contained in your media files. Enable this option
+in Preferences.
+
+
+
+
+
+Searching and smart playlists use unicode-aware case-insensitive
+search; i.e. n matches Ã‘ and vice-versa, and similarly smart sorting.
+
+
+
+
+
+Artist/album/track sort fields are now supported, the License URI
+field is now exposed and Creative Commons aware, and the BPM field
+is exposed with an option to calculate it for all songs.
+
+
+
+
+
+
+### Enhancements
+
+
+
+
+
+    
+  * Gapless Playback
+    
+  * Optional cover art in lower-left corner
+    
+  * Cover art editable via drag-and-drop and right-click
+    
+  * Playing song kept visible in the track list
+    
+  * Separate library locations for Music, Video, and Podcast
+    
+  * iTunes and Rhythmbox library/metadata importers
+    
+  * More devices supported:
+          
+Android: Nexus One, Desire, Galaxy, Droid, Pulse
+          
+Other: Palm Pre, Nokia N900
+    
+
+    
+  * Improve search responsiveness on large libraries
+    
+  * Play Queue item count, size, duration now ignores old tracks
+    
+  * Muinshee fixes: disable Auto-DJ, allow reordering, hide previous song
+    
+  * Wikipedia context pane extension enabled by default
+    
+  * Add tooltip to playback error column
+    
+  * Enable 'Delete From Drive' action in File System Queue
+    
+  * Cover art for unicode artist/albums now supported
+    
+  * Dropped glade-sharp dep; GNOME 3.0 ready
+    
+  * Add columns showing track sample rate and bits per sample
+    
+  * Option to sort an artist's albums by year, not title
+    
+  * Allow seeking in DAAP streams
+    
+  * Additional tokens for file system organization (bgo#489861)
+    
+  * Cleaner track change notification popup (bgo#565453)
+    
+  * Move Last.fm settings to the preferences dialog
+    
+  * Keyboard shortcut (ESC) to clear the search box (BGO #558938)
+    
+  * Expose LAME's "preset" option (BGO #563303)
+    
+  * Better support for devices running Rockbox
+    
+  * Set video sync folder for Android and WebOS devices
+    
+  * Auto-completion for composer, conductor, grouping and copyright (BGO #592129)
+    
+  * Added the 'comment' search filter (BGO #380524)
+    
+  * Selectable song properties (BGO #586106)
+    
+  * Show a tooltip in track editor when the property is truncated (BGO #589782)
+    
+  * Support importing/exporting XSPF playlists
+    
+  * Support loading ASF playlists (BGO #545646)
+    
+  * Whitelist .spx, 669, it, med, mod, mol, mtm, nst, s3m, stm, ult, wow, xm, and xnm (BGO #580014)
+    
+  * Source-specific preferences, accessible via Preferences dialog and via sources' context menu
+    
+  * Much improved child source sorting - live, persistent, with group-by-type option
+    
+  * Podcast espisode details tabs in track information/editor
+    
+  * Can rename podcasts
+    
+  * Can unsubscribe/download/refresh multiple podcasts at a time
+    
+  * New 'Creative Commons' default Last.fm station
+    
+  * New Refresh button for Last.fm stations
+    
+  * More accurate seeking with click/DnD, can use mouse scrollwheel
+    
+  * Make it easier to edit and reset ratings
+    
+  * Add mnemonics to track editor fields and import dialog
+    
+  * Make previous button go back if less than 4 seconds into a song
+
+
+
+
+### Notable Bug Fixes
+
+
+**265 bugs were fixed since 1.5.1!**
+
+
+
+    
+  * Fix device support on upcoming distros with DeviceKit rename
+    
+  * Restore equalizer preset correctly (bgo#614313)
+    
+  * Handle broken symlinks correctly (bgo#614065)
+    
+  * Allow overriding Android, Maemo, WebOS default settings (bgo#611991)
+    
+  * Fix crash deleting playlist on mass storage device (bgo#613734)
+    
+  * Fix issue with iTunes importer dialog sizing (bgo#613607)
+    
+  * Fix play count calculation with gapless enabled (bgo#613418)
+    
+  * Handle exceptions thrown by old plugins (Mirage, etc)
+    
+  * Use panel-specific (eg monochrome) icon in notification area
+    
+  * OS X build/bundle improvements
+    
+  * Fix Windows compilation issues
+    
+  * Fix gettext locale selection on Windows
+
+
+
+#### Banshee has a lot more to offer! Check out the previous major release notes...
+
+
+
+
+
+	
+  * [Read about features added in Banshee 1.5.6](/download/archives/1.5.6)
+
+	
+  * [Read about features added in Banshee 1.5.5](/download/archives/1.5.5)
+
+	
+  * [Read about features added in Banshee 1.5.4](/download/archives/1.5.4)
+
+	
+  * [Read about features added in Banshee 1.5.3](/download/archives/1.5.3)
+
+	
+  * [Read about features added in Banshee 1.5.2](/download/archives/1.5.2)
+
+	
+  * [Read about features added in Banshee 1.5.1](/download/archives/1.5.1)
+
+	
+  * [Read about features added in Banshee 1.5.0](/download/archives/1.5.0)
+
+	
+  * [Read about features added in Banshee 1.4.3](/download/archives/1.4.3)
+
+	
+  * [Read about features added in Banshee 1.4.2](/download/archives/1.4.2)
+
+	
+  * [Read about features added in Banshee 1.4.1](/download/archives/1.4.1)
+
+	
+  * [Read about features added in Banshee 1.2](/download/archives/1.2.0)
+
+	
+  * [Read about features added in Banshee 1.0](/download/archives/1.0.0)
+
+
+
+
+### Dependencies
+
+
+
+
+
+	
+  * Mono 1.9.1 (.NET 2.0 Profile / gmcs)
+
+	
+  * SQlite 3.4
+
+	
+  * Gtk# 2.12
+
+	
+  * GStreamer 0.10.13
+
+	
+  * NDesk DBus (ndesk-dbus) 0.5
+
+	
+  * NDesk DBus GLib (ndesk-dbus-glib) 0.3
+
+	
+  * Mono.Addins (mono-addins) 0.3.1
+
+	
+  * TagLib# (taglib-sharp) >= 2.0.3.7
+
+	
+  * Required to build default feature stack:
+
+	
+    * libmtp >= 0.2.0
+
+	
+    * ipod-sharp >= 0.8.5
+
+	
+    * mono-zeroconf >= 0.8.0
+
+	
+    * boo >= 0.8.1
+
+    
+    * webkit-sharp-1.0 >= 0.2
+
+    
+    * gdata-sharp >= 1.4
+
+
+
+
+	
+  * Run-time requirements for default feature stack:
+
+	
+    * HAL
+
+	
+    * podsleuth >= 0.6.6
+
+	
+    * brasero
+
+	
+    * avahi
+
+
+
+
+
+
+
+### Community
+
+
+
+
+
+#### Contributors For This Release
+
+
+The following people directly contributed to the release of this version of Banshee. Without their help, there would be no release!
+
+
+> 
+      Aaron Bockover, Alexander Kojevnikov, Bertrand Lorentz, Chow Loong Jin,
+      Gabriel Burt, Iain Lane, Jeroen Budts, Jordi Mas, Julien Moutte,
+      JÃ¡n Sokoly, Ruben Vermeersch
+
+
+
+The following people contributed updated translations to this release.    Without them, our project's reach would be much more limited.
+
+
+> 
+      A S Alam, Andrej Å½nidarÅ¡iÄ, Aron Xu, Bruno Brouard, Christian Kirbach,
+      Daniel Nylander, Gabor Kelemen, Gianvito Cavasoli,
+      Inaki Larranaga Murgoitio, Joe Hansen, Jordi Mas, Leonid Kanter,
+      Marek ÄŒernockÃ½, Mario BlÃ¤ttermann, MiloÅ¡ PopoviÄ‡, Pablo Garrido,
+      Piotr DrÄ…g, Wouter Bolsterlee, Å½ygimantas BeruÄka
+
+
+
+
+
+#### Contributors In Past Releases
+
+
+
+
+> 
+    Aaron Bockover, Alan McGovern, Alex Bennee, Alex Kloss, Alex Launi,
+    Alexander Hixon, Alexander Kojevnikov, Alexandros Frantzis, Alp Toker,
+    Anders Petersson, Andrea Cimitan, Andreas Neustifter, Andreas Nilsson,
+    Andrew Conkling, AndrÃ©s G. Aragoneses, Andy Midgette, Arthur Carli,
+    Arun Raghavan, Aydemir UlaÅŸ Åžahin, Ben Maurer, BenjamÃ­n Valero Espinosa,
+    Bertrand Lorentz, Bertrand Lorentz, Bill Dawson, Bob Copeland,
+    Bojan Rajkovic, Brad Taylor, Brandon Perry, Brian Lucas, Brian Nickel,
+    Brian Teague, Chow Loong Jin, Chris Howie, Chris Jones, Chris Lahey,
+    Chris Toshok, Chris Turchin, Christian Hergert, Christian Krause,
+    Christoph Burgdorf, Christopher James Halse Rogers, Cody Russell,
+    Cosmin Banu, Dan Wilson, Dan Winship, Daniel Munkton, Daniel Siegel,
+    David Spreen, David Stone, Diego E. PettenÃ², Eitan Isaacson, Elena Grassi,
+    Eoin Hennessy, Eric Butler, Erik Schmidt, Fabian Jost,
+    Felipe Almeida Lessa, Fernando Casanova, Florent Thoumie, Fredrik Hedberg,
+    FÃ©lix Velasco, Gabriel Burt, Garrett LeSage, GÃ¶tz Waschk, Haitao Feng,
+    Hans Petter Jansson, Iain Lane, Igor Guerrero Fonseca, Ilya Konstantinov,
+    Ivan N. Zlatev, Jack Deslippe, Jakub Steiner, James Willcox,
+    Jan Arne Petersen, Jason Conti, Jason Taylor, Jeff Tickle, Jeff Wheeler,
+    Jensen Somers, Jeroen Budts, Jo Shields, Johannes Kuhn, John Millikin,
+    Jordi Mas, Jorge Castro, Julien Moutte, Juri Pakaste, JÃ¡n Sokoly,
+    JÃ©rÃ©mie Laval, K. Vishnoo Charan Reddy, Ken Vandine, Kevin Duffus,
+    Konstantin Oshiyko, Larry Ewing, Lauri Kotilainen, Lukas Lipka, Marijn Ros,
+    Matt Enright, Michael Kaiser, Michael Martin-Smucker, Michael Monreal,
+    Michael Monreal, Miguel de Icaza, Mike Urbanski, Moritz SchallabÃ¶ck,
+    Nathan Palmer, Neil Loknath, Nicholas Doyle, Nicholas Parker,
+    NicolÃ² Chieffo, Nils Naumann, Oben Sonne, Olivier Duff, Oscar Forero,
+    Pacho Ramos, Patrick van Staveren, Paul Lange, Pavel Antonov,
+    Pepijn van de Geer, Peter de Kraker, Pratik Patel, PrzemysÅ‚aw Grzegorczyk,
+    Roderich Schupp, Romain TartiÃ¨re, Ruben Vermeersch, Ryan Collier,
+    Sandy Armstrong, Scott Peterson, Sebastian DrÃ¶ge, Tim Yamin,
+    Tobias Mueller, Todd Berman, Travis Glenn Hansen, Travis Reitter,
+    Trey Ethridge, Valentin Sawadski, Will Farrington, William Pettersson,
+    Wouter Bolsterlee
+
+
+
+
+
+#### Reporting Bugs, Joining the Community
+
+
+If you encounter any bad behavior with this release, please do not hesitate to [file bugs](/contribute/file-bugs/)!
+
+We welcome new contributors - developers, translators, artists, writers, support gurus - to join our community.  [Join us!](/contribute)
+

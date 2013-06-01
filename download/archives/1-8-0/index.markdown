@@ -1,0 +1,618 @@
+---
+author: Gabriel Burt
+comments: false
+date: 2010-09-29 21:08:20+00:00
+layout: page
+slug: 1-8-0
+title: Banshee 1.8.0
+wordpress_id: 705
+---
+
+
+	
+  * **Release Date:** September 29, 2010
+
+	
+  * **Source Tarball:** [banshee-1-1.8.0.tar.bz2](http://download.banshee-project.org/banshee/stable/1.8.0/banshee-1-1.8.0.tar.bz2)
+
+	
+  * **Release Information:**
+[NEWS](http://download.banshee-project.org/banshee/stable/1.8.0/banshee-1-1.8.0.news),
+[sha256sum](http://download.banshee-project.org/banshee/stable/1.8.0/banshee-1-1.8.0.sha256sum)
+
+
+
+
+[![Download Now](/theme/css/images/download-button.png)](/download)
+
+
+
+
+
+
+    Banshee 1.8 is a stable release, the culmination of six month's work by 67
+    programmers, artists, documentation writers, and translators.  These
+    notes aggregate the highlights from the 1.7 development releases.
+
+
+
+
+
+
+[![](http://download.banshee.fm/shots/1.7.3/amazon-mp3-store-purchase-th.png)](http://bit.ly/cLHCYP)  
+_Watch the Banshee Amazon MP3 Store Screencast!_
+
+
+
+
+#### Amazon MP3 Store
+
+
+
+
+This new extension provides a source from which users can **_browse, search, preview, purchase, and download_** music from the Amazon MP3 store in all countries where it is offered: [United States](http://integrated-services.banshee.fm/amz/redirect.do/US), [United Kingdom](http://integrated-services.banshee.fm/amz/redirect.do/UK), [France](http://integrated-services.banshee.fm/amz/redirect.do/FR), [Germany](http://integrated-services.banshee.fm/amz/redirect.do/DE), [Austria](http://integrated-services.banshee.fm/amz/redirect.do/DE), [Switzerland](http://integrated-services.banshee.fm/amz/redirect.do/DE), and [Japan](http://integrated-services.banshee.fm/amz/redirect.do/JP).
+
+
+
+
+
+Music that is purchased through the new integrated Amazon MP3 store will automatically begin downloading and importing into the Banshee music library.
+
+
+
+
+
+When previewing music on the Amazon MP3 store in Banshee, the previews will play through Banshee, showing up in the header, and not through Flash.
+
+
+
+
+
+[![Banshee Amazon MP3 Downloader Screenshot](http://download.banshee.fm/shots/1.7.3/banshee-amz-support-diagram-th.png)](http://download.banshee.fm/shots/1.7.3/banshee-amz-support-diagram.png)
+
+
+
+
+
+#### Amazon MP3 Downloader
+
+
+
+
+
+The support for Amazon MP3 is not limited just to the store. If you decide to purchase music through your regular web browser, Amazon MP3 will provide a **.amz** file, a sort of playlist that indicates how the MP3s can be downloaded.
+
+
+
+
+
+Banshee now associates itself with these .amz files and will download and import the MP3s referenced in them.
+
+
+
+
+
+The Amazon MP3 _Store_ and _Downloader_ extensions are entirely separate. This allows you to pick your preferred user experience for purchasing music through Amazon MP3. The Amazon MP3 Store extension can be _disabled_ if desired and the downloader will still work with an external web browser.
+
+
+
+
+
+Other ways to download .amz files include opening manually with your operating system's file manager, the _Import Media_ dialog available through the **Media -> Import** menu, or the command line client distributed with Banshee: _$ bamz foo.amz_. Bamz will download the .amz contents in the current directory, and will _not_ import the MP3s into the Banshee library automatically.
+
+
+
+
+
+For more information on the Amazon MP3 integration in Banshee 1.7.3, read Aaron Bockover's blog posts on the two separate extensions:
+
+
+
+
+
+
+
+  * _[Amazon MP3 Downloader Support in Banshee](http://abock.org/2010/07/08/amazon-mp3-downloader-support-in-banshee)_
+
+
+  * _[Amazon MP3 Store in Banshee](http://abock.org/2010/07/13/amazon-mp3-store-in-banshee)_
+
+
+
+
+
+[![Miro Guide Screenshot](http://download.banshee.fm/shots/1.7.3/miro-guide-th.png)](http://download.banshee.fm/shots/1.7.3/miro-guide.png)
+
+
+
+
+#### Miro Podcast Directory
+
+
+
+
+
+Building on the same new WebKit integration in Banshee 1.7.3 as the Amazon MP3 Store, a new Miro Podcast Directory extension has been implemented. The source integrates with [miroguide.com](http://miroguide.com), allowing users to discover, stream, and subscribe to podcasts in a way never before possible in Banshee.
+
+
+
+
+
+Much more work for tighter integration with the Miro Podcast Directory will come in future releases.
+
+
+
+
+
+#### Bulk Metadata Fixup Extension
+
+
+
+
+
+A new tool is available from the **Tools -> Fix Music Metadata** menu item that allows for bulk metadata fixing. This feature proposes to merge artists and albums that vary only by case, _&_ vs _and_, etc.
+
+
+
+
+
+
+#### Improved Apple Device Support
+
+
+
+
+
+iPhone, iPod Touch, iPad, and iPod devices are now supported via the
+awesome libgpod library.
+
+
+
+
+
+
+#### Revamped Hardware Backend
+
+
+
+
+
+Uses the latest Linux hardware stack, a combination of GIO, udev, and
+media-player-info files, to provide support for CDs and
+digital audio players.
+
+
+
+
+
+
+#### Keybinding for Switching Sources
+
+
+
+
+
+Typing 'g' activates the source switcher, where you can type the name
+of a source to switch to it.  You can type its acronym or a substring
+as well. As soon as only one source matches, it will be activated.
+For example, you can type 'g' and then 'np' to switch to Now Playing.
+
+
+
+
+
+
+#### Improved Audiobook Support
+
+
+
+
+
+The Audiobooks library is now enabled by default, and audiobook
+tracks are now better organized into books.  The last position in
+each book is automatically saved, so you can resume playing a book
+right from where you stopped.
+
+
+
+
+
+
+#### User Manual
+
+
+
+
+
+Available via Help » Contents menu and F1.  Uses the latest
+GNOME documentation technology, Mallard.
+
+
+
+
+
+
+#### MPRIS v2 support (Ubuntu Sound Menu, etc)
+
+
+
+
+
+### Other Enhancements
+
+
+
+
+
+    
+  * Now Playing simplify mode that declutters the UI
+    
+  * Play Queue shuffle action
+    
+  * Improve the downloading and visual refreshing of new cover art
+    
+  * Many MeeGo specific improvements and fixes
+    
+  * New preference to have the classic album layout instead of the grid view
+    
+  * Support for reading and writing MusicBrainz IDs
+    
+  * Show the TrackEditor fields as read-only mode when they are not editable
+    
+  * Add metadata-saving support for File System Queue (bgo#609411)
+    
+  * Decrease the latency in changing playback volume
+    
+  * Overhaul GNOME proxy support (bmc#1920)
+    
+  * Refresh podcast feeds when network is reconnected
+    
+  * Miro Guide teaser in Podcasts
+    
+  * Podcast errors shown to user
+    
+  * Improved Last.fm authentication experience
+    
+  * Last.fm streaming can be disabled separately from the other Last.fm
+        features.
+    
+  * Play menu item in track context menu
+    
+  * Wrap long strings in the Now Playing view
+    
+  * Add visual separators in the source view between categories of sources
+    
+  * Culturally format the status bar item count (e.g. in en_US 1,000
+    instead of the old 1000)
+    
+  * Tweak the grid view album artwork hover effect
+    
+  * Default smart playlists hidden when empty, for new users
+    
+  * Begin editing the name of newly added playlists
+    
+  * "Amazon MP3s" Music smart playlist
+    
+  * Improved device support:
+        
+    * Droid X, Galaxy Portal, Xperia X10, and DEXT/CLIQ device support
+        
+    * Improved Maemo device support
+        
+    * Better MTP device detection
+        
+    * Put all videos in the video folder on MTP devices
+    
+
+
+    
+  * _Developers:_DBus API additions for showing various dialogs
+
+    
+  * _Developers:_new Hyena.Downloader API for performing downloads and easy HTTP operations: HttpFileDownloader, HttpStringDownloader
+
+    
+  * _Developers:_new Banshee.WebBrowser API for creating embedded WebKit web browsers and sources. Currently used by the new Amazon MP3 store, Miro Guide, and the Wikipedia context pane.
+
+    
+  * _Distributors:_the webkit-sharp dependency was dropped, and instead we now take a dependency directly on libwebkit 1.2.2+ for the new Banshee.WebBrowser API
+
+
+
+
+
+### Notable Bug Fixes (230 fixed since 1.6.0!)
+
+
+
+
+
+    
+  * Fix for fullscreen video under Mutter
+    
+  * Fix videos playing back in a new window
+    
+  * Fix crashes related to Gtk.Widget subclassing
+    
+  * Fix crashes related to a11y
+    
+  * NotificationArea fixes
+    
+  * Cover art aspect ratio/scaling fixes
+    
+  * Fix Youtube playback
+    
+  * Fix deletion of Podcast metadata during modification
+    
+  * Fix a crash related to the notification deamon
+    
+  * Fix fetching cover for albums with several discs
+    
+  * Several fixes for the N800 device
+    
+  * Fix various volume-related issues
+    
+  * [bgo#621480](http://bugzilla.gnome.org/show_bug.cgi?id=621480): Fix Play Queue when using it with different locales
+    
+  * [bgo#621687](http://bugzilla.gnome.org/show_bug.cgi?id=621687): Fix the Internet Archive playback
+    
+  * [bgo#613333](http://bugzilla.gnome.org/show_bug.cgi?id=613333): Correct Play Queue track reordering
+    
+  * [bgo#624667](http://bugzilla.gnome.org/show_bug.cgi?id=624667): Fix cover art refreshing
+    
+  * [bgo#622826](http://bugzilla.gnome.org/show_bug.cgi?id=622826): Fix a slow running query to speed things up
+    
+  * [bgo#602840](http://bugzilla.gnome.org/show_bug.cgi?id=602840): Fix importing of compilation albums
+    
+  * [bgo#622028](http://bugzilla.gnome.org/show_bug.cgi?id=622028): Fix loading of libbnpx11.so on some distros
+    
+  * [bgo#621955](http://bugzilla.gnome.org/show_bug.cgi?id=621955): Wrap instead of elipsize Last.fm titles
+    
+  * [bgo#608382](http://bugzilla.gnome.org/show_bug.cgi?id=608382): Escape %20 in filenames for items without embedded metadata
+    
+  * [bgo#624531](http://bugzilla.gnome.org/show_bug.cgi?id=624531): Escape Uri value in SQL query
+    
+  * [bgo#588255](http://bugzilla.gnome.org/show_bug.cgi?id=588255): Fix notification icon transparency
+    
+  * [bgo#619036](http://bugzilla.gnome.org/show_bug.cgi?id=619036): Fix glitchy search entry
+    
+  * [bgo#624569](http://bugzilla.gnome.org/show_bug.cgi?id=624569): Fix scrolling Extensions list with keyboard
+    
+  * [bgo#553433](http://bugzilla.gnome.org/show_bug.cgi?id=553433): Fix issue that could block song scrobbling
+    
+  * [bgo#600340](http://bugzilla.gnome.org/show_bug.cgi?id=600340): Fix subscribing to certain podcasts (eg podbean.com)
+    
+  * [bgo#620826](http://bugzilla.gnome.org/show_bug.cgi?id=620826): Fix URIs of tracks synced to iPods
+    
+  * [bgo#626786](http://bugzilla.gnome.org/show_bug.cgi?id=626786): Prevent crash in search-for-artist when blank
+    
+  * [bgo#628388](http://bugzilla.gnome.org/show_bug.cgi?id=628388): Fix overflow bug with MTP playlists
+    
+  * [bgo#625683](http://bugzilla.gnome.org/show_bug.cgi?id=625683): Fixup checkboxes now clickable
+    
+  * [bgo#626928](http://bugzilla.gnome.org/show_bug.cgi?id=626928): Fetch podcast artwork asap
+    
+  * [bgo#626791](http://bugzilla.gnome.org/show_bug.cgi?id=626791): Catch crashes caused by missing extensions
+    
+  * [bgo#528383](http://bugzilla.gnome.org/show_bug.cgi?id=528383): Re-enable writing video metadata to file
+    
+  * [bgo#626803](http://bugzilla.gnome.org/show_bug.cgi?id=626803): Fix Ogg rating parsing in non-English locales
+    
+  * [bgo#628832](http://bugzilla.gnome.org/show_bug.cgi?id=628832): [MTP] Fix MTP-device memory issues breaking Playlists, Albums
+    
+  * [bgo#629095](http://bugzilla.gnome.org/show_bug.cgi?id=629095): [MTP] Fix MTP devices being named '???'
+    
+  * [bgo#629373](http://bugzilla.gnome.org/show_bug.cgi?id=629373): [MTP] Workaround MTP sigsegv bug
+    
+  * [bmc#1115](http://bugs.meego.com/show_bug.cgi?id=1115):   Fix a pipeline deadlock evident on MeeGo
+
+
+
+
+#### Banshee has a lot more to offer! Check out the previous major release notes...
+
+
+
+
+
+	
+  * [Read about features added in Banshee 1.7.6](/download/archives/1.7.6)
+
+	
+  * [Read about features added in Banshee 1.7.5](/download/archives/1.7.5)
+
+	
+  * [Read about features added in Banshee 1.7.4](/download/archives/1.7.4)
+
+	
+  * [Read about features added in Banshee 1.7.3](/download/archives/1.7.3)
+
+	
+  * [Read about features added in Banshee 1.7.2](/download/archives/1.7.2)
+
+	
+  * [Read about features added in Banshee 1.7.1](/download/archives/1.7.1)
+
+	
+  * [Read about features added in Banshee 1.7.0](/download/archives/1.7.0)
+
+	
+  * [Read about features added in Banshee 1.6.0](/download/archives/1.6.0)
+
+
+
+
+### Dependencies
+
+
+
+
+
+	
+  * Mono 1.9.1 (.NET 2.0 Profile / gmcs)
+
+	
+  * SQlite 3.4
+
+	
+  * Gtk# 2.12
+
+	
+  * GStreamer 0.10.13
+
+	
+  * NDesk DBus (ndesk-dbus) 0.5
+
+	
+  * NDesk DBus GLib (ndesk-dbus-glib) 0.3
+
+	
+  * Mono.Addins (mono-addins) 0.3.1
+
+	
+  * TagLib# (taglib-sharp) >= 2.0.3.7
+
+	
+  * Required to build default feature stack:
+
+	
+    * libmtp >= 0.2.0
+
+	
+    * mono-zeroconf >= 0.8.0
+
+	
+    * boo >= 0.8.1
+
+    
+    * webkit-1.0 >= 1.2.2
+
+    
+    * gdata-sharp >= 1.4
+
+    
+    * glib >= 2.22, gio-sharp >= 2.22.2, gtk-sharp-beans >= 2.14.1, gudev-sharp and gkeyfile-sharp
+
+    
+    * libgpod-sharp >= 0.7.95
+
+
+
+
+	
+  * Run-time requirements for default feature stack:
+
+	
+    * GIO/udev
+
+    
+    * Brasero >= 0.8.1
+
+	
+    * Avahi
+
+    
+    * gst-plugins-bad (providing the bpmdetect GStreamer plugin)
+
+
+
+
+
+
+
+### Community
+
+
+
+
+
+#### Contributors For This Release
+
+
+The following people directly contributed to the release of this version of Banshee. Without their help, there would be no release!
+
+
+> 
+      Aaron Bockover, Alan McGovern, Alexander Kojevnikov, Alex Launi,
+      Alex Mauer, Andreas Nilsson, Andrés G. Aragoneses, Aurélien Mino,
+      Benjamín Valero Espinosa, Bertrand Lorentz, Chow Loong Jin,
+      Christian Krause, Claude Paroz, David Nielsen, Félix Velasco,
+      Gabriel Burt, Iain Lane, Ján Sokoly, Jensen Somers, Jeroen Budts,
+      Jordi Mas, Julien Moutte, Kevin Duffus, Micha? Sawicz, Mike Gemünde,
+      Nicolo' Chieffo, Paul Cutler, Pete Johanson, Robin Stocker,
+      Ruben Vermeersch, Zhou Ting
+
+
+
+The following people contributed updated translations to this release.    Without them, our project's reach would be much more limited.
+
+
+> 
+      Alexandre Prokoudine, Andrej Žnidarši?, Andre Klapper, António Lima,
+      Aron Xu, A S Alam, Baris Cicek, Benjamin Valero Espinosa, Bruce Cowan,
+      Bruno Brouard, Cheng-Chia Tseng, Christian.Kirbach, Claude Paroz,
+      Daniel Nylander, Daniel S. Koda, Emmanouel Kapernaros, Félix Velasco,
+      Fran Diéguez, Gabor Kelemen, Gianvito Cavasoli, Hendrik Richter,
+      Joe Hansen, Jordi Mas, Kentaro KAZUHAMA, Kristjan Schmidt,
+      Marek ?ernocký, Mario Blättermann, Maxim V. Dziumanenko,
+      Michel Recondo, Og B. Maciel, Petr Kovar, Ville-Pekka Vainio,
+      Wouter Bolsterlee, Xandru Armesto, Žygimantas Beru?ka,
+      ??????? ????????????
+
+
+
+
+
+#### Contributors In Past Releases
+
+
+
+
+> 
+    Aaron Bockover, Alan McGovern, Alex Bennee, Alex Kloss, Alex Launi,
+    Alex Mauer, Alexander Hixon, Alexander Kojevnikov, Alexandros Frantzis,
+    Alp Toker, Anders Petersson, Andrea Cimitan, Andreas Neustifter,
+    Andreas Nilsson, Andrew Conkling, Andrés G. Aragoneses, Andy Midgette,
+    Arthur Carli, Arun Raghavan, Aurélien Mino, Aydemir Ula? ?ahin,
+    Ben Maurer, Benjamín Valero Espinosa, Bertrand Lorentz, Bill Dawson,
+    Bob Copeland, Bojan Rajkovic, Brad Taylor, Brandon Perry, Brian Lucas,
+    Brian Nickel, Brian Teague, Chow Loong Jin, Chris Howie, Chris Jones,
+    Chris Lahey, Chris Toshok, Chris Turchin, Christian Hergert,
+    Christian Krause, Christoph Burgdorf, Christopher James Halse Rogers,
+    Claude Paroz, Cody Russell, Cosmin Banu, Dan Wilson, Dan Winship,
+    Daniel Munkton, Daniel Siegel, David Nielsen, David Spreen, David Stone,
+    Diego E. Pettenò, Eitan Isaacson, Elena Grassi, Eoin Hennessy,
+    Eric Butler, Erik Schmidt, Fabian Jost, Felipe Almeida Lessa,
+    Fernando Casanova, Florent Thoumie, Fredrik Hedberg, Félix Velasco,
+    Gabriel Burt, Garrett LeSage, Götz Waschk, Haitao Feng,
+    Hans Petter Jansson, Harold Schreckengost, Iain Lane,
+    Igor Guerrero Fonseca, Ilya Konstantinov, Ivan N. Zlatev, Jack Deslippe,
+    Jakub Steiner, James Willcox, Jan Arne Petersen, Jason Conti, Jason Taylor,
+    Jeff Tickle, Jeff Wheeler, Jensen Somers, Jeroen Budts, Jo Shields,
+    Johannes Kuhn, John Millikin, Jordi Mas, Jorge Castro, Julien Moutte,
+    Juri Pakaste, Ján Sokoly, Jérémie Laval, K. Vishnoo Charan Reddy,
+    Ken Vandine, Kevin Duffus, Konstantin Oshiyko, Larry Ewing,
+    Lauri Kotilainen, Lukas Lipka, Marijn Ros, Matt Enright, Michael Kaiser,
+    Michael Martin-Smucker, Michael Monreal, Michael Monreal, Micha? Sawicz,
+    Miguel de Icaza, Mike Gemünde, Mike Urbanski, Moritz Schallaböck,
+    Nathan Palmer, Neil Loknath, Nicholas Doyle, Nicholas Parker,
+    Nicolò Chieffo, Nils Naumann, Oben Sonne, Olivier Duff, Oscar Forero,
+    Pacho Ramos, Patrick van Staveren, Paul Cutler, Paul Lange, Pavel Antonov,
+    Pepijn van de Geer, Pete Johanson, Peter de Kraker, Pratik Patel,
+    Przemys?aw Grzegorczyk, Robin Stocker, Roderich Schupp, Romain Tartière,
+    Ruben Vermeersch, Ryan Collier, Sandy Armstrong, Scott Peterson,
+    Sebastian Dröge, Shaun McCance, Tim Yamin, Tobias Mueller, Todd Berman,
+    Travis Glenn Hansen, Travis Reitter, Trey Ethridge, Valentin Sawadski,
+    Will Farrington, William Pettersson, Wouter Bolsterlee, Zhou Ting
+
+
+
+
+
+#### Reporting Bugs, Joining the Community
+
+
+If you encounter any bad behavior with this release, please do not hesitate to [file bugs](/contribute/file-bugs/)!
+
+We welcome new contributors - developers, translators, artists, writers, support gurus - to join our community.  [Join us!](/contribute)
+

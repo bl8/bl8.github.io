@@ -1,0 +1,314 @@
+---
+author: Gabriel Burt
+comments: false
+date: 2011-02-02 22:06:43+00:00
+layout: page
+slug: 1-9-3
+title: Banshee 1.9.3
+wordpress_id: 805
+---
+
+
+	
+  * **Release Date:** February 2, 2011
+
+	
+  * **Source Tarball:** [banshee-1-1.9.3.tar.bz2](http://download.banshee-project.org/banshee/unstable/1.9.3/banshee-1-1.9.3.tar.bz2)
+
+	
+  * **Release Information:**
+[NEWS](http://download.banshee-project.org/banshee/unstable/1.9.3/banshee-1-1.9.3.news),
+[sha256sum](http://download.banshee-project.org/banshee/unstable/1.9.3/banshee-1-1.9.3.sha256sum)
+
+
+
+
+[![Download Now](/theme/css/images/download-button.png)](/download)
+
+
+
+
+
+
+    Banshee 1.9.3 is a development release, part of the 1.9.x series
+    leading up to Banshee 2.0.
+
+
+
+
+
+
+
+### Other Enhancements
+
+
+
+
+
+    
+
+      
+  * Various fixes and improvements to the Windows build
+      
+  * MPRIS: Implement the recently added PlaylistChanged signal
+      
+  * SoundMenu: Implement the new registration process
+      
+  * Daap: Keep a list of recently used remote servers
+      
+  * Add back counts for top level libraries
+
+    
+
+
+
+
+### Notable Bug Fixes (36 fixed since 1.9.2!)
+
+
+
+
+
+    
+      
+  * [bgo#639603](http://bugzilla.gnome.org/show_bug.cgi?id=639603): Fix NRE when current track doesn't have a Uri
+      
+  * [bgo#486543](http://bugzilla.gnome.org/show_bug.cgi?id=486543): Playlists: Fix parsing when started from root directory
+      
+  * [bgo#640276](http://bugzilla.gnome.org/show_bug.cgi?id=640276): AmazonMp3.Store: Fix country detection for United Kingdom
+      
+  * [bgo#638070](http://bugzilla.gnome.org/show_bug.cgi?id=638070): LibraryWatcher: Don't watch non-existing dirs
+      
+  * [bgo#635779](http://bugzilla.gnome.org/show_bug.cgi?id=635779): Fix crash after disabling some extensions
+      
+  * [bgo#636435](http://bugzilla.gnome.org/show_bug.cgi?id=636435): PlayQueueSource: Fix track prepending when not playing
+      
+  * [bgo#641000](http://bugzilla.gnome.org/show_bug.cgi?id=641000): NowPlaying: Fix resizing fullscreen control bar
+      
+  * [bgo#640455](http://bugzilla.gnome.org/show_bug.cgi?id=640455): PlayQueue: Additional padding for the fill controls
+
+
+
+
+
+
+#### Banshee has a lot more to offer! Check out the previous major release notes...
+
+
+
+
+
+	
+  * [Read about features added in Banshee 1.9.2](/download/archives/1.9.2)
+
+	
+  * [Read about features added in Banshee 1.9.1](/download/archives/1.9.1)
+
+	
+  * [Read about features added in Banshee 1.9.0](/download/archives/1.9.0)
+
+	
+  * [Read about features added in Banshee 1.8.1](/download/archives/1.8.1)
+
+	
+  * [Read about features added in Banshee 1.8.0](/download/archives/1.8.0)
+
+	
+  * [Read about features added in Banshee 1.7.6](/download/archives/1.7.6)
+
+	
+  * [Read about features added in Banshee 1.7.5](/download/archives/1.7.5)
+
+	
+  * [Read about features added in Banshee 1.7.4](/download/archives/1.7.4)
+
+	
+  * [Read about features added in Banshee 1.7.3](/download/archives/1.7.3)
+
+	
+  * [Read about features added in Banshee 1.7.2](/download/archives/1.7.2)
+
+	
+  * [Read about features added in Banshee 1.7.1](/download/archives/1.7.1)
+
+	
+  * [Read about features added in Banshee 1.7.0](/download/archives/1.7.0)
+
+	
+  * [Read about features added in Banshee 1.6.0](/download/archives/1.6.0)
+
+
+
+
+### Dependencies
+
+
+
+
+
+	
+  * Mono 1.9.1 (.NET 2.0 Profile / gmcs)
+
+	
+  * SQlite 3.4
+
+	
+  * Gtk# 2.12
+
+	
+  * GStreamer 0.10.13
+
+	
+  * NDesk DBus (ndesk-dbus) 0.5
+
+	
+  * NDesk DBus GLib (ndesk-dbus-glib) 0.3
+
+	
+  * Mono.Addins (mono-addins) 0.3.1
+
+	
+  * TagLib# (taglib-sharp) >= 2.0.3.7
+
+	
+  * Required to build default feature stack:
+
+	
+    * libmtp >= 0.2.0
+
+	
+    * mono-zeroconf >= 0.8.0
+
+	
+    * boo >= 0.8.1
+
+    
+    * webkit-1.0 >= 1.2.2
+
+    
+    * gdata-sharp >= 1.4
+
+    
+    * glib >= 2.22, gio-sharp >= 2.22.2, gtk-sharp-beans >= 2.14.1, gudev-sharp and gkeyfile-sharp
+
+    
+    * libgpod-sharp >= 0.7.95
+
+
+
+
+	
+  * Run-time requirements for default feature stack:
+
+	
+    * GIO/udev
+
+    
+    * Brasero >= 0.8.1
+
+	
+    * Avahi
+
+    
+    * gst-plugins-bad (providing the bpmdetect GStreamer plugin)
+
+
+
+
+
+
+
+### Community
+
+
+
+
+
+#### Contributors For This Release
+
+
+The following people directly contributed to the release of this version of Banshee. Without their help, there would be no release!
+
+
+> 
+    
+
+      Alex Launi, Alexander Kojevnikov, Bertrand Lorentz, Dustin C. Hatch,
+      Gabriel Burt, Kentaro KAZUHAMA, Sjoerd Simons, Zhou Ting
+
+    
+
+
+
+The following people contributed updated translations to this release.    Without them, our project's reach would be much more limited.
+
+
+> 
+    
+
+      Andrej Žnidarši?, Bruno Brouard, Daniel Mustieles, Daniel Nylander,
+      Jordi Mas, Mario Blättermann, Xandru Armesto
+
+
+
+
+
+
+
+#### Contributors In Past Releases
+
+
+
+
+> 
+    
+    Aaron Bockover, Alan McGovern, Alex Bennee, Alex Kloss, Alex Launi,
+    Alex Mauer, Alexander Hixon, Alexander Kojevnikov, Alexandros Frantzis,
+    Alp Toker, Anders Petersson, Andrea Cimitan, Andreas Neustifter,
+    Andreas Nilsson, Andrew Conkling, Andrés G. Aragoneses, Andy Midgette,
+    Aran Cox, Arthur Carli, Arun Raghavan, Aurélien Mino,
+    Aydemir Ula? ?ahin, Ben Maurer, Benjamín Valero Espinosa,
+    Bertrand Lorentz, Bill Dawson, Bob Copeland, Bojan Rajkovic, Brad Taylor,
+    Brandon Perry, Brian Lucas, Brian Nickel, Brian Teague, Chow Loong Jin,
+    Chris Howie, Chris Jones, Chris Lahey, Chris Toshok, Chris Turchin,
+    Christian Hergert, Christian Krause, Christoph Burgdorf,
+    Christopher James Halse Rogers, Claude Paroz, Cody Russell, Cosmin Banu,
+    Dan Wilson, Dan Winship, Daniel Munkton, Daniel Siegel, David Nielsen,
+    David Spreen, David Stone, Diego E. Pettenò, Dougal Stanton,
+    Dustin C. Hatch, Eitan Isaacson, Elena Grassi, Eoin Hennessy, Eric Butler,
+    Erik Schmidt, Fabian Jost, Felipe Almeida Lessa, Fernando Casanova,
+    Florent Thoumie, Fredrik Hedberg, Félix Velasco, Gabriel Burt,
+    Garrett LeSage, Ghislain Lacroix, Götz Waschk, Haitao Feng,
+    Hans Petter Jansson, Harold Schreckengost, Iain Lane,
+    Igor Guerrero Fonseca, Ilya Konstantinov, Ivan N. Zlatev, Jack Deslippe,
+    Jakub Steiner, James Willcox, Jan Arne Petersen, Jason Conti, Jason Taylor,
+    Jeff Tickle, Jeff Wheeler, Jensen Somers, Jeroen Budts, Jo Shields,
+    Johannes Kuhn, John Millikin, Jordi Mas, Jorge Castro, Julien Moutte,
+    Juri Pakaste, Ján Sokoly, Jérémie Laval, K. Vishnoo Charan Reddy,
+    Ken Vandine, Kentaro KAZUHAMA, Kevin Duffus, Konstantin Oshiyko,
+    Larry Ewing, Lauri Kotilainen, Lukas Lipka, Marijn Ros, Matt Enright,
+    Michael Kaiser, Michael Martin-Smucker, Michael Monreal, Michael Monreal,
+    Micha? Sawicz, Miguel de Icaza, Mike Gemünde, Mike Urbanski,
+    Moritz Schallaböck, Nathan Palmer, Neil Loknath, Nicholas Doyle,
+    Nicholas Parker, Nicolò Chieffo, Nils Naumann, Oben Sonne, Olivier Dufour,
+    Oscar Forero, Pacho Ramos, Patrick van Staveren, Paul Cutler, Paul Lange,
+    Pavel Antonov, Pepijn van de Geer, Pete Johanson, Peter de Kraker,
+    Pratik Patel, Przemys?aw Grzegorczyk, Raimo Radczewski, Robin Stocker,
+    Roderich Schupp, Rodney Dawes, Romain Tartière, Ruben Vermeersch,
+    Ryan Collier, Samuel Gyger, Sandy Armstrong, Scott Peterson,
+    Sebastian Dröge, Shaun McCance, Sjoerd Simons, Tim Fisken, Tim Yamin,
+    Tobias Mueller, Todd Berman, Travis Glenn Hansen, Travis Reitter,
+    Trey Ethridge, Valentin Sawadski, Will Farrington, William Friesen,
+    William Pettersson, Wouter Bolsterlee, Zhou Ting
+
+
+
+
+
+
+#### Reporting Bugs, Joining the Community
+
+
+If you encounter any bad behavior with this release, please do not hesitate to [file bugs](/contribute/file-bugs/)!
+
+We welcome new contributors - developers, translators, artists, writers, support gurus - to join our community.  [Join us!](/contribute)

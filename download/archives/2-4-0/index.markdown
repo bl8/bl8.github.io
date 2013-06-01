@@ -1,0 +1,449 @@
+---
+author: Bertrand
+comments: false
+date: 2012-03-22 00:47:40+00:00
+layout: page
+slug: 2-4-0
+title: Banshee 2.4.0
+wordpress_id: 1197
+---
+
+
+	
+  * **Release Date:** 2012-03-21
+
+	
+  * **Source Tarball:** [banshee-2.4.0.tar.xz](http://ftp.gnome.org/pub/GNOME/sources/banshee/2.4/banshee-2.4.0.tar.xz)
+
+	
+  * **Release Information:**
+[NEWS](http://ftp.gnome.org/pub/GNOME/sources/banshee/2.4/banshee-2.4.0.news),
+[sha256sum](http://ftp.gnome.org/pub/GNOME/sources/banshee/2.4/banshee-2.4.0.sha256sum)
+
+
+
+
+[![Download Now](/theme/css/images/download-button.png)](/download)
+
+
+
+
+
+
+Banshee 2.4 is the culmination of six months' work by 31 developers, 33
+translators and dozens of bug reporters and testers. It is a stable release,
+the successor to Banshee 2.2.
+
+
+
+
+
+
+### In Memoriam
+
+
+This release is dedicated to Scott Thomas Peterson, who passed away a few months ago. He was a great guy and a valued contributor to the Banshee project and to the wider Mono community. In particular, he created the Mono.Upnp library which now powers our new UPnP support.
+
+
+
+### New features
+
+
+
+
+####  DVD playback support
+
+
+
+
+
+Watch your DVDs with Banshee. You can navigate in the DVD's menus
+using the mouse or the keyboard.
+ 
+
+
+
+
+
+![Screenshot showing Banshee playing a DVD](http://download.banshee.fm/shots/2.4.0/dvd-700.png)
+
+
+
+
+
+####  More flexible browsing of your media
+
+
+
+
+
+You can now display the genres and years in the browser, in
+addition to the artists and the albums, and use them to filter your
+music library. The artist filter can be hidden, or it can be set to
+only display album artists, instead of all artists in your library.
+
+
+
+
+
+
+![Screenshot showing Banshee's new browser content options](http://download.banshee.fm/shots/2.4.0/browser-700.png)
+
+
+
+
+
+####  UPnP support
+
+
+
+
+
+Browse and play music or videos shared over your local network
+via a UPnP device.
+
+
+
+
+
+
+### Other Enhancements
+
+
+
+
+
+      
+  * Several improvements to Muinshee, our alternative UI
+      
+  * Add separate options for writing ratings and play counts to files
+      
+  * Dap.MassStorage: Add support for the Archos Internet Tablet and the NEC LifeTouch Note
+      
+  * Dap.MassStorage: Don't sync 'unknown album' metadata
+      
+  * Dap: Add support for DOS folder separator in playlists
+      
+  * Update values for the Smiley Face equalizer preset
+      
+  * MusicBrainz: Enable FreeBSD support
+      
+  * Set the PulseAudio media.role property
+      
+  * StreamPositionLabel: Fix label when loading
+      
+  * Preferences: Change wording of Metadata settings
+      
+  * Add a Composer filter in the SearchEntry filter menu
+      
+  * Lastfm: Use one single directory for last.fm caching
+      
+  * Dap.MassStorage: metadata resync in manual mode.
+      
+  * AudiobookLibrarySource: Accept tracks dragged from playlists
+      
+  * Dap.MassStorage: Add and use specific icons for Xperia phones
+      
+  * Emusic.Store: Remove unneeded refresh
+      
+  * Mpris: Add xesam:userRating field in track metadata.
+
+
+
+
+### Notable Bug Fixes (91 fixed since 2.2.0!)
+
+
+
+
+
+      
+  * UbuntuOneMusicStore: Ensure u1ms URIs passed at startup get loaded
+      
+  * Daap: Fix crash while resolving the address of a DAAP service
+      
+  * DatabaseImportManager: Support importing .mka files
+      
+  * Notify playlists on rating change through d-bus or command line
+      
+  * Mpris: Change trackid type from string to DBus object path
+      
+  * Mpris: Fix OpenUri method to also support http URIs
+      
+  * Gio: Fix encoding of URIs in Directory class and fix values in database
+      
+  * LibraryWatcher: Catch and log exception when processing changes
+      
+  * [bgo#548366](http://bugzilla.gnome.org/show_bug.cgi?id=548366): Allow primary sources to marked as temporary
+      
+  * [bgo#628518](http://bugzilla.gnome.org/show_bug.cgi?id=628518): build: Add a --disable-webkit flag to configure
+      
+  * [bgo#638130](http://bugzilla.gnome.org/show_bug.cgi?id=638130): Fix importing of rating and play count when updating track
+      
+  * [bgo#644145](http://bugzilla.gnome.org/show_bug.cgi?id=644145): Fix FileLocation queries for the StartsWith operator
+      
+  * [bgo#644270](http://bugzilla.gnome.org/show_bug.cgi?id=644270): Fix crash on Windows if the log file can't be opened
+      
+  * [bgo#647898](http://bugzilla.gnome.org/show_bug.cgi?id=647898): Try to fetch coverart without an internet connection
+      
+  * [bgo#648522](http://bugzilla.gnome.org/show_bug.cgi?id=648522): Fix race condition when starting multiple instances.
+      
+  * [bgo#649277](http://bugzilla.gnome.org/show_bug.cgi?id=649277): NotificationArea: Only use supported tags in the message
+      
+  * [bgo#651743](http://bugzilla.gnome.org/show_bug.cgi?id=651743): YouTubeTile: Fix construction of the playback URI
+      
+  * [bgo#656439](http://bugzilla.gnome.org/show_bug.cgi?id=656439): Audiobook: Add a button to go back to the list of audiobooks
+      
+  * [bgo#656533](http://bugzilla.gnome.org/show_bug.cgi?id=656533): Notification: Fix application name used in internal notify#
+      
+  * [bgo#658803](http://bugzilla.gnome.org/show_bug.cgi?id=658803): Prune CoverArtDownloads table when removing tracks
+      
+  * [bgo#659146](http://bugzilla.gnome.org/show_bug.cgi?id=659146): Daap: Always send revision-number in update requests
+      
+  * [bgo#659841](http://bugzilla.gnome.org/show_bug.cgi?id=659841): GnomeBackend: Be more robust against GConf failures
+      
+  * [bgo#661322](http://bugzilla.gnome.org/show_bug.cgi?id=661322): PlaybackShuffleActions: Fix crash when setting shuffle mode
+      
+  * [bgo#661467](http://bugzilla.gnome.org/show_bug.cgi?id=661467): AmazonMp3: Handle plain text AMZ files now sent by Amazon
+      
+  * [bgo#662122](http://bugzilla.gnome.org/show_bug.cgi?id=662122): AudioscrobblerConnection: Fix crash during scrobbling
+      
+  * [bgo#662883](http://bugzilla.gnome.org/show_bug.cgi?id=662883): Fix activation of UbuntuOneMusicStore source on startup
+      
+  * [bgo#662906](http://bugzilla.gnome.org/show_bug.cgi?id=662906): AudiobookLibrarySource: Fix crash when adding tracks
+      
+  * [bgo#663318](http://bugzilla.gnome.org/show_bug.cgi?id=663318): GConfProxy: Don't use a proxy if the proxy host is empty
+      
+  * [bgo#664079](http://bugzilla.gnome.org/show_bug.cgi?id=664079): Skip empty files when importing and show error
+      
+  * [bgo#664381](http://bugzilla.gnome.org/show_bug.cgi?id=664381): Dap.MassStorage: Rename Xperia X12 to Xperia arc
+      
+  * [bgo#666981](http://bugzilla.gnome.org/show_bug.cgi?id=666981): LibraryWatcher: avoid importing incomplete files
+      
+  * [bgo#667355](http://bugzilla.gnome.org/show_bug.cgi?id=667355): SourceWatcher: Fix SQL error caused by incorrect escaping.
+      
+  * [bgo#667478](http://bugzilla.gnome.org/show_bug.cgi?id=667478): Fix build with libmtp 1.1.
+      
+  * [bgo#668417](http://bugzilla.gnome.org/show_bug.cgi?id=668417): Fix MusicBrainz dllmap for cross-architecture support
+      
+  * [bgo#671536](http://bugzilla.gnome.org/show_bug.cgi?id=671536): WebBrowser: Implement SSL certificate validation
+
+  
+
+
+
+#### Banshee has a lot more to offer! Check out the previous major release notes...
+
+
+
+
+
+	
+  * [Read about features added in Banshee 2.2.0](/download/archives/2.2.0)
+
+	
+  * [Read about features added in Banshee 2.0.0](/download/archives/2.0.0)
+
+	
+  * [Read about features added in Banshee 1.8.0](/download/archives/1.8.0)
+
+	
+  * [Read about features added in Banshee 1.6.0](/download/archives/1.6.0)
+
+	
+  * [Read about features added in Banshee 1.4.0](/download/archives/1.4.0)
+
+
+
+
+### Dependencies
+
+
+
+
+
+	
+  * Mono 2.4.3 (.NET 2.0 Profile / gmcs)
+
+	
+  * SQlite 3.4
+
+	
+  * Gtk# 2.12.10
+
+	
+  * GStreamer 0.10.26
+
+	
+  * GLib 2.22
+
+	
+  * dbus-sharp 0.7
+
+	
+  * dbus-sharp-glib 0.5
+
+	
+  * Mono.Addins (mono-addins) 0.6.2
+
+	
+  * TagLib# (taglib-sharp) >= 2.0.3.7
+
+	
+  * Required to build default feature stack:
+
+	
+    * libmtp >= 0.3.0
+
+	
+    * mono-zeroconf >= 0.8.0
+
+	
+    * boo >= 0.8.1
+
+	
+    * webkit-1.0 >= 1.2.2
+
+	
+    * gdata-sharp-youtube >= 1.4
+
+	
+    * gio-sharp >= 2.22.3, gtk-sharp-beans >= 2.14.1, gudev-sharp and gkeyfile-sharp
+
+	
+    * libgpod-sharp >= 0.7.95
+
+	
+    * Mono.Upnp >= 0.1 (Mono.Upnp 0.1.1 is recommended)
+
+
+
+
+	
+  * Run-time requirements for default feature stack:
+
+	
+    * udev
+
+	
+    * media-player-info
+
+	
+    * Brasero >= 0.8.1
+
+	
+    * Avahi
+
+	
+    * gst-plugins-bad (providing the bpmdetect GStreamer plugin)
+
+
+
+
+
+
+
+### Community
+
+
+
+
+
+#### Contributors For This Release
+
+
+The following people directly contributed to the release of this version of Banshee. Without their help, there would be no release!
+
+
+> 
+     Adam Lofts, Age Bosma, Alex Launi, Alexander Kojevnikov, Andre Klapper,
+     Andres G. Aragoneses, Arun Raghavan, Bertrand Lorentz, Chow Loong Jin,
+     Felipe Castillo, Frank Ziegler, James Otting, Jo Shields, Jordi Mas,
+     Kentaro KAZUHAMA, Kevin Anthony, Neil Loknath, Nuno Araujo,
+     OKANO Takayoshi, Olivier Dufour, Pacho Ramos, Phil Trimble, Robin Stocker,
+     Roderich Schupp, Rodney Dawes, Timothy Arceri, Tobias Arrskog,
+     Travis Glenn Hansen, Udesh Liyanaarachchi, Will Thompson, William Witt
+
+
+
+The following people contributed updated translations to this release.    Without them, our project's reach would be much more limited.
+
+
+> 
+     Andrej Žnidarši?, António Lima, Benjamín Valero, Bruno Brouard,
+     Changwoo Ryu, Cheng-Chia Tseng, Christian Kirbach, Daniel Mustieles,
+     Daniel Nylander, Fran Diéguez, Funda Wang, Gabor Kelemen,
+     Gianvito Cavasoli, Hajime Taira, Hendrik Knackstedt, Jiro Matsuzawa,
+     Jordi Mas, Jorge González, Kentaro KAZUHAMA, Kristjan SCHMIDT,
+     Marek ?ernocký, Mario Blättermann, Matej Urban?i?, Mateusz Kacprzak,
+     Misha Shnurapet, Muhammet Kara, OKANO Takayoshi, Pavol Kla?anský,
+     Piotr Dr?g, Praveen Illa, Rudolfs Mazurs, Yuri Myasoedov, ???????? ???????
+
+
+
+
+
+#### Contributors In Past Releases
+
+
+
+
+> 
+        Aaron Bockover, Abner Silva, Adam Lofts, Age Bosma, Alan McGovern,
+    Alban Crequy, Alberto Gonzalez, Alex Bennee, Alex Kloss, Alex Launi,
+    Alex Mauer, Alex Willmy, Alexander Hixon, Alexander Kojevnikov,
+    Alexandros Frantzis, Alp Toker, Anders Petersson, Andre Klapper,
+    Andrea Cimitan, Andreas Neustifter, Andreas Nilsson, Andrew Conkling,
+    Andrés G. Aragoneses, Andy Midgette, Andy Street, Aran Cox, Arthur Carli,
+    Arun Raghavan, Aurélien Mino, Aydemir Ula? ?ahin, Ben Maurer,
+    Benjamín Valero Espinosa, Bertrand Lorentz, Bill Dawson, Bob Copeland,
+    Bojan Rajkovic, Brad Taylor, Brandon Perry, Brian Lucas, Brian Nickel,
+    Brian Teague, Carlos Sanchez, Chase Geigle, Chow Loong Jin, Chris Howie,
+    Chris Jones, Chris Lahey, Chris Toshok, Chris Turchin, Christian Hergert,
+    Christian Krause, Christoph Burgdorf, Christopher James Halse Rogers,
+    Claude Paroz, Cody Russell, Corec, Cosmin Banu, Dan Wilson, Dan Winship,
+    Daniel Munkton, Daniel Siegel, David Nielsen, David Spreen, David Stone,
+    Diego E. Pettenò, Dinh Ngoc Tu, Dougal Stanton, Dustin C. Hatch,
+    Eitan Isaacson, Elena Grassi, Eoin Hennessy, Eric Butler, Erik Schmidt,
+    Fabian Jost, Felipe Almeida Lessa, Felipe Castillo, Fernando Casanova,
+    Florent Thoumie, Frank Ziegler, Fredrik Hedberg, Félix Velasco,
+    Gabriel Burt, Garrett LeSage, Ghislain Lacroix, Götz Waschk, Haitao Feng,
+    Hajime Mizuno, Hans Petter Jansson, Harold Schreckengost, Iain Lane,
+    Igor Guerrero Fonseca, Ilya Konstantinov, Ivan N. Zlatev, Jack Deslippe,
+    Jakub Steiner, James Otting, James Willcox, Jan Arne Petersen, Jason Conti,
+    Jason Taylor, Jeff Tickle, Jeff Wheeler, Jensen Somers, Jeroen Budts,
+    Jo Shields, Johannes Koch, Johannes Kuhn, John Millikin, Jonas Urth Olsen,
+    Jordi Mas, Jorge Castro, Julien Moutte, Juri Pakaste, Ján Sokoly,
+    Jérémie Laval, K. Vishnoo Charan Reddy, Ken Vandine, Kentaro KAZUHAMA,
+    Kevin Anthony, Kevin Duffus, Koichi Akabe, Konstantin Oshiyko, Larry Ewing,
+    Lauri Kotilainen, Lukas Lipka, Mackenan Grassi, Marijn Ros, Mark Busby,
+    Mark Saunders, Martin Pitt, Matt Enright, Matt Sturgeon, Michael Kaiser,
+    Michael Martin-Smucker, Michael Monreal, Michael Monreal, Micha? Sawicz,
+    Miguel de Icaza, Mike Gemünde, Mike Urbanski, Moritz Schallaböck,
+    Nathan Palmer, Neil Loknath, Nicholas Doyle, Nicholas Parker,
+    Nicolò Chieffo, Nils Naumann, Nuno Araujo, Oben Sonne, Okano Takayoshi,
+    Olivier Dufour, Oscar Forero, Pacho Ramos, Patrick van Staveren,
+    Paul Cutler, Paul Lange, Pavel Antonov, Pepijn van de Geer, Pete Johanson,
+    Peter de Kraker, Phil Trimble, Pratik Patel, Przemys?aw Grzegorczyk,
+    Raimo Radczewski, Robin Stocker, Roderich Schupp, Rodney Dawes,
+    Romain Tartière, Ruben Vermeersch, Ryan Collier, Samuel Gyger,
+    Sandy Armstrong, Scott Peterson, Sebastian Dröge, Shaun McCance,
+    Sjoerd Simons, Tim Fisken, Tim Yamin, Timothy Arceri, Tobias Arrskog,
+    Tobias Mueller, Todd Berman, Travis Glenn Hansen, Travis Patterson,
+    Travis Reitter, Trey Ethridge, Udesh Liyanaarachchi, Valentin Sawadski,
+    Victor Vargas, Will Farrington, Will Thompson, William Friesen,
+    William Pettersson, William Witt, Wouter Bolsterlee, Yuuto Tokunaga,
+    Zhou Ting.
+
+
+
+
+
+
+#### Reporting Bugs, Joining the Community
+
+
+If you encounter any bad behavior with this release, please do not hesitate to [file bugs](/contribute/file-bugs/)!
+  
+
+We welcome new contributors - developers, translators, artists, writers, support gurus - to join our community.  [Join us!](/contribute)

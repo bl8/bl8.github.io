@@ -1,0 +1,394 @@
+---
+author: Gabriel Burt
+comments: false
+date: 2010-02-24 21:16:35+00:00
+layout: page
+slug: 1-5-4
+title: Banshee 1.5.4
+wordpress_id: 392
+---
+
+
+	
+  * **Release Date:** February 24, 2010
+
+	
+  * **Source Tarball:** [banshee-1-1.5.4.tar.bz2](http://download.banshee-project.org/banshee/stable/1.5.4/banshee-1-1.5.4.tar.bz2)
+
+	
+  * **Release Information:**
+[NEWS](http://download.banshee-project.org/banshee/stable/1.5.4/banshee-1-1.5.4.news),
+[sha256sum](http://download.banshee-project.org/banshee/stable/1.5.4/banshee-1-1.5.4.sha256sum)
+
+
+
+
+[![Download Now](/theme/css/images/download-button.png)](/download)
+
+
+
+Banshee 1.5.4 is a beta release, with several new features and lots of bug fixes, with contributions from 15 people.
+
+
+### New Features
+
+
+
+
+
+#### Opt-In Usage Data Collection
+
+
+
+
+![screenshot showing opt-in to usage data collection checkbox in Preferences](http://download.banshee-project.org/shots/1.5.4/metrics-optin-preference.png)
+
+
+
+
+Under Preferences, you can choose to "Improve Banshee by sending
+anonymous usage data" back to the Banshee developers.  This collects
+information on what version you're running, what OS, library size,
+slow SQL queries, and a whitelisted subset of your preferences. This
+information will help us choose better defaults and see what parts of
+Banshee are used most and can be improved.  All collected data is anonymous!
+
+
+  
+
+
+
+
+#### Default Equalizer Presets
+
+
+
+
+![screenshot showing equalizer presets](http://download.banshee-project.org/shots/1.5.4/equalizer-presets.png)
+
+
+
+
+Banshee now ships with several equalizer presets, and the core of the equalizer management has seen much internal improvement.
+
+
+  
+
+
+
+
+#### Banshee Community Extensions
+
+
+
+
+![screenshot showing Extensions tab of Preferences, showing all the Banshee Community Extensions](http://download.banshee-project.org/shots/1.5.4/banshee-community-extensions.png)
+
+
+
+
+A new sub-project named [Banshee Community Extensions](/download/extensions) has been
+created.  Its code is hosted on [Gitorious](http://gitorious.org/banshee-community-extensions), and its bugs tracked
+alongside Banshee's.  It already contains 9 extensions, including
+Alarm Clock, Lyrics, and Mirage, and has 15 maintainers.  Its releases
+track Banshee's.
+  
+
+
+
+
+#### Extensible Shuffle Modes
+
+
+
+
+![screenshot showing shuffle by similar playback option](http://download.banshee-project.org/shots/1.5.4/shuffle-by-similar.png)
+
+
+
+
+Extensions can now add new shuffle modes and PlayQueue fill-by
+modes.  The Mirage extension is the first to take advantage of this,
+adding a Shuffle/Fill-by Similar mode based on acoustical analysis.
+
+
+
+
+![screenshot showing Play Queue Auto DJ fill by similar option](http://download.banshee-project.org/shots/1.5.4/fill-by-similar.png)
+
+
+  
+
+
+
+
+
+### Other Enhancements
+
+
+
+
+
+    
+  * Wikipedia context pane extension enabled by default
+
+    
+  * Add support for Nokia N900 phones
+
+    
+  * Add tooltip to playback error column
+
+    
+  * On close Internet Archive item, return to Search
+
+    
+  * Notify user if trying to sync missing file to DAP
+
+    
+  * Popup explanation of manual playlist ordering when appropriate
+
+    
+  * Simplify the default set of columns in Podcasts
+
+    
+  * Enable 'Delete From Drive' action in File System Queue
+
+    
+  * Make debuggable from within MonoDevelop
+
+    
+  * Coverart for unicode artist/albums now supported
+
+    
+  * Dropped glade-sharp dep; GNOME 3.0 ready
+
+    
+  * Add columns showing track sample rate and bits per sample
+
+    
+  * Option to sort an artist's albums by year, not title
+
+    
+  * If starting Banshee hidden (--hide), up to half a second of startup time is saved; this is particularly useful in Moblin
+
+
+
+
+### Notable Bug Fixes
+
+
+**40 bugs were fixed since 1.5.3!**
+
+
+
+    
+  * Fixes to GIO backend
+
+    
+  * Many crash/startup fixes for OS X build
+
+    
+  * Strange input bug on OS X fixed - you can now type/search as expected
+
+    
+  * Enable LibraryWatcher only for Music and Video libraries
+
+    
+  * Do better job preserving IsCompilation metadata
+
+    
+  * Store some PlayQueue settings in the db (not GConf)
+
+    
+  * Update to Last.fm's API change for scrobbling/recs
+
+    
+  * Bring back static FileNamePattern API used by some scripts
+
+    
+  * Fix several memory leaks
+
+
+
+
+#### Banshee has a lot more to offer! Check out the previous major release notes...
+
+
+
+
+
+	
+  * [Read about features added in Banshee 1.5.3](/download/archives/1.5.3)
+
+	
+  * [Read about features added in Banshee 1.5.2](/download/archives/1.5.2)
+
+	
+  * [Read about features added in Banshee 1.5.1](/download/archives/1.5.1)
+
+	
+  * [Read about features added in Banshee 1.5.0](/download/archives/1.5.0)
+
+	
+  * [Read about features added in Banshee 1.4.3](/download/archives/1.4.3)
+
+	
+  * [Read about features added in Banshee 1.4.2](/download/archives/1.4.2)
+
+	
+  * [Read about features added in Banshee 1.4.1](/download/archives/1.4.1)
+
+	
+  * [Read about features added in Banshee 1.2](/download/archives/1.2.0)
+
+	
+  * [Read about features added in Banshee 1.0](/download/archives/1.0.0)
+
+
+
+
+### Dependencies
+
+
+
+
+
+	
+  * Mono 1.9.1 (.NET 2.0 Profile / gmcs)
+
+	
+  * SQlite 3.4
+
+	
+  * Gtk# 2.12
+
+	
+  * GStreamer 0.10.13
+
+	
+  * NDesk DBus (ndesk-dbus) 0.5
+
+	
+  * NDesk DBus GLib (ndesk-dbus-glib) 0.3
+
+	
+  * Mono.Addins (mono-addins) 0.3.1
+
+	
+  * TagLib# (taglib-sharp) >= 2.0.3.5
+
+	
+  * Required to build default feature stack:
+
+	
+    * libmtp >= 0.2.0
+
+	
+    * ipod-sharp >= 0.8.5
+
+	
+    * mono-zeroconf >= 0.8.0
+
+	
+    * boo >= 0.8.1
+
+
+
+
+	
+  * Run-time requirements for default feature stack:
+
+	
+    * podsleuth >= 0.6.6
+
+	
+    * brasero
+
+	
+    * avahi
+
+
+
+
+
+
+
+### Community
+
+
+
+
+
+#### Contributors For This Release
+
+
+The following people directly contributed to the release of this version of Banshee. Without their help, there would be no release!
+
+
+> 
+      Aaron Bockover, Alan McGovern, Alexander Kojevnikov, Anders Petersson,
+      Andreas Nilsson, AndrÃ©s G. Aragoneses, Bertrand Lorentz, Chow Loong Jin,
+      Christopher Halse Rogers, Gabriel Burt, Jakub Steiner,
+      K. Vishnoo Charan Reddy, Pavel Antonov, Romain TartiÃ¨re, Sandy Armstrong
+
+
+
+The following people contributed updated translations to this release.    Without them, our project's reach would be much more limited.
+
+
+> 
+      Andrej Å½nidarÅ¡iÄ, AntÃ³nio Lima, Benjamin Valero Espinosa, Gabor Kelemen,
+      Okano Takayoshi, Petr Kovar, Kentaro Kazuhama, Å½ygimantas BeruÄka
+
+
+
+
+
+#### Contributors In Past Releases
+
+
+
+
+> 
+    Aaron Bockover, Alan McGovern, Alex Bennee, Alex Kloss, Alex Launi,
+    Alexander Hixon, Alexander Kojevnikov, Alexandros Frantzis, Alp Toker,
+    Anders Petersson, Andrea Cimitan, Andreas Neustifter, Andreas Nilsson,
+    Andrew Conkling, AndrÃ©s G. Aragoneses, Andy Midgette, Arthur Carli,
+    Aydemir UlaÅŸ Åžahin, Ben Maurer, BenjamÃ­n Valero Espinosa,
+    Bertrand Lorentz, Bertrand Lorentz, Bill Dawson, Bob Copeland,
+    Bojan Rajkovic, Brad Taylor, Brandon Perry, Brian Lucas, Brian Nickel,
+    Brian Teague, Chow Loong Jin, Chris Howie, Chris Jones, Chris Lahey,
+    Chris Toshok, Chris Turchin, Christian Krause, Christoph Burgdorf,
+    Christopher James Halse Rogers, Cody Russell, Cosmin Banu, Dan Wilson,
+    Dan Winship, Daniel Munkton, Daniel Siegel, David Spreen, David Stone,
+    Diego E. PettenÃ², Eitan Isaacson, Elena Grassi, Eoin Hennessy,
+    Eric Butler, Erik Schmidt, Fabian Jost, Felipe Almeida Lessa,
+    Florent Thoumie, Fredrik Hedberg, FÃ©lix Velasco, Gabriel Burt,
+    Garrett LeSage, GÃ¶tz Waschk, Haitao Feng, Hans Petter Jansson, Iain Lane,
+    Igor Guerrero Fonseca, Ilya Konstantinov, Ivan N. Zlatev, Jack Deslippe,
+    Jakub Steiner, James Willcox, Jan Arne Petersen, Jason Conti, Jason Taylor,
+    Jeff Tickle, Jeff Wheeler, Jensen Somers, Jo Shields, Johannes Kuhn,
+    John Millikin, Jorge Castro, Juri Pakaste, JÃ©rÃ©mie Laval,
+    K. Vishnoo Charan Reddy, Ken Vandine, Larry Ewing, Lauri Kotilainen,
+    Lukas Lipka, Matt Enright, Michael Kaiser, Michael Martin-Smucker,
+    Michael Monreal, Michael Monreal, Miguel de Icaza, Mike Urbanski,
+    Moritz SchallabÃ¶ck, Nathan Palmer, Neil Loknath, Nicholas Doyle,
+    Nicholas Parker, NicolÃ² Chieffo, Nils Naumann, Oben Sonne, Olivier Duff,
+    Oscar Forero, Pacho Ramos, Patrick van Staveren, Paul Lange, Pavel Antonov,
+    Pepijn van de Geer, Peter de Kraker, Pratik Patel, PrzemysÅ‚aw Grzegorczyk,
+    Roderich Schupp, Romain TartiÃ¨re, Ruben Vermeersch, Ryan Collier,
+    Sandy Armstrong, Scott Peterson, Sebastian DrÃ¶ge, Tim Yamin,
+    Tobias Mueller, Todd Berman, Travis Glenn Hansen, Trey Ethridge,
+    Valentin Sawadski, Will Farrington, William Pettersson, Wouter Bolsterlee
+
+
+
+
+
+#### Reporting Bugs, Joining the Community
+
+
+If you encounter any bad behavior with this release, please do not hesitate to [file bugs](/contribute/file-bugs/)!
+
+We welcome new contributors - developers, translators, artists, writers, support gurus - to join our community.  [Join us!](/contribute)
+

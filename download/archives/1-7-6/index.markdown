@@ -1,0 +1,271 @@
+---
+author: Gabriel Burt
+comments: false
+date: 2010-09-15 22:14:30+00:00
+layout: page
+slug: 1-7-6
+title: Banshee 1.7.6
+wordpress_id: 664
+---
+
+
+	
+  * **Release Date:** September 15, 2010
+
+	
+  * **Source Tarball:** [banshee-1-1.7.6.tar.bz2](http://download.banshee-project.org/banshee/unstable/1.7.6/banshee-1-1.7.6.tar.bz2)
+
+	
+  * **Release Information:**
+[NEWS](http://download.banshee-project.org/banshee/unstable/1.7.6/banshee-1-1.7.6.news),
+[sha256sum](http://download.banshee-project.org/banshee/unstable/1.7.6/banshee-1-1.7.6.sha256sum)
+
+
+
+
+[![Download Now](/theme/css/images/download-button.png)](/download)
+
+
+
+
+
+Banshee 1.7.6 is part of the active-development 1.7 series, leading up to a
+1.8 maintenance series release on September 29th.  It is mostly a bug fix release.
+
+
+
+
+
+### Enhancements
+
+
+
+
+
+    
+  * Decrease the latency in changing playback volume
+
+    
+  * Begin editing the name of newly added playlists
+
+    
+  * Put all videos in the video folder on MTP devices
+
+
+
+
+
+### Notable Bug Fixes (26 fixed since 1.7.5!)
+
+
+
+
+
+    
+  * [bgo#629314](http://bugzilla.gnome.org/show_bug.cgi?id=629314): [AppleDevice] Correct capacity/free values
+
+    
+  * [bgo#628992](http://bugzilla.gnome.org/show_bug.cgi?id=628992): [AppleDevice]Bundle libgpod-sharp.dll.config fixing crash
+
+    
+  * [bgo#628832](http://bugzilla.gnome.org/show_bug.cgi?id=628832): [MTP] Fix MTP-device memory issues breaking Playlists, Albums
+
+    
+  * [bgo#629095](http://bugzilla.gnome.org/show_bug.cgi?id=629095): [MTP] Fix MTP devices being named '???'
+
+    
+  * [bgo#629373](http://bugzilla.gnome.org/show_bug.cgi?id=629373): [MTP] Workaround MTP sigsegv bug
+
+
+
+
+#### Banshee has a lot more to offer! Check out the previous major release notes...
+
+
+
+
+
+	
+  * [Read about features added in Banshee 1.7.5](/download/archives/1.7.5)
+
+	
+  * [Read about features added in Banshee 1.7.4](/download/archives/1.7.4)
+
+	
+  * [Read about features added in Banshee 1.7.3](/download/archives/1.7.3)
+
+	
+  * [Read about features added in Banshee 1.7.2](/download/archives/1.7.2)
+
+	
+  * [Read about features added in Banshee 1.7.1](/download/archives/1.7.1)
+
+	
+  * [Read about features added in Banshee 1.7.0](/download/archives/1.7.0)
+
+	
+  * [Read about features added in Banshee 1.6.0](/download/archives/1.6.0)
+
+
+
+
+### Dependencies
+
+
+
+
+
+	
+  * Mono 1.9.1 (.NET 2.0 Profile / gmcs)
+
+	
+  * SQlite 3.4
+
+	
+  * Gtk# 2.12
+
+	
+  * GStreamer 0.10.13
+
+	
+  * NDesk DBus (ndesk-dbus) 0.5
+
+	
+  * NDesk DBus GLib (ndesk-dbus-glib) 0.3
+
+	
+  * Mono.Addins (mono-addins) 0.3.1
+
+	
+  * TagLib# (taglib-sharp) >= 2.0.3.7
+
+	
+  * Required to build default feature stack:
+
+	
+    * libmtp >= 0.2.0
+
+	
+    * ipod-sharp >= 0.8.5
+
+	
+    * mono-zeroconf >= 0.8.0
+
+	
+    * boo >= 0.8.1
+
+        
+    * webkit-1.0 >= 1.2.2
+
+        
+    * gdata-sharp >= 1.4
+
+        
+    * glib >= 2.22, gio-sharp >= 2.22.2, gtk-sharp-beans >= 2.14.1, gudev-sharp and gkeyfile-sharp
+
+        
+    * libgpod-sharp
+
+
+
+
+	
+  * Run-time requirements for default feature stack:
+
+	
+    * GIO/udev
+
+	
+    * brasero
+
+	
+    * avahi
+
+
+
+
+
+
+
+### Community
+
+
+
+
+
+#### Contributors For This Release
+
+
+The following people directly contributed to the release of this version of Banshee. Without their help, there would be no release!
+
+
+> 
+      Alan McGovern, Alex Launi, Alexander Kojevnikov, Andrés G. Aragoneses,
+      Bertrand Lorentz, Christian Krause, Gabriel Burt, Iain Lane, Zhou Ting
+
+
+
+The following people contributed updated translations to this release.    Without them, our project's reach would be much more limited.
+
+
+> 
+      A S Alam, Andrej Žnidarši?, António Lima, Bruno Brouard, Gabor Kelemen,
+      Joe Hansen, Jordi Mas, Mario Blättermann
+
+
+
+
+
+#### Contributors In Past Releases
+
+
+
+
+> 
+    Aaron Bockover, Alan McGovern, Alex Bennee, Alex Kloss, Alex Launi,
+    Alex Mauer, Alexander Hixon, Alexander Kojevnikov, Alexandros Frantzis,
+    Alp Toker, Anders Petersson, Andrea Cimitan, Andreas Neustifter,
+    Andreas Nilsson, Andrew Conkling, Andrés G. Aragoneses, Andy Midgette,
+    Arthur Carli, Arun Raghavan, Aurélien Mino, Aydemir Ula? ?ahin,
+    Ben Maurer, Benjamín Valero Espinosa, Bertrand Lorentz, Bill Dawson,
+    Bob Copeland, Bojan Rajkovic, Brad Taylor, Brandon Perry, Brian Lucas,
+    Brian Nickel, Brian Teague, Chow Loong Jin, Chris Howie, Chris Jones,
+    Chris Lahey, Chris Toshok, Chris Turchin, Christian Hergert,
+    Christian Krause, Christoph Burgdorf, Christopher James Halse Rogers,
+    Claude Paroz, Cody Russell, Cosmin Banu, Dan Wilson, Dan Winship,
+    Daniel Munkton, Daniel Siegel, David Nielsen, David Spreen, David Stone,
+    Diego E. Pettenò, Eitan Isaacson, Elena Grassi, Eoin Hennessy,
+    Eric Butler, Erik Schmidt, Fabian Jost, Felipe Almeida Lessa,
+    Fernando Casanova, Florent Thoumie, Fredrik Hedberg, Félix Velasco,
+    Gabriel Burt, Garrett LeSage, Götz Waschk, Haitao Feng,
+    Hans Petter Jansson, Harold Schreckengost, Iain Lane,
+    Igor Guerrero Fonseca, Ilya Konstantinov, Ivan N. Zlatev, Jack Deslippe,
+    Jakub Steiner, James Willcox, Jan Arne Petersen, Jason Conti, Jason Taylor,
+    Jeff Tickle, Jeff Wheeler, Jensen Somers, Jeroen Budts, Jo Shields,
+    Johannes Kuhn, John Millikin, Jordi Mas, Jorge Castro, Julien Moutte,
+    Juri Pakaste, Ján Sokoly, Jérémie Laval, K. Vishnoo Charan Reddy,
+    Ken Vandine, Kevin Duffus, Konstantin Oshiyko, Larry Ewing,
+    Lauri Kotilainen, Lukas Lipka, Marijn Ros, Matt Enright, Michael Kaiser,
+    Michael Martin-Smucker, Michael Monreal, Michael Monreal, Micha? Sawicz,
+    Miguel de Icaza, Mike Gemünde, Mike Urbanski, Moritz Schallaböck,
+    Nathan Palmer, Neil Loknath, Nicholas Doyle, Nicholas Parker,
+    Nicolò Chieffo, Nils Naumann, Oben Sonne, Olivier Duff, Oscar Forero,
+    Pacho Ramos, Patrick van Staveren, Paul Cutler, Paul Lange, Pavel Antonov,
+    Pepijn van de Geer, Pete Johanson, Peter de Kraker, Pratik Patel,
+    Przemys?aw Grzegorczyk, Robin Stocker, Roderich Schupp, Romain Tartière,
+    Ruben Vermeersch, Ryan Collier, Sandy Armstrong, Scott Peterson,
+    Sebastian Dröge, Shaun McCance, Tim Yamin, Tobias Mueller, Todd Berman,
+    Travis Glenn Hansen, Travis Reitter, Trey Ethridge, Valentin Sawadski,
+    Will Farrington, William Pettersson, Wouter Bolsterlee, Zhou Ting
+
+
+
+
+
+#### Reporting Bugs, Joining the Community
+
+
+If you encounter any bad behavior with this release, please do not hesitate to [file bugs](/contribute/file-bugs/)!
+
+We welcome new contributors - developers, translators, artists, writers, support gurus - to join our community.  [Join us!](/contribute)
+
