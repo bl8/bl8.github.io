@@ -2,17 +2,12 @@
 author: andres
 comments: false
 date: 2013-04-17 01:19:42+00:00
-layout: page
-slug: 2-6-1
+layout: page-release
+permalink: /download/archives/2.6.1/index.html
 title: Banshee 2.6.1
-long-title: Download the Banshee Media Player
-show-sidebar: true
-group: archives
-sidebar-group: archives
 wordpress_id: 1285
 ---
 
-{{page.categories}}
   * **Release Date:** 2013-04-16
 
 	

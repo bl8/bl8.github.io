@@ -2,57 +2,29 @@
 author: Bertrand
 comments: false
 date: 2012-10-03 23:19:02+00:00
-layout: page
-slug: 2-6-0
+layout: page-release
+permalink: /download/archives/2.6.0/index.html
 title: Banshee 2.6.0
-show-sidebar: true
-group: archives
-sidebar-group: archives
 wordpress_id: 1264
 ---
-
-
 	
   * **Release Date:** 2012-10-03
-
 	
   * **Source Tarball:** [banshee-2.6.0.tar.xz](http://ftp.gnome.org/pub/GNOME/sources/banshee/2.6/banshee-2.6.0.tar.xz)
-
 	
   * **Release Information:**
 [NEWS](http://ftp.gnome.org/pub/GNOME/sources/banshee/2.6/banshee-2.6.0.news),
 [sha256sum](http://ftp.gnome.org/pub/GNOME/sources/banshee/2.6/banshee-2.6.0.sha256sum)
 
-
-
-
 [![Download Now](/theme/css/images/download-button.png)](/download)
-
-
-
-
-
 
 Banshee 2.6 is the culmination of six months' work by 15 developers, 30
 translators and dozens of bug reporters and testers. It is a stable release,
 the successor to Banshee 2.4.
 
-
-
-
-
-
 ### New features
 
-
-      
-
 ####  Lots of improvement on OS X:
-
-
-
-
-
 
   * Hardware support for USB mass storage devices.
 
