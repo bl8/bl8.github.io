@@ -5,6 +5,9 @@ date: 2012-10-03 23:19:02+00:00
 layout: page
 slug: 2-6-0
 title: Banshee 2.6.0
+show-sidebar: true
+group: archives
+sidebar-group: archives
 wordpress_id: 1264
 ---
 

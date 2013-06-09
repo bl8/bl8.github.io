@@ -5,11 +5,14 @@ date: 2013-04-17 01:19:42+00:00
 layout: page
 slug: 2-6-1
 title: Banshee 2.6.1
+long-title: Download the Banshee Media Player
+show-sidebar: true
+group: archives
+sidebar-group: archives
 wordpress_id: 1285
 ---
 
-
-	
+{{page.categories}}
   * **Release Date:** 2013-04-16
 
 	
@@ -23,7 +26,7 @@ wordpress_id: 1285
 
 
 
-[![Download Now](/theme/css/images/download-button.png)](/download)
+[![Download Now](/images/download-button.png)](/download)
 
 
 Banshee 2.6.1 is a stable, bug-fix-only release building on Banshee 2.6.0.
