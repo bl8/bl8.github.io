@@ -5,6 +5,10 @@ date: 2008-06-08 04:09:24+00:00
 layout: page
 slug: extensions
 title: Extensions
+show-sidebar: true
+group: download
+sidebar-group: download
+order: 3
 wordpress_id: 32
 ---
 

@@ -1,2 +1,12 @@
 markdown: rdiscount
 permalink: /:year/:month/:day/:title
+
+name: Banshee
+
+release-info:
+  banshee:
+    name: Banshee
+    version: 2.6.1
+    display-version: 2.6.1
+    date:  "April 16, 2013"
+    tarball: "http://ftp.gnome.org/pub/GNOME/sources/banshee/2.6/banshee-2.6.1.tar.xz"

@@ -5,77 +5,27 @@ date: 2008-06-06 19:14:41+00:00
 layout: page
 slug: download
 title: Download
+show-sidebar: true
+sidebar-group: download
 wordpress_id: 8
 ---
-
-Latest Version: {{release-info|banshee|display-version|version}} ‒ {{release-info|banshee|date}}
-
-
-
-
+Latest Version: TODO release-info|banshee|display-version|version ‒ release-info|banshee|date
 
 ### 1. Select Your Operating System
 
-
-
-
-
-
-{{distro|opensuse|openSUSE|
-
-
-
-
-
-
+TODO distro|opensuse|openSUSE|
   openSUSE 12.1
   openSUSE 11.4
-
-
-
-
-  
 [![1-Click Install for openSUSE 12.1](http://download.banshee.fm/images/1click-install-button.png)](http://download.banshee.fm/banshee/ymp?12.1)
-
-  
 [![1-Click Install for openSUSE 11.4](http://download.banshee.fm/images/1click-install-button.png)](http://download.banshee.fm/banshee/ymp?11.4)
-
-
-
-
-
-  
-
-    
 
 Banshee 2.2.0 is included by default. Subscribing to the Banshee repository is recommended to receive automatic major release updates.
 
-
-    
-
 [Repository](http://download.opensuse.org/repositories/Banshee/12.1/)
-
-
-  
-
-  
-
-    
 
 Banshee 1.9.3 is included by default. Subscribing to the Banshee repository will provide automatic major release updates.
 
-
-    
-
 [Repository](http://download.opensuse.org/repositories/Banshee/11.4/)
-
-
-  
-
-
-
-
-
 
 **Make sure your openSUSE installation is fully up to date before installing the latest Banshee!**
 
@@ -94,10 +44,9 @@ Banshee 1.9.3 is included by default. Subscribing to the Banshee repository will
 
 
 
+TODO END
 
-}}
-
-{{distro|ubuntu|Ubuntu|
+TODO distro|ubuntu|Ubuntu|
 [![Download for Ubuntu button](http://developer.ubuntu.com/wp-content/uploads/2012/06/downloadonubuntubutton.png)](https://apps.ubuntu.com/cat/applications/banshee/)
 
 
@@ -115,9 +64,9 @@ To add the community-run [Banshee Team PPA](https://launchpad.net/~banshee-team/
   * Then install or update Banshee
 
 
-}}
+TODO END
 
-{{distro|foresight|Foresight|
+TODO distro|foresight|Foresight|
 
 
   * Banshee is the default media player on Foresight Linux.
@@ -126,9 +75,9 @@ To add the community-run [Banshee Team PPA](https://launchpad.net/~banshee-team/
   * Install or update `banshee` from PackageKit, or in a terminal type, `sudo conary update banshee`
 
 
-}}
+TODO END
 
-{{distro|fedora|Fedora|
+TODO distro|fedora|Fedora|
 
 
   * Install via yum: `yum install banshee`
@@ -137,17 +86,17 @@ To add the community-run [Banshee Team PPA](https://launchpad.net/~banshee-team/
   * View Fedora's [Banshee package page](https://admin.fedoraproject.org/pkgdb/applications/Banshee)
 
 
-}}
+TODO END
 
-{{distro|debian|Debian|
+TODO distro|debian|Debian|
 
 
   * **Unstable / Lenny**: `apt-get install banshee`
 
 
-}}
+TODO END
 
-{{distro|mandriva|Mandriva|
+TODO distro|mandriva|Mandriva|
 
 
   * **Spring 2008** (latest stable release): Enable the `/contrib/backports` repository and install the `banshee-1` package
@@ -159,9 +108,9 @@ To add the community-run [Banshee Team PPA](https://launchpad.net/~banshee-team/
   * [Details on enabling /contrib/backports](http://wiki.mandriva.com/en/Docs/Basic_tasks/Installing_and_removing_software)
 
 
-}}
+TODO END
 
-{{distro|osx|Mac OS X|
+TODO distro|osx|Mac OS X|
 
 
 This release is a _**beta-quality technology preview**_ with only partial device support (only mass storage devices), no CD support, or video support. We encourage you to test and [report issues](/contribute/file-bugs). Banshee for OS X is not yet as complete or as stable as our Linux releases.
@@ -179,9 +128,9 @@ Banshee for OS X runs on Intel 10.7 (Lion) and 10.8 (Mountain Lion). _OS X 10.6 
   * Install [Banshee 2.6.1](http://ftp.gnome.org/pub/GNOME/binaries/mac/banshee/banshee-2.6.1.macosx.intel.dmg)
 
 
-}}
+TODO END
 
-{{distro|windows|Windows|
+TODO distro|windows|Windows|
 
 
 This release is a _**alpha-quality technology preview**_ with many [known bugs and deficiencies](https://bugzilla.gnome.org/buglist.cgi?query=product%3Abanshee%20os%3Awindows), including some obvious, glaring ones.  With that in mind, please test it and [file](http://banshee.fm/contribute/file-bugs/) any new bugs you find.  If you are a developer, you can help us improve [the Windows build](http://banshee.fm/download/development/#windows).
@@ -201,8 +150,7 @@ Banshee for Windows should run on Windows XP or newer.
   * Install [Banshee 2.4.0](http://ftp.gnome.org/pub/GNOME/binaries/win32/banshee/2.4/Banshee-2.4.0.msi)
 
 
-}}
-
+TODO END
 
 
 
@@ -234,10 +182,10 @@ Banshee for Windows should run on Windows XP or newer.
 
 
 
-  * The latest stable release of Banshee is version {{release-info|banshee|version}} released on {{release-info|banshee|date}}.
+  * The latest stable release of Banshee is version TODO release-info|banshee|version}} released on TODO release-info|banshee|date.
 
 
-  * [Download Source Tarball]({{release-info|banshee|tarball}})
+  * [Download Source Tarball](TODOrelease-info|banshee|tarball)
 
 
   * [See older releases](/download/archives)

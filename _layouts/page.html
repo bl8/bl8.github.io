@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>{{ site.name }} » {{ page.title}}</title>
+  
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  
+  <link rel="stylesheet" type="text/css" href="/css/style.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="/css/banshee.css" media="screen" />
+  <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="<?php bloginfo ('rss2_url')?>" />
+  <link rel="alternate" type="text/xml" title="RSS .92" href="<?php bloginfo ('rss_url')?>" />
+  <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="<?php bloginfo ('atom_url')?>" />
+  <link rel="icon" href="/images/favicon.ico"></link>
+  <link rel="SHORTCUT ICON" href="/images/favicon.ico"></link>
+  <link rel="apple-touch-icon" href="/images/appleicon.ico" />
+  <link rel="pingback" href="<?php bloginfo ('pingback_url')?>" />
+
+<?php wp_get_archives ('type=monthly&format=link')?><?php wp_head ()?>
+  
+<?php sorbet_include_external_js ()?>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2679312-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+  <script type="text/javascript">
+    var splender_theme = {
+      "use_css_classes" : true,
+      'k' : "keyword", 
+      'c' : "comment",
+      's' : "string",
+      'h' : "char",
+      'p' : "preprocessor"
+    };
+  </script>
+</head>
+<body>
+<div id="page">
+  <div id="header">
+    <h1>{{ site.name }}</h1>
+    <a href="/"><img src="/images/header-logo.png" alt="{{ site.name }}" /></a>
+    <?php global $sorbet_index_page; sorbet_build_menu ('title_li=0&depth=1', $sorbet_index_page, false); ?>
+    <div id="search">
+      <form method="get" action="<?php bloginfo ('home'); ?>">
+        <div>
+          <input type="text" name="s" id="s" 
+            value="Search Banshee" 
+            onblur="if (this.value == '') this.value='Search Banshee';" 
+            onfocus="if (this.value == 'Search Banshee') this.value='';" />
+        </div>
+      </form>
+    </div>
+  </div>
+  
+  <div id="content-header"><h2>{{ page.long-title }}</h2></div>
+
+  <div id="wrapper">
+    <div id="content" {% unless page.show-sidebar %} class="wide" {% endunless %}>
+
+    {{ content }}
+
+    </div><!--#content-->
+
+    {% if page.show-sidebar %}
+    <div id="sidebar">
+      <div class="box menu">
+        <ul>
+          {% include sidebar %}
+        </ul>
+      </div>
+    </div>
+    {% endif %}
+
+    <div id="footer">
+
+<table id="sitemap"><tr>
+
+<td width="150px" style="padding-right: 20px;">
+  <div id="powered-by">Powered by 
+    <a href="http://gnome.org/">GNOME</a>, 
+    <a href="http://gstreamer.freedesktop.org/">GStreamer</a>, 
+    <a href="http://www.mono-project.com/">Mono</a>,
+    <a href="http://sqlite.org/">SQlite</a> and more!
+  </div>
+</td>
+
+<td>
+    <a href="/about" class="section">About</a>
+    <a href="/about/revenue">Affiliate Revenue</a>
+    <a href="/about/calendar">Calendar</a>
+    <a href="/about/contact">Contact</a>
+    <a href="/about/features">Features</a>
+    <a href="/about/license">License</a>
+    <a href="/about/publicity">Publicity</a>
+</td>
+<td>
+    <a href="/contribute" class="section">Contribute</a>
+    <a href="/contribute/file-bugs">File Bugs</a>
+    <a href="/contribute/help-with-bug-reports">Help With Bug Reports</a>
+    <a href="/contribute/translate">Translate Banshee</a>
+    <a href="/contribute/write-code">Write Code</a>
+    <a href="/contribute/write-extensions">Write Extensions</a>
+</td>
+<td>
+    <a href="/download" class="section">Download</a>
+    <a href="/download/archives">Release Archive</a>
+    <a href="/download/development">Development</a>
+    <a href="/download/extensions">Extensions</a>
+</td>
+<td>
+    <a href="/support" class="section">Help</a>
+    <a href="/support/faq">FAQ</a>
+    <a href="/support/forum">Forum</a>
+    <a href="/support/guide">User Guide</a>
+</td>
+</tr></table>
+
+    </div>
+    
+  </div><!--#wrapper-->
+
+
+</div>
+
+<center>
+<p style="font-size:.7em;">Copyright 2013 Banshee contributors.  Banshee is a registered trademark of <a href="http://www.novell.com/linux">Novell</a>.</p>
+</center>
+
+</div><!--#page-->
+</body>
+</html>

@@ -1,0 +1,39 @@
+{% comment %}<!--
+The sidebar include is a helper to build the navigation sidebar.
+Usage:
+  example:
+    ---
+    [...]
+    group: archives
+    sidebar-group: archives
+    order: 2
+    ---
+    <ul>
+      {% include sidebar %}
+    </ul>
+
+  Grouping:
+    Set the 'group' variable in the front-matter to define the group to which the page belongs to.
+    Set the 'sidebar-group' variable to limit the sidebar to only pages in that group.
+    Grouping is mainly helpful for non-post pages.
+    If you want to group posts, it's easier/better to tag them, then pass the tagged posts array.
+    i.e. site.tags.cool_tag (this returns an array of posts tagged: cool_tag)
+  Ordering:
+    Set the 'order' variable in the front-matter to define the position in the sidebar.
+    The value must be between 1 and 10. A page with no order set will appear at the end of the list
+-->{% endcomment %}
+
+{% for order in (1..10) %}{% for node in site.pages %}{% if node.order == order %}{% if page.sidebar-group == null or page.sidebar-group == node.group %}
+    {% if page.url == node.url %}
+      <li class="current_page_item"><a href="{{node.url | remove:'index.html'}}" class="active">{{node.title}}</a></li>
+    {% else %}
+      <li><a href="{{node.url | remove:'index.html'}}">{{node.title}}</a></li>
+    {% endif %}
+{% endif %}{% endif %}{% endfor %}{% endfor %}
+{% for node in site.pages %}{% unless node.order %}{% if page.sidebar-group == null or page.sidebar-group == node.group %}
+    {% if page.url == node.url %}
+      <li class="current_page_item"><a href="{{node.url | remove:'index.html'}}" class="active">{{node.title}}</a></li>
+    {% else %}
+      <li><a href="{{node.url | remove:'index.html'}}">{{node.title}}</a></li>
+    {% endif %}
+{% endif %}{% endunless %}{% endfor %}

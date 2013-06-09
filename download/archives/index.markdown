@@ -5,44 +5,35 @@ date: 2008-06-09 20:33:41+00:00
 layout: page
 slug: archives
 title: Archives
+show-sidebar: true
+group: download
+sidebar-group: download
+order: 1
 wordpress_id: 33
 ---
 
-Latest Version: {{release-info|banshee|display-version|version}} ‒ {{release-info|banshee|date}}
-
-
-
-
+Latest Version: TODO release-info|banshee|display-version|version ‒ release-info|banshee|date
 
 To download and install the latest version, go to the [download](/download) page.
 
-
-
-
-
 ### Releases
 
+  * [Banshee 2.6.1](/download/archives/2.6.1)
 
 
+  * [Banshee 2.6.0](/download/archives/2.6.0)
 
 
-
-  * [Banshee 2.6.1](/download/archives/2-6-1)
-
-
-  * [Banshee 2.6.0](/download/archives/2-6-0)
+  * [Banshee 2.5.1](/download/archives/2.5.1)
 
 
-  * [Banshee 2.5.1](/download/archives/2-5-1)
+  * [Banshee 2.5.0](/download/archives/2.5.0)
 
 
-  * [Banshee 2.5.0](/download/archives/2-5-0)
+  * [Banshee 2.4.1](/download/archives/2.4.1)
 
 
-  * [Banshee 2.4.1](/download/archives/2-4-1)
-
-
-  * [Banshee 2.4.0](/download/archives/2-4-0)
+  * [Banshee 2.4.0](/download/archives/2.4.0)
 
 
   * [Banshee 2.3.6](/download/archives/2.3.6)

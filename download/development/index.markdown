@@ -5,6 +5,10 @@ date: 2008-06-06 21:08:25+00:00
 layout: page
 slug: development
 title: Development
+show-sidebar: true
+group: download
+sidebar-group: download
+order: 2
 wordpress_id: 17
 ---
 
