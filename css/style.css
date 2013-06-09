@@ -1,0 +1,14 @@
+/*  
+Theme Name: Banshee
+Theme URI: http://abock.org
+Description: Banshee 1.0 Theme 
+Version: 1.0
+Author: Aaron Bockover
+Author URI: http://abock.org
+*/
+
+@import url('layout.css');
+@import url('menu.css');
+@import url('text.css');
+@import url('common.css');
+

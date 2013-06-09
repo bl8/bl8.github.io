@@ -1,0 +1,112 @@
+hr {
+	display: none;
+}
+
+img, 
+a img, 
+:link img, 
+:visited img {
+	border: none;
+}
+
+.clear {
+	clear: both;
+	margin: 0;
+	padding: 0;
+}
+
+.alignright {
+	float: right;
+}
+
+.alignleft {
+	float: left;
+}
+
+.center {
+	text-align: center;
+}
+
+img.center, img[align="center"] {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.alignright, img[align="right"] {
+	padding: 4px;
+	margin: 0 0 2px 7px; 
+	display: inline;
+}
+
+img.alignleft, img[align="left"] {
+	padding: 4px;
+	margin: 0 7px 2px 0;
+	display: inline;
+}
+
+img.noborder {
+	border: none !important;
+}
+
+blockquote p:first-child {
+    margin: 0;
+    padding: 0;
+}
+
+blockquote {
+    margin: 0 2em;
+    padding: 9px 0 8px 42px;
+	background: url('images/quote.png') no-repeat 0 0;
+	border: none
+}
+
+.linode-ad {
+	display: block;
+	cursor: hand;
+	cursor: pointer;
+	margin: 1em 1em 0 2em;
+	padding:1em;
+	background: #f0f0f0;
+	border: 1px solid #ddd;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	color: #111;
+	font-size: 1.2em;
+	line-height: 1.1em;
+}
+
+.linode-ad .tag {
+	font-size: 1.5em;
+	line-height: 1em;
+	font-weight: bold;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+.linode-ad .sub {
+	font-style: italic;
+	margin-top: 0.5em;
+	padding-top: 0;
+}
+
+.linode-ad .banner {
+	margin: 1.5em 0 0 0;
+	padding: 0;
+	text-align: center;
+}
+
+.linode-ad:hover {
+	border: 1px solid #0ea635;
+	background: #53d64b;
+}
+
+.linode-ad a {
+	color: #111;
+	font-weight: normal;
+}
+
+.linode-ad a:hover {
+	color: #111;
+}

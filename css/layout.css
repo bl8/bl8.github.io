@@ -1,0 +1,399 @@
+body {
+	background: #f8f8f8 url("../images/header-bg.png") repeat-x;
+	text-align: center;
+	margin: 0;
+}
+
+#page {
+	text-align: left;
+	margin: 0 auto;
+	padding: 0;
+	width: 980px !important;
+}
+
+.post {
+	padding-bottom: 20px;
+}
+
+.post h2 {
+	padding: 0px;
+	margin: 0px;
+}
+
+* html #page { 
+    width: 980px;
+}
+
+#header {
+    background: url("../images/header-logo.png") 0 0 no-repeat;
+    height: 100px;
+    position: relative;
+}
+
+#header h1 {
+    display: none;
+}
+
+#header img {
+    position: absolute;
+	left: 0; top: 0;
+}
+
+#header a img {
+    border: none;
+}
+
+#footer {
+    clear: both;
+    background: #e4f2fd;
+    border-width: 1px 0;
+    border-style: solid;
+    border-color: #c6d9e9;
+    padding: 10px;
+}
+
+#footer tbody {
+    border: none !important;
+}
+
+#footer td {
+    vertical-align: top;
+}
+
+#footer td.text {
+    padding: 0 15px; 
+}
+
+#wrapper {
+    background: #fff;
+    border-width: 0 1px 0 1px;
+    border-style: solid;
+    border-color: #ddd;
+}
+
+#content-header {
+    background: #e4f2fd;
+    border-width: 0 1px 1px 1px;
+    border-style: solid;
+    border-color: #c6d9e9;
+}
+
+#content {
+    padding: 15px 15px 70px 15px;
+    display: block;
+    float: left;
+    width: 730px;
+}
+
+#content.wide {
+    width: 938px !important;
+}
+
+#sidebar {
+    display: block;
+    padding: 0;
+    margin: 0;
+    float: right;
+    width: 178px;
+    padding: 15px;
+}
+
+#sidebar .box ul {
+    padding-bottom: 1em;
+}
+
+#search {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 1em;
+}
+
+#search input {
+    border: 1px solid #212935;
+    background: #566377;
+    color: #b9c0cb;
+    padding: 3px;
+}
+
+/* DOWNLOAD PAGE */
+
+div#distros {
+    display: block;
+    margin: 0;
+    padding: 0;
+    line-height: 1.1em;
+    clear: both;
+}
+
+table.download-opensuse tr th,
+table.download-opensuse tr td {
+    width: 50% !important;
+    padding-left: 5px;
+}
+
+table.download-opensuse tr th:first-child,
+table.download-opensuse tr td:first-child {
+    padding-left: 0 !important;
+    padding-right: 5px;
+}
+
+table.download-opensuse td.text {
+    font-size: .85em !important;
+}
+
+table.download-opensuse tr.text td {
+	vertical-align: top;
+}
+
+table.download-opensuse tr.bs-down td div {
+	padding: 0 20px 1em 60px;
+	margin-bottom: 1.5em;
+	background: url("../images/warning.png") no-repeat;
+	border-bottom: 1px solid #ddd;
+}
+
+/* Distro Button */
+
+div#distros div.button {
+    display: block;
+    float: left;
+    cursor: pointer;
+    border: 1px solid transparent;
+    text-align: center;
+    padding: 20px 5px 3px 5px;
+    margin: 0 .5em 0 0;
+}
+
+div#distros div.button:hover,
+div#distros div.button.chosen {
+    border: 1px solid #afec74;
+    background: #fff url("../images/download-button-bg.png") no-repeat;
+}
+
+div#distros div.button h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 0.75em;
+}
+
+div#distros div.button div.details {
+    display: none;
+}
+
+/* Details Box */
+
+#distro-details {
+    margin: 0 2.5em 3em 2.5em;
+    display: none;
+}
+
+#distro-details ul {
+    margin: 0 0 0 1em;
+    padding: 0;
+}
+
+#distro-details table {
+    width: 100%;
+}
+
+h3.download {
+    clear: both;
+}
+
+/* ===== Home Page ===================================================================== */
+
+/* --- Slide Show --- */
+
+#content-header.home-slide-show {
+    padding: 10px;
+    margin: 0;
+    height: 335px;
+}
+
+#screenshot-slide img {
+    padding: 0;
+    margin: 0;
+    height: 335px;
+}
+
+#screenshot-slide {
+    float: left;
+    background-repeat: no-repeat;
+    height: 335px;
+}
+
+#content-header.home-slide-show .text {
+    float: left;
+    width: 458px;
+    padding: .75em 20px 0 20px;
+}
+
+#content-header.home-slide-show .text h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 35px;
+    letter-spacing: -3px;
+    white-space: nowrap;
+    margin-left: 15px;
+}
+
+#content-header.home-slide-show .text p {
+    font-size: 16px;
+    margin: 20px 15px 30px 15px;
+    font-weight: bold;
+}
+
+#content-header.home-slide-show .text p.download {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#content-header.home-slide-show .text p.download a:first-child img {
+    padding: 0 12px 0 0 !important;
+    margin: 0;
+    width: 160px !important;
+    height: 54px !important;
+}
+
+#content-header.home-slide-show .text p.download img {
+    padding-right: 2px;
+	vertical-align: middle;
+	width: 32px;
+	height: 32px;
+}
+
+/* --- 3 Column Layout --- */
+
+table#home {
+    width: 100%;
+}
+
+table#home td {
+    vertical-align: top;
+}
+
+table#home td.first {
+    width: 40%;
+}
+
+table#home td.second {
+    width: 40%;
+    padding-left: 30px;
+}
+
+table#home td.third {
+    width: 20%;
+    padding-left: 30px;
+}
+
+/* --- Feature List --- */
+
+dl.features {
+    margin: 0;
+    padding: 0;
+    line-height: 1.2em;
+}
+
+dl.features dt {
+    font-weight: bold;
+    background-repeat: no-repeat;
+    background-position: 0 2px;
+    min-height: 26px;
+}
+
+dl.features dt,
+dl.features dd {
+    padding: 0 0 0 30px;
+    margin: 0;
+}
+
+dl.features dd {
+    font-size: .85em;
+    color: #666;
+    margin-top: -10px;
+    margin-bottom: 1em;
+}
+
+dl.features dt img {
+    display: none;
+}
+
+dl.features span.new { 
+    font-size: .75em; 
+    font-weight: normal; 
+    padding-left: 6px;
+    color: #2f9bf0;
+}
+
+/* --- News List --- */
+
+#news { 
+    list-style-type: none; 
+    margin: 0;
+    padding: 0; 
+    font-size: .85em;
+    line-height: 1.2em;
+}
+
+#news li {
+    padding: 0;
+    margin: 0 0 0 .5em;
+}
+
+#news h4 {
+    margin-bottom: 0;
+    font-size: 1.2em;
+}
+
+#news p {
+    margin-top: .5em;
+    margin-bottom: 3em;
+}
+
+/* --- Home Screenshots --- */
+
+#home-shots {
+    border-top: 1px solid #ddd;
+    margin-top: .5em;
+    padding-top: 2em;
+    text-align: center;
+}
+
+#home-shots img {
+    border: 1px solid #999;
+    margin: 0 25px;
+}
+
+/* Release Notes Screenshots */
+
+div.release-shot {
+
+}
+
+div.release-shot.right {
+    float: right;
+    margin: 0 0 20px 20px;
+}
+
+div.release-shot.left {
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+br.clear {
+    height: 1px;
+    margin: 0;
+    padding: 0;
+}
+
+br.clear + h4 {
+    margin-top: 0;
+}
+
+div.digg-button {
+    text-align: center;
+    margin-top: 2em;
+}
+

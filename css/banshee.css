@@ -1,0 +1,82 @@
+@import url(http://fonts.googleapis.com/css?family=Cantarell:400,700&v2);
+
+body {
+	font: 0.80em/1.5em Cantarell,"Droid Sans","DejaVu Sans","Bitstream Vera Sans",Verdana,sans-serif
+}
+
+code, pre {
+	font: 0.80em "Droid Sans Mono", "Consolas","DejaVu Sans Mono",monospace;
+}
+
+#content-header.home-slide-show .text h2 {
+	letter-spacing: -1px;
+}
+
+#content-header h2 {
+	padding: 10px 0 10px 10px;
+}
+
+#header ul { padding: 0; }
+
+#content {
+	padding: 10px 10px 20px 10px;
+}
+
+td.first { width: 38.19%; }
+td.second { width: 38.19%; }
+td.third { width: 23.6%; }
+
+h3 {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+h4 { margin-top: 0px; }
+
+dl.features dd {
+	text-align: justify;
+	padding-top: 3px;
+	color: #777;
+}
+
+#news p { margin-bottom: 2em; }
+#news h4 { float: left; }
+#news .date {
+	text-align: right;
+	color: #777;
+}
+
+#content.wide {
+	width: 958px !important;
+}
+
+a { color: #3C719D; }
+
+#sitemap {
+	text-align: center;
+	width: 100%;
+	padding: 0px 140px 0px 140px;
+}
+
+#footer #sitemap td {
+    vertical-align: top;
+    font-size: .8em !important;
+    line-height: 1.3em;
+    text-align: left;
+}
+
+#sitemap td a {
+    font-weight: normal;
+    display: block;
+    color: #3c719d;
+    padding-bottom: 5px;
+}
+
+#sitemap td a:hover { color: #CE7B00; }
+
+#sitemap td a.section {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#sitemap #powered-by a { display: inline; }
