@@ -106,14 +106,23 @@ body {
     position: absolute;
     right: 0;
     top: 0;
-    margin-top: 1em;
+    width: 180px;
+    margin-top: 0.5em;
 }
 
 #search input {
     border: 1px solid #212935;
     background: #566377;
     color: #b9c0cb;
-    padding: 3px;
+    padding: 1px;
+}
+
+#search .gsc-search-button {
+    display: none;
+}
+
+#search .gsc-clear-button {
+    display: none;
 }
 
 /* DOWNLOAD PAGE */

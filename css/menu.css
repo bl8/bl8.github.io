@@ -14,7 +14,7 @@
 
 #header li {
 	float: left;
-	background: url("images/menu-left.png") no-repeat left top;
+	background: url("../images/menu-left.png") no-repeat left top;
     margin: 0 1px 0 0;
 	padding: 0 0 0 13px;
 }
@@ -23,7 +23,7 @@
 	float: left;
 	display: block;
 	width: .1em;
-	background: url("images/menu-right.png") no-repeat right top;
+	background: url("../images/menu-right.png") no-repeat right top;
 	padding: 5px 13px 4px 0px;
 	text-decoration: none;
 	color: #b9c0cb;

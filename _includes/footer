@@ -1,0 +1,41 @@
+<table id="sitemap"><tr>
+
+<td width="150px" style="padding-right: 20px;">
+  <div id="powered-by">Powered by 
+    <a href="http://gnome.org/">GNOME</a>, 
+    <a href="http://gstreamer.freedesktop.org/">GStreamer</a>, 
+    <a href="http://www.mono-project.com/">Mono</a>,
+    <a href="http://sqlite.org/">SQlite</a> and more!
+  </div>
+</td>
+
+<td>
+    <a href="/about" class="section">About</a>
+    <a href="/about/revenue">Affiliate Revenue</a>
+    <a href="/about/calendar">Calendar</a>
+    <a href="/about/contact">Contact</a>
+    <a href="/about/features">Features</a>
+    <a href="/about/license">License</a>
+    <a href="/about/publicity">Publicity</a>
+</td>
+<td>
+    <a href="/contribute" class="section">Contribute</a>
+    <a href="/contribute/file-bugs">File Bugs</a>
+    <a href="/contribute/help-with-bug-reports">Help With Bug Reports</a>
+    <a href="/contribute/translate">Translate Banshee</a>
+    <a href="/contribute/write-code">Write Code</a>
+    <a href="/contribute/write-extensions">Write Extensions</a>
+</td>
+<td>
+    <a href="/download" class="section">Download</a>
+    <a href="/download/archives">Release Archive</a>
+    <a href="/download/development">Development</a>
+    <a href="/download/extensions">Extensions</a>
+</td>
+<td>
+    <a href="/support" class="section">Help</a>
+    <a href="/support/faq">FAQ</a>
+    <a href="/support/forum">Forum</a>
+    <a href="/support/guide">User Guide</a>
+</td>
+</tr></table>
