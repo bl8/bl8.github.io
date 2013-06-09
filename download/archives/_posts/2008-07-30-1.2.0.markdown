@@ -1,0 +1,417 @@
+---
+author: Gabriel Burt
+comments: false
+date: 2008-07-30 16:51:50+00:00
+layout: page-release
+permalink: /download/archives/1.2/index.html
+title: Banshee 1.2
+wordpress_id: 40
+---
+
+
+  
+  * **Release Date:** July 29, 2008
+
+  
+  * **Source Tarball:** [banshee-1-1.2.0.tar.bz2](http://download.banshee-project.org/banshee/banshee-1-1.2.0.tar.bz2)
+
+  
+  * **Release Information:** 
+    [NEWS](http://download.banshee-project.org/banshee/banshee-1-1.2.0.news), 
+    [sha1sum](http://download.banshee-project.org/banshee/banshee-1-1.2.0.sha1sum), 
+    [ChangeLog](http://download.banshee-project.org/banshee/banshee-1-1.2.0.changes)
+  
+
+
+
+
+
+[![Download Now](/theme/css/images/download-button.png)](/download)
+
+
+
+
+
+### Feature Summary
+
+
+
+
+
+#### 10-band Equalizer
+
+
+
+
+
+![](http://download.banshee-project.org/shots/banshee1.2_equalizer.png)
+
+
+
+
+
+Adjusting the equalizer can help make low-quality speakers (like laptop speakers) sound much better.
+
+
+  
+
+
+
+
+#### Internet Radio
+
+
+
+
+
+![](http://download.banshee-project.org/shots/banshee1.2_radio.png)
+
+
+
+
+
+Banshee 1.2 has a dedicated Internet Radio station library, where you can add your favorite internet radio stations, play them, and even organize them into playlists.  Get your news fix, or listen to streaming music all day, all quickly accessible from within Banshee.
+
+
+  
+
+
+
+
+#### Music Recommendations
+
+
+
+
+![](http://download.banshee-project.org/shots/banshee1.2_reco.png)
+
+
+
+
+The much-loved recommendations pane has returned in Banshee 1.2.  View recommended artists, albums, and tracks by the currently playing artist.
+
+
+  
+
+
+
+
+#### DAAP (iTunes Music Sharing) Client
+
+
+
+
+Browse, search, play, and import from others' music shares.
+
+
+
+
+
+#### Playlist Importing (.pls, .m3u)
+
+
+
+
+Import your carefully created .m3u and .pls playlists.
+
+
+
+
+
+#### Multi-Artist (Compilation) Album Support
+
+
+
+
+Banshee 1.2 has great support for albums by multiple artists.  Your compilation albums, like soundtracks, will be sorted and grouped as you'd expect.
+
+
+
+
+
+#### Manual Reordering of Playlists and Play Queue
+
+
+
+
+Change the order of tracks in your playlists and the play queue by dragging and dropping them.  Your order persists across Banshee restarts.
+
+
+
+
+
+#### Amarok Migration
+
+
+
+
+If you have ratings, play counts, and podcast subscriptions in Amarok, but want to try Banshee, now it's pain free.  Banshee can import your Amarok library including your ratings and play counts, and even migrate your podcast subscriptions over.
+
+
+
+
+
+### [See the Banshee 1.0 release notes for more information on Banshee's features!](/download/archives/1.0.0)
+
+
+
+
+
+### Other New Features, Bug Fixes, Errata
+
+
+
+
+
+
+  
+  * More robust parsing of podcast (RSS) files
+
+  
+  * Find and use cover art from the album folder (cover.jpg, etc)
+
+  
+  * Add Last.fm as a cover art provider
+
+  
+  * The last playback source is used when the Play Queue is empty
+
+  
+  * Better performance (start up time, memory usage, searching, etc)
+
+  
+  * Disable the screensaver when in fullscreen mode
+
+  
+  * Much improved performance and UI for automatic cover art fetching
+
+  
+  * Fix issues with importing and playing files in folders named Music*
+
+  
+  * Over [80 bugs fixed](http://bugzilla.gnome.org/buglist.cgi?query_format=advanced&short_desc_type=allwordssubstr&short_desc=&product=banshee&long_desc_type=allwordssubstr&long_desc=&status_whiteboard_type=allwordssubstr&status_whiteboard=&keywords_type=allwords&keywords=&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&resolution=FIXED&emailtype1=substring&email1=&emailtype2=substring&email2=&bugidtype=include&bug_id=&chfieldfrom=2008-06-06&chfieldto=2008-07-30&chfield=resolution&chfieldvalue=FIXED&cmdtype=doit&order=Reuse+same+sort+as+last+time&field0-0-0=noop&type0-0-0=noop&value0-0-0=) since 1.0
+
+
+
+
+
+### Dependencies
+
+
+
+
+
+
+  
+  * Mono 1.2.2 (.NET 2.0 Profile / gmcs)
+
+  
+  * SQlite 3.4
+
+  
+  * Gtk# 2.10
+
+  
+  * GStreamer 0.10.3
+
+
+
+
+  
+  * NDesk DBus (ndesk-dbus) 0.5
+
+  
+  * NDesk DBus GLib (ndesk-dbus-glib) 0.3
+
+  
+  * Mono.Addins (mono-addins) 0.3.1
+
+  
+  * TagLib# (taglib-sharp) 2.0
+
+
+
+
+  
+  * Required to build default feature stack:
+    
+      
+    * libmtp >= 0.2.0 (0.2.6 recommended)
+
+      
+    * ipod-sharp >= 0.8.0
+
+      
+    * mono-zeroconf >= 0.7.3
+
+      
+    * boo >= 0.8.1
+
+    
+  
+
+
+
+  
+  * Run-time requirements for default feature stack:
+    
+      
+    * podsleuth 
+
+      
+    * brasero
+
+      
+    * avahi
+
+    
+  
+
+
+
+
+
+Please note that for openSUSE, all of the dependencies above can be found in the openSUSE Build Service, and are linked into the Banshee project. Even if you build from source, if you wish to avoid building the entire dependency chain above, add the [Banshee repository](http://download.opensuse.org/repositories/Banshee/) to your repository list.
+
+
+
+
+
+Historically, Banshee has fostered development of a number of projects and bundled their source code instead of depending on external builds. Many of these dependencies have matured and grown into well maintained projects on their own, and we are now depending on them externally. We waited to remove the bundles long enough to allow for distributions to ship packages to reduce the pain of building Banshee.
+
+
+
+
+
+
+### No Conflicts
+
+
+
+
+
+This new release is not backwards compatible with versions of Banshee before 1.0, however, it _will not_ conflict or cause any problems with any previous release you may have installed. If a Banshee library is located from a previous release, it will be _copied_ and _migrated_ to work with the new version.
+
+Previously, all paths and packaging used the `banshee` project name. We are now using the `banshee-1` project name to avoid any packaging, installation, or user-data conflicts with previous releases of Banshee. For instance, the following file/data related things have changed:
+
+
+
+
+
+
+  
+  * Packaging/Installation
+    
+      
+    * Installation path changed from `$(prefix)/lib/banshee` to `$(prefix)/lib/banshee-1`
+
+      
+    * Application launcher changed from `$(prefix)/bin/banshee` to `$(prefix)/bin/banshee-1`
+
+      
+    * Application icon name changed from `music-player-banshee` to `media-player-banshee`
+
+      
+    * DBus service changed from `org.gnome.Banshee` to `org.bansheeproject.Banshee`
+
+    
+  
+
+  
+  * User Data Access
+    
+      
+    * GConf Root Key changed from `/apps/banshee` to `/apps/banshee-1`
+
+      
+    * Application data directory changed from `~/.config/banshee` to `~/.config/banshee-1` (note, the `~/.config` base directory depends on XDG settings for the user)
+
+    
+  
+
+
+
+
+
+These changes mean you can have installed and use both older Banshee releases (0.13.2 and older) and new Banshee releases (0.98.1 and newer) without worrying about packaging or installation problems or user data conflicts. Keep in mind however, that this release is not backwards compatible with older releases. If library changes are made in this new release, they will not be reflected if you run an older release.
+
+
+
+
+
+
+### Community
+
+
+
+
+
+#### Contributors For This Release
+
+
+
+
+
+The following people directly contributed to the release of this version of Banshee. Without their help, there would be no release!
+
+
+
+
+
+> Aaron Bockover, Alan McGovern, Alexander Hixon, Alex Launi,
+      Arthur Carli, Bertrand Lorentz, Christopher Rogers, Fabian Jost,
+      Gabriel Burt, James Willcox, Michael Kaiser, Peter de Kraker,
+      Sandy Armstrong, Sebastian DrÃ¶ge, Todd Berman
+
+
+
+
+
+The following people contributed updated translations to this release. Without them, our project's reach would be much more limited.
+
+
+
+
+
+> Andre Klapper, BenjamÃ­n Valero Espinosa, Djihed Afifi,
+      ç”˜éœ²(Lu Gan), Wouter Bolsterlee
+
+
+
+
+
+#### Contributors In Past Releases
+
+
+
+
+
+> Aaron Bockover, Alan McGovern, Alexander Hixon, Alexandros Frantzis,
+    Alex Kloss, Alex Launi, Alp Toker, Andy Midgette, Arthur Carli,
+    Aydemir UlaÅŸ Åžahin, Ben Maurer, Bertrand Lorentz, Bill Dawson,
+    Bob Copeland, Bojan Rajkovic, Brian Nickel, Chris Lahey, Christian Krause,
+    Christopher James Halse Rogers, Christopher Rogers, Chris Toshok,
+    Chris Turchin, Daniel Munkton, Dan Wilson, Dan Winship, Eric Butler,
+    Fabian Jost, Fredrik Hedberg, Gabriel Burt, Hans Petter Jansson,
+    Igor Guerrero Fonseca, Ilya Konstantinov, Ivan N. Zlatev, James Willcox,
+    Jan Arne Petersen, Jason Conti, Jeff Tickle, Jorge Castro, Juri Pakaste,
+    Ken Vandine, Larry Ewing, Lauri Kotilainen, Michael Kaiser,
+    Michael Monreal, Miguel de Icaza, Mike Urbanski, Nathan Palmer,
+    Nicholas Parker, Oscar Forero, Patrick van Staveren, Pepijn van de Geer,
+    Peter de Kraker, Ruben Vermeersch, Sandy Armstrong, Scott Peterson,
+    Sebastian DrÃ¶ge, Tim Yamin, Todd Berman, Trey Ethridge, Will Farrington,
+    Wouter Bolsterlee
+
+
+
+
+
+#### Reporting Bugs, Joining the Community
+
+
+
+
+
+If you encounter any bad behavior with this release, please do not hesitate to [file bugs](/contribute/file-bugs/)!
+
+We welcome new contributors - developers, translators, artists, writers, support gurus - to join our community.  [Join us!](/contribute)

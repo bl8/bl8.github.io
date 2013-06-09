@@ -1,0 +1,435 @@
+---
+author: Gabriel Burt
+comments: false
+date: 2009-11-24 02:07:31+00:00
+layout: page-release
+permalink: /download/archives/1.5.2/index.html
+title: Banshee 1.5.2
+wordpress_id: 183
+---
+
+
+
+    
+  * **Release Date:** November 20, 2009
+
+    
+  * **Source Tarball:** [banshee-1-1.5.2.tar.bz2](http://download.banshee-project.org/banshee/stable/1.5.2/banshee-1-1.5.2.tar.bz2)
+
+    
+  * **Release Information:**
+      [NEWS](http://download.banshee-project.org/banshee/stable/1.5.2/banshee-1-1.5.2.news),
+      [sha256sum](http://download.banshee-project.org/banshee/stable/1.5.2/banshee-1-1.5.2.sha256sum)
+
+    
+
+  
+  
+
+[![Download Now](/theme/css/images/download-button.png)](/download)
+
+ 
+  
+
+
+
+
+
+Banshee 1.5.2 is a beta release, with several new features and lots of bug fixes, with contributions from 22 people.
+
+
+
+### New Features
+
+
+
+    
+
+#### iTunes importer
+
+
+    
+
+Import your iTunes library, including ratings and playcounts.
+
+
+
+    
+
+#### Rating and Playcount Metadata
+
+
+    
+
+Banshee is now able to read and write rating and playcount information contained in your media files.  Enable this option in Preferences.
+
+
+
+    
+
+#### New Devices Supported
+
+
+    
+
+Support for Pulse and Droid phones has been added.  Also, recognize Samsung Galaxy and Palm Pre devices in debug mode.
+
+
+
+
+    
+
+#### Use new Last.fm 2.0 API
+
+
+    
+
+Subscribers will once again be able to stream music from Last.fm.  Unfortunately, Last.fm has changed its policies (and started enforcing them with the 2.0 API) such that non-subscribers cannot stream music via third party applications, including Banshee.
+
+
+
+    
+
+#### Internet Archive Source
+
+
+    
+
+This new extension adds support for searching and streaming content from the Internet Archive's vast store of media, including 70,000 concerts and 200,000 movies.  Enable this extension in Preferences.
+
+
+
+    
+
+#### Many Accessibility Improvements
+
+
+    
+
+Many months of effort went into the accessibility (a11y) improvements now released in Banshee 1.5.2.  From better focus handling, to button naming, to implementing full a11y for our custom ListView widget, Banshee should now be fully accessible.
+
+
+    
+
+Note that to get a11y support for Banshee's custom widgets, you will need Gtk# 2.12 from svn trunk, though we are told a new release is coming soon.
+
+
+    
+
+Eitan Isaacson [blogged more about the a11y effort](http://monotonous.org/category/accessibility/) on his blog.
+
+
+
+
+
+### Other Enhancements
+
+
+
+
+
+
+    
+  * When sorting by score also sort by playcount (bgo#598431)
+
+    
+  * Add WICD support (bgo#596918)
+
+    
+  * Improve the import media dialog (bgo#559013)
+
+    
+  * Allow seeking in DAAP streams
+
+    
+  * Tooltip for the AutoDJ source combobox (bgo#598504)
+
+    
+  * Improve recognition of Android devices
+
+    
+  * PlaybackError query field (bgo#590946)
+
+    
+  * Additional tokens for file system organization (bgo#489861)
+
+    
+  * Remember direction when sorting the list view (bgo#590869)
+
+    
+  * Cleaner track change notification popup (bgo#565453)
+
+    
+  * Move Last.fm settings to the preferences dialog
+
+    
+  * Double click toggles fullscreen in Now Playing (bgo#577971)
+
+
+
+
+
+### Notable Bug Fixes
+
+
+
+
+
+**49 bugs were fixed since 1.5.1!**
+
+
+
+
+
+ 
+    
+  * Fix the playcount update (bgo#563021)
+
+    
+  * Correct default button in message dialogs (bgo#599495)
+
+    
+  * Hide shuffle menu when shuffling is disabled (bgo#599465)
+
+    
+  * Fix bug with AutoDJ updating LastPlayed erroneously (bgo#594701)
+
+    
+  * Fix next playback source (bgo#599834)
+
+    
+  * Fix adding tracks to the play queue (bgo#600498)
+
+    
+  * Fix up iPod podcast support (bgo#434237)
+
+    
+  * Fix cover art pick up for multi-disc albums (bgo#591982)
+
+    
+  * Fix the play queue when StopWhenFinished is on (bgo#563021)
+
+    
+  * Fix race when saving track metadata (bgo#598321)
+
+
+
+
+
+#### Banshee has a lot more to offer! Check out the previous major release notes...
+
+
+
+
+
+  
+  * [Read about features added in Banshee 1.5.1](/download/archives/1.5.1)
+
+  
+  * [Read about features added in Banshee 1.5.0](/download/archives/1.5.0)
+
+  
+  * [Read about features added in Banshee 1.4.3](/download/archives/1.4.3)
+
+  
+  * [Read about features added in Banshee 1.4.2](/download/archives/1.4.2)
+
+  
+  * [Read about features added in Banshee 1.4.1](/download/archives/1.4.1)
+
+  
+  * [Read about features added in Banshee 1.2](/download/archives/1.2.0)
+
+  
+  * [Read about features added in Banshee 1.0](/download/archives/1.0.0)
+
+
+
+
+
+
+### Errata
+
+
+
+
+
+    
+  * There is a known issue with iPod not being recognized by Banshee on openSUSE 11.2 and Ubuntu Karmic.  Read more on [the bug](https://bugzilla.gnome.org/show_bug.cgi?id=586508).
+    
+  * 1.5.2 is known to not build on openSUSE 11.0 and 11.0 due to Gtk# version issues.  These will be resolved by 1.5.3.  See [the bug](https://bugzilla.gnome.org/show_bug.cgi?id=602589).
+    
+  * There is no OS X build for 1.5.2 due to difficulties with recent Mono releases for the Mac.
+
+
+
+
+
+### Dependencies
+
+
+
+
+
+
+  
+  * Mono 1.9.1 (.NET 2.0 Profile / gmcs)
+
+  
+  * SQlite 3.4
+
+  
+  * Gtk# 2.12
+
+  
+  * GStreamer 0.10.13
+
+
+  
+  * NDesk DBus (ndesk-dbus) 0.5
+
+  
+  * NDesk DBus GLib (ndesk-dbus-glib) 0.3
+
+  
+  * Mono.Addins (mono-addins) 0.3.1
+
+  
+  * TagLib# (taglib-sharp) 2.0.3.2 (2.0.3.3 recommended)
+
+  
+  * Required to build default feature stack:
+    
+      
+    * libmtp >= 0.2.0
+
+
+      
+    * ipod-sharp >= 0.8.5
+
+      
+    * mono-zeroconf >= 0.8.0
+
+      
+    * boo >= 0.8.1
+
+    
+  
+
+  
+  * Run-time requirements for default feature stack:
+    
+
+      
+    * podsleuth 0.6.4
+
+      
+    * brasero
+
+      
+    * avahi
+
+    
+  
+
+
+
+
+
+### Community
+
+
+
+
+
+
+#### Contributors For This Release
+
+
+
+
+
+The following people directly contributed to the release of this version of Banshee. Without their help, there would be no release!
+
+
+
+
+
+> 
+      Aaron Bockover, Alexander Kojevnikov, BenjamÃ­n Valero Espinosa,
+      Bertrand Lorentz, Chow Loong Jin, Eitan Isaacson, Gabriel Burt,
+      GÃ¶tz Waschk, Jason Taylor, JÃ©rÃ©mie Laval, Michael Martin-Smucker,
+      Neil Loknath, Nicholas Parker, Pratik Patel, Sandy Armstrong
+
+
+
+
+
+
+The following people contributed updated translations to this release.    Without them, our project's reach would be much more limited.
+
+
+
+
+
+> 
+      Andrej Å½nidarÅ¡iÄ, BenjamÃ­n Valero Espinosa, Daniel Nylander,
+      Gianvito Cavasoli, Mario BlÃ¤ttermann, Sweta Kothari, Tao Wei
+
+
+
+
+
+
+#### Contributors In Past Releases
+
+
+
+
+
+> 
+    Aaron Bockover, Gabriel Burt, Alexander Kojevnikov, Bertrand Lorentz,
+    John Millikin, Scott Peterson, Alan McGovern, Alex Bennee, Alex Kloss,
+    Alex Launi, Alexander Hixon, Alexandros Frantzis, Alp Toker,
+    Andrea Cimitan, Andreas Neustifter, Andrew Conkling, AndrÃ©s G. Aragoneses,
+    Andy Midgette, Arthur Carli, Aydemir UlaÅŸ Åžahin, Ben Maurer,
+    BenjamÃ­n Valero Espinosa, Bertrand Lorentz, Bill Dawson, Bob Copeland,
+    Bojan Rajkovic, Brad Taylor, Brandon Perry, Brian Lucas, Brian Nickel,
+    Brian Teague, Chow Loong Jin, Chris Howie, Chris Jones, Chris Lahey,
+    Chris Toshok, Chris Turchin, Christian Krause, Christoph Burgdorf,
+    Christopher James Halse Rogers, Cody Russell, Cosmin Banu, Dan Wilson,
+    Dan Winship, Daniel Munkton, Daniel Siegel, David Spreen, David Stone,
+    Diego E. PettenÃ², Eitan Isaacson, Elena Grassi, Eoin Hennessy,
+    Eric Butler, Erik Schmidt, Fabian Jost, Florent Thoumie, Fredrik Hedberg,
+    FÃ©lix Velasco, GÃ¶tz Waschk, Haitao Feng, Hans Petter Jansson, Iain Lane,
+    Igor Guerrero Fonseca, Ilya Konstantinov, Ivan N. Zlatev, Jack Deslippe,
+    James Willcox, Jan Arne Petersen, Jason Conti, Jason Taylor, Jeff Tickle,
+    Jeff Wheeler, Jensen Somers, JÃ©rÃ©mie Laval, Jo Shields, Johannes Kuhn,
+    Jorge Castro, Juri Pakaste, Ken Vandine, Larry Ewing, Lauri Kotilainen,
+    Matt Enright, Michael Kaiser, Michael Martin-Smucker, Michael Monreal,
+    Miguel de Icaza, Mike Urbanski, Moritz SchallabÃ¶ck, Nathan Palmer,
+    Neil Loknath, Nicholas Doyle, Nicholas Parker, NicolÃ² Chieffo,
+    Nils Naumann, Olivier Duff, Oscar Forero, Pacho Ramos,
+    Patrick van Staveren, Paul Lange, Pepijn van de Geer, Peter de Kraker,
+    Pratik Patel, PrzemysÅ‚aw Grzegorczyk, Roderich Schupp, Romain TartiÃ¨re,
+    Ruben Vermeersch, Sandy Armstrong, Sebastian DrÃ¶ge, Tim Yamin,
+    Tobias Mueller, Todd Berman, Travis Glenn Hansen, Trey Ethridge,
+    Valentin Sawadski, Will Farrington, William Pettersson, Wouter Bolsterlee
+
+
+
+
+
+
+#### Reporting Bugs, Joining the Community
+
+
+
+
+
+If you encounter any bad behavior with this release, please do not hesitate to [file bugs](/contribute/file-bugs/)!
+
+We welcome new contributors - developers, translators, artists, writers, support gurus - to join our community.  [Join us!](/contribute)
+
+
+

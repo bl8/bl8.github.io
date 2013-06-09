@@ -1,0 +1,303 @@
+---
+author: Bertrand
+comments: false
+date: 2010-05-26 22:25:46+00:00
+layout: page-release
+permalink: /download/archives/1.7.1/index.html
+title: Banshee 1.7.1
+wordpress_id: 550
+---
+
+
+	
+  * **Release Date:** May 26, 2010
+
+	
+  * **Source Tarball:** [banshee-1-1.7.1.tar.bz2](http://download.banshee-project.org/banshee/unstable/1.7.1/banshee-1-1.7.1.tar.bz2)
+
+	
+  * **Release Information:**
+[NEWS](http://download.banshee-project.org/banshee/unstable/1.7.1/banshee-1-1.7.1.news),
+[sha256sum](http://download.banshee-project.org/banshee/unstable/1.7.1/banshee-1-1.7.1.sha256sum)
+
+
+
+
+[![Download Now](/theme/css/images/download-button.png)](/download)
+
+
+
+    Banshee 1.7.1 is part of the unstable 1.7 series, leading up to a
+    stable 1.8 release in the fall.  It contains many bug fixes for 1.7.0, as
+    well as new features and enhancements.
+
+
+
+### New Features Since 1.7.0
+
+
+
+
+
+#### Improvements for Audiobooks support
+
+
+
+
+
+          Audiobooks tracks are now organized in books, which can be merged
+          together. The last position in each book is automatically saved, so
+          you can resume playing a book right from where you stopped.
+
+
+
+
+
+
+### Enhancements
+
+
+
+
+
+    
+  * New preference to have the classic album layout instead of the grid view
+    
+  * Last.fm streaming can be disabled separately from the other Last.fm features.
+    
+  * Support for reading and writing MusicBrainz IDs
+    
+  * Show the TrackEditor fields as read-only when they are not editable
+
+
+
+
+### Notable Bug Fixes
+
+
+**18 bugs were fixed since 1.7.0**
+
+
+
+    
+  * Fix Youtube playback
+    
+  * Fix deletion of Podcast metadata during modification
+    
+  * Fix a crash related to the notification daemon
+    
+  * Fix fetching cover for albums with several discs
+    
+  * Several fixes for the N800 device
+
+
+
+#### Banshee has a lot more to offer! Check out the previous major release notes...
+
+
+
+
+
+	
+  * [Read about features added in Banshee 1.7.0](/download/archives/1.7.0)
+
+	
+  * [Read about features added in Banshee 1.6.1](/download/archives/1.6.1)
+
+	
+  * [Read about features added in Banshee 1.6.0](/download/archives/1.6.0)
+
+	
+  * [Read about features added in Banshee 1.5.6](/download/archives/1.5.6)
+
+	
+  * [Read about features added in Banshee 1.5.5](/download/archives/1.5.5)
+
+	
+  * [Read about features added in Banshee 1.5.4](/download/archives/1.5.4)
+
+	
+  * [Read about features added in Banshee 1.5.3](/download/archives/1.5.3)
+
+	
+  * [Read about features added in Banshee 1.5.2](/download/archives/1.5.2)
+
+	
+  * [Read about features added in Banshee 1.5.1](/download/archives/1.5.1)
+
+	
+  * [Read about features added in Banshee 1.5.0](/download/archives/1.5.0)
+
+	
+  * [Read about features added in Banshee 1.4.3](/download/archives/1.4.3)
+
+	
+  * [Read about features added in Banshee 1.4.2](/download/archives/1.4.2)
+
+	
+  * [Read about features added in Banshee 1.4.1](/download/archives/1.4.1)
+
+	
+  * [Read about features added in Banshee 1.2](/download/archives/1.2.0)
+
+	
+  * [Read about features added in Banshee 1.0](/download/archives/1.0.0)
+
+
+
+
+### Dependencies
+
+
+
+
+
+	
+  * Mono 1.9.1 (.NET 2.0 Profile / gmcs)
+
+	
+  * SQlite 3.4
+
+	
+  * Gtk# 2.12
+
+	
+  * GStreamer 0.10.13
+
+	
+  * NDesk DBus (ndesk-dbus) 0.5
+
+	
+  * NDesk DBus GLib (ndesk-dbus-glib) 0.3
+
+	
+  * Mono.Addins (mono-addins) 0.3.1
+
+	
+  * TagLib# (taglib-sharp) >= 2.0.3.7
+
+	
+  * Required to build default feature stack:
+
+	
+    * libmtp >= 0.2.0
+
+	
+    * ipod-sharp >= 0.8.5
+
+	
+    * mono-zeroconf >= 0.8.0
+
+	
+    * boo >= 0.8.1
+
+    
+    * webkit-sharp-1.0 >= 0.2
+
+    
+    * gdata-sharp >= 1.4
+
+
+
+
+	
+  * Run-time requirements for default feature stack:
+
+	
+    * HAL
+
+	
+    * podsleuth >= 0.6.7
+
+	
+    * brasero
+
+	
+    * avahi
+
+
+
+
+
+
+
+### Community
+
+
+
+
+
+#### Contributors For This Release
+
+
+The following people directly contributed to the release of this version of Banshee. Without their help, there would be no release!
+
+
+> 
+      Aaron Bockover, Alexander Kojevnikov, AndrÃ©s G. Aragoneses, AurÃ©lien Mino,
+      Bertrand Lorentz, Gabriel Burt, Kevin Duffus, MichaÅ‚ Sawicz
+
+
+
+The following people contributed updated translations to this release.    Without them, our project's reach would be much more limited.
+
+
+> 
+      Andrej Å½nidarÅ¡iÄ, BenjamÃ­n Valero, Bruce Cowan, Christian Kirbach,
+      Fran DiÃ©guez, Mario BlÃ¤ttermann, Michel Recondo, Petr Kovar
+
+
+
+
+
+#### Contributors In Past Releases
+
+
+
+
+> 
+    Aaron Bockover, Alan McGovern, Alex Bennee, Alex Kloss, Alex Launi,
+    Alexander Hixon, Alexander Kojevnikov, Alexandros Frantzis, Alp Toker,
+    Anders Petersson, Andrea Cimitan, Andreas Neustifter, Andreas Nilsson,
+    Andrew Conkling, AndrÃ©s G. Aragoneses, Andy Midgette, Arthur Carli,
+    Arun Raghavan, AurÃ©lien Mino, Aydemir UlaÅŸ Åžahin, Ben Maurer,
+    BenjamÃ­n Valero Espinosa, Bertrand Lorentz, Bertrand Lorentz, Bill Dawson,
+    Bob Copeland, Bojan Rajkovic, Brad Taylor, Brandon Perry, Brian Lucas,
+    Brian Nickel, Brian Teague, Chow Loong Jin, Chris Howie, Chris Jones,
+    Chris Lahey, Chris Toshok, Chris Turchin, Christian Hergert,
+    Christian Krause, Christoph Burgdorf, Christopher James Halse Rogers,
+    Cody Russell, Cosmin Banu, Dan Wilson, Dan Winship, Daniel Munkton,
+    Daniel Siegel, David Spreen, David Stone, Diego E. PettenÃ²,
+    Eitan Isaacson, Elena Grassi, Eoin Hennessy, Eric Butler, Erik Schmidt,
+    Fabian Jost, Felipe Almeida Lessa, Fernando Casanova, Florent Thoumie,
+    Fredrik Hedberg, FÃ©lix Velasco, Gabriel Burt, Garrett LeSage,
+    GÃ¶tz Waschk, Haitao Feng, Hans Petter Jansson, Iain Lane,
+    Igor Guerrero Fonseca, Ilya Konstantinov, Ivan N. Zlatev, Jack Deslippe,
+    Jakub Steiner, James Willcox, Jan Arne Petersen, Jason Conti, Jason Taylor,
+    Jeff Tickle, Jeff Wheeler, Jensen Somers, Jeroen Budts, Jo Shields,
+    Johannes Kuhn, John Millikin, Jordi Mas, Jorge Castro, Julien Moutte,
+    Juri Pakaste, JÃ¡n Sokoly, JÃ©rÃ©mie Laval, K. Vishnoo Charan Reddy,
+    Ken Vandine, Kevin Duffus, Konstantin Oshiyko, Larry Ewing,
+    Lauri Kotilainen, Lukas Lipka, Marijn Ros, Matt Enright, Michael Kaiser,
+    Michael Martin-Smucker, Michael Monreal, Michael Monreal, MichaÅ‚ Sawicz,
+    Miguel de Icaza, Mike Urbanski, Moritz SchallabÃ¶ck, Nathan Palmer,
+    Neil Loknath, Nicholas Doyle, Nicholas Parker, NicolÃ² Chieffo,
+    Nils Naumann, Oben Sonne, Olivier Duff, Oscar Forero, Pacho Ramos,
+    Patrick van Staveren, Paul Lange, Pavel Antonov, Pepijn van de Geer,
+    Peter de Kraker, Pratik Patel, PrzemysÅ‚aw Grzegorczyk, Roderich Schupp,
+    Romain TartiÃ¨re, Ruben Vermeersch, Ryan Collier, Sandy Armstrong,
+    Scott Peterson, Sebastian DrÃ¶ge, Tim Yamin, Tobias Mueller, Todd Berman,
+    Travis Glenn Hansen, Travis Reitter, Trey Ethridge, Valentin Sawadski,
+    Will Farrington, William Pettersson, Wouter Bolsterlee
+
+
+
+
+
+#### Reporting Bugs, Joining the Community
+
+
+If you encounter any bad behavior with this release, please do not hesitate to [file bugs](/contribute/file-bugs/)!
+
+We welcome new contributors - developers, translators, artists, writers, support gurus - to join our community.  [Join us!](/contribute)
+

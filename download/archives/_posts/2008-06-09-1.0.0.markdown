@@ -1,0 +1,753 @@
+---
+author: Gabriel Burt
+comments: false
+date: 2008-06-09 20:37:03+00:00
+layout: page-release
+permalink: /download/archives/1.0.0/index.html
+title: Banshee 1.0
+wordpress_id: 34
+---
+
+
+  
+  * **Release Date:** June 5, 2008
+
+  
+  * **Source Tarball:** [banshee-1-1.0.0.tar.bz2](http://download.banshee-project.org/banshee/banshee-1-1.0.0.tar.bz2)
+
+  
+  * **Release Information:** 
+    [NEWS](http://download.banshee-project.org/banshee/banshee-1-1.0.0.news), 
+    [sha1sum](http://download.banshee-project.org/banshee/banshee-1-1.0.0.sha1sum), 
+    [ChangeLog](http://download.banshee-project.org/banshee/banshee-1-1.0.0.changes)
+  
+
+
+
+
+
+[![Download Now](/theme/css/images/download-button.png)](/download)
+
+
+
+
+
+### Feature Summary
+
+
+
+
+
+#### Better, Faster, Stronger
+
+
+
+
+
+![Artist/Album Browser on Left](http://wiki.banshee-project.org/images/e/e1/Banshee_browser_left_playlist_250.png)  
+![Artist/Album Browser on Top](http://wiki.banshee-project.org/images/f/fc/Banshee_browser_top_playlist_250.png)
+
+The Browser Shown Positioned to the Left of the Track List and Above it.
+
+
+
+
+
+Major performance improvements make this the fastest Banshee ever. The entire program has been re-written with an emphasis on speed and size. Search, browse and manage even the largest music libraries without batting an eye. The Banshee 1.0 also has greatly improved memory usage, better start-up time, and a more responsive interface that scales impressively with large music collections.
+
+
+
+
+
+
+#### Album Browser
+
+
+
+
+
+Introducing the Album Browser. Visually browse and filter your music collection by artist and album. Complete with album artwork, the Album Browser gives you a new and beautiful way of exploring your music.
+
+
+
+
+
+
+#### Play Queue
+
+
+
+
+
+![The play queue lets you queue songs you want to listen to](http://wiki.banshee-project.org/images/d/d8/Queue.png)
+
+The play queue lets you queue songs you want to listen to.
+
+
+
+
+
+The play queue allows you to create an ad hoc list of songs you want to hear right now. You can queue up a bunch of songs that fit your mood for the moment and let Banshee run through them. Just hit the **q** key and the currently select song(s) will be added to the end of the queue. Search for songs, queue them up, and move on - you'll be hearing them soon.
+
+
+
+
+
+
+#### Powerful Search
+
+
+
+
+
+Banshee now lets you search like never before.  Type a word, and Banshee will search across the default columns (artist, album, title).  But specify particular fields with _genre:Audiobook_ or _rating>3_, and the power of smart playlists is only a **/** press away. Check out the [user guide](/support/guide/search) for all the details on fields and operators you can use.
+
+
+
+
+
+
+#### Better Last.fm Integration
+
+
+
+
+
+![](http://wiki.banshee-project.org/images/4/40/Banshee_lastfm_350.png)
+
+
+
+
+
+If you have a [Last.fm](http://last.fm/) account, you can share your listening habits through Last.fm, create and listen to custom radio stations, and mark songs as _loved_ or _banned_ to affect your profile and what songs are recommended to you.  Most importantly, you'll be listening to and exploring tons of new music.
+
+
+
+  
+
+
+
+
+#### Keep On Playin'
+
+
+
+
+
+Banshee now keeps playing from the playlist or source you choose, even while you browse to other playlists, check your podcasts, or see what's on Last.fm.  The playing source is shown **bold** in the source list.
+
+
+
+
+
+
+#### Video Management
+
+
+
+
+
+[![Video Library](http://wiki.banshee-project.org/images/thumb/3/38/200px-Banshee_video_library.png)](http://wiki.banshee-project.org/images/1/1b/Banshee_video_library.png)
+
+
+
+
+
+This release brings a much sought after feature for Banshee - Video management and integrated playback! Your _Video Library_ supports searching, playlists, smart playlists, queuing, and even bookmarks, just like your _Music Library_.
+
+
+
+
+
+The Music and Video libraries are separated in the interface to provide a clean separation of content, so video will never be mixed in with music - when browsing or searching.
+
+
+
+
+
+
+#### Now Playing
+
+
+
+
+
+[![Playing video](http://wiki.banshee-project.org/images/thumb/d/d7/200px-Banshee_video_now_playing.png)](http://wiki.banshee-project.org/images/3/33/Banshee_video_now_playing.png)
+
+
+
+
+
+The _Now Playing_ source can be found above the _Play Queue_, and is where your videos play. When you start playing a video, the _Now Playing_ source will automatically be selected. 
+
+
+
+
+
+#### Audio CD Support
+
+
+
+
+
+When an audio CD is inserted into your computer, it will show up in the source list like users have been used to for years. You can choose the type of codec to rip to, as well as the quality that you want to use from the Preferences dialog.
+
+
+
+
+
+The return of this feature brings much improved MusicBrainz metadata integration. Much more metadata will be saved to files when ripping CDs now, including the album release date, disc number, track artist, album artist, MusicBrainz IDs for track, artist, album, and disc, and of course all the additional standard metadata that Banshee has always saved.
+
+
+
+
+
+
+#### New, Slick Shuffle Button
+
+
+
+
+
+![](http://wiki.banshee-project.org/images/e/eb/Shuffle.png)
+
+
+
+
+
+The _next_ button now integrates a slick shuffle mode selector. When a shuffle mode is active, the next icon changes to the shuffle icon. This is an experimental user interface that we think makes sense (shuffle is inherently a 'next' action), so we're giving a chance for users to chime in. Tell us what you think!
+
+
+
+
+
+The shuffle logic is now much smarter, too -- it never plays songs you've just listened to or skipped -- a much requested feature over the years.
+
+
+
+  
+
+
+
+
+#### Digital Audio Player Device Support (MTP, iPod, Mass Storage)
+
+
+
+
+
+![](http://wiki.banshee-project.org/images/5/5d/Bansheemtp.png)
+
+
+
+
+
+Banshee 1.0 supports MTP, iPod, and Mass Storage player devices.  You can drag songs and videos from your library to your device, and they are synced immediately.
+
+
+
+
+
+[![Adding tracks to USB mass storage device](http://wiki.banshee-project.org/images/thumb/c/c6/250px-Banshee_mass_storage.png)](http://wiki.banshee-project.org/images/4/4d/Banshee_mass_storage.png)
+
+Adding tracks to USB mass storage device
+
+
+
+
+
+If necessary, your music will automatically, on-the-fly be converted to a format your player supports.  You can pick what format and quality to convert to in your device's Properties.
+
+
+
+  
+
+
+
+
+#### Smart by Default
+
+
+
+
+
+![](http://wiki.banshee-project.org/images/b/ba/Default_smart_playlists.png)
+
+
+
+
+
+New users (and users who currently have no smart playlists) will notice some useful, default smart playlists in 1.0.  
+
+These default smart playlists, and other pre-defined smart playlists, can be edited and created from the _New Smart Playlist_ dialog.
+
+
+
+
+
+
+#### Mini mode
+
+
+
+
+
+[![](http://wiki.banshee-project.org/images/thumb/e/e2/250px-BansheeMiniMode.png)](http://wiki.banshee-project.org/images/d/db/BansheeMiniMode.png)
+
+
+
+
+
+You can enable the minimode extension with the _Extension Manager_. Minimode is a view extension that shows Banshee with a smaller window, perfect for smaller displays, laptops, or people who prefer a small player that stays out of your way.
+
+
+
+
+
+
+#### Podcast Support
+
+
+
+
+
+![](http://wiki.banshee-project.org/images/b/be/Podcast_new_filter.png)
+
+
+
+
+
+Support for podcasts is better than ever in Banshee 1.0.  Use Banshee to subscribe to your favorite audio and video podcasts, and search and browse your podcasts (including their icon) the same way you do your Music Library.
+
+
+
+
+
+[![Banshee displaying, streaming, and downloading podcasts](http://wiki.banshee-project.org/images/thumb/3/3f/180px-Podcasting.png)](http://wiki.banshee-project.org/images/0/03/Podcasting.png)
+
+Banshee displaying, streaming, and downloading podcasts
+
+
+
+
+
+You don't even have to wait for items to download to enjoy them;  Banshee will happily stream the audio or video, and when the item finishes, proceed right on to the next one.
+
+And, your podcast and subscriptions from Banshee 0.13.2 and before are migrated for you, and your podcast files automatically removed from your Music Library.
+
+
+
+
+
+
+#### Automatic CD Importing
+
+
+
+
+
+Want Banshee to start ripping and importing CDs as soon as you insert them?  In your _Preferences_, you can turn on Automatic Import for Audio CDs to do just that.  Assuming Banshee can find a track list for the CD and it's not already in your Music Library, the CD will automatically begin importing.
+
+Turn on _Eject when done importing_ and you've got a slick CD-importing workflow.
+
+
+
+
+
+
+#### CD Burning
+
+
+
+
+
+Banshee now integrates with the CD Burning application [Brasero](http://www.gnome.org/projects/brasero/) for burning Audio CDs.  You need Brasero already installed for the integration to work.
+
+
+
+
+
+
+#### Device Storage Bling
+
+
+
+
+
+[![](http://wiki.banshee-project.org/images/thumb/a/ab/250px-Dap-bling.png)](http://wiki.banshee-project.org/images/b/b0/Dap-bling.png)
+
+
+
+
+
+Banshee 1.0 has a new view showing you how full your device is, including how much storage is used for audio, video and other files.
+
+
+
+  
+
+
+
+
+#### Automatically Grabs all Cover Art
+
+
+
+
+
+![](http://wiki.banshee-project.org/images/8/83/Download-covers.png)
+
+
+
+
+
+This new extension automatically downloads cover art for any songs added to your Library.  Your album view never looked so good!
+
+
+
+  
+
+
+
+
+[![Download Now](/theme/css/images/download-button.png)](/download)
+
+
+
+
+
+
+  [![](http://wiki.banshee-project.org/images/thumb/3/35/250px-Banshee_lastfm_data_pretty.png)](http://wiki.banshee-project.org/images/2/2b/Banshee_lastfm_data_pretty.png)
+  [![](http://wiki.banshee-project.org/images/thumb/c/c3/150px-BansheeExtensionManager.png)](http://wiki.banshee-project.org/Image:BansheeExtensionManager.png) 
+
+
+
+
+
+
+### Other Features, Bug Fixes, Errata
+
+
+
+
+
+
+  
+  * Start playing when artist or album browser is double clicked
+
+  
+  * Bookmarks extension is now available
+
+  
+  * Use XDG_CACHE_HOME directory for cache files
+
+  
+  * Disabled the equalizer temporarily until gstreamer pipeline issues are resolved
+
+
+
+
+  
+  * The main view now respects your system DPI settings and has seen massive performance improvements. 
+
+  
+  * Jump to playing song is now implemented (Ctrl-J)
+
+  
+  * The Last.fm data screen has some visual improvements.
+
+
+
+
+  
+  * Fullscreen video is now supported (go to _Now Playing_ and press _f_ or hit the _Fullscreen_ button)
+
+  
+  * Extensions can be enabled and disabled in the new _Extensions_ tab within your _Preferences_.
+
+  
+  * Banshee can be [scripted using Boo](http://mail.gnome.org/archives/banshee-list/2008-May/msg00000.html), a .NET scripting language
+
+  
+  * Improved gstreamer error handling (for missing files, codecs, etc)
+
+  
+  * Shuffle and repeat are automatically disabled while playing Last.fm
+
+
+
+
+  
+  * Genre entry autocompletes in track information editor
+
+  
+  * Columns specific to type of source (Music, Video, Podcast)
+
+  
+  * Add File Size column, right-align it and Duration
+
+  
+  * Disable writing metadata for videos to file to avoid 100% CPU bug
+
+
+  
+  * Add Love/Hate menu items to the Notification Area icon's menu
+
+  
+  * If a Last.fm station is double clicked, it will start playing once it has loaded
+
+  
+  * DBus client w/ command line options and lastfm:// and feed:// support
+
+  
+  * File system queue 
+
+  
+  * Many drag and drop fixes
+
+  
+  * Over [260 bugs fixed](http://bugzilla.gnome.org/buglist.cgi?query_format=advanced&short_desc_type=allwordssubstr&short_desc=&product=banshee&long_desc_type=allwordssubstr&long_desc=&status_whiteboard_type=allwordssubstr&status_whiteboard=&keywords_type=allwords&keywords=&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&resolution=FIXED&emailtype1=substring&email1=&emailtype2=substring&email2=&bugidtype=include&bug_id=&chfieldfrom=2008-01-08&chfieldto=2008-06-06&chfield=resolution&chfieldvalue=FIXED&cmdtype=doit&order=Reuse+same+sort+as+last+time&field0-0-0=noop&type0-0-0=noop&value0-0-0=) since 0.13.2
+
+
+
+
+
+### Dependencies
+
+
+
+
+
+
+  
+  * Mono 1.2.2 (.NET 2.0 Profile / gmcs)
+
+  
+  * SQlite 3.4
+
+  
+  * Gtk# 2.10
+
+  
+  * GStreamer 0.10.3
+
+
+
+
+  
+  * NDesk DBus (ndesk-dbus) 0.5
+
+  
+  * NDesk DBus GLib (ndesk-dbus-glib) 0.3
+
+  
+  * Mono.Addins (mono-addins) 0.3.1
+
+  
+  * TagLib# (taglib-sharp) 2.0
+
+
+
+
+  
+  * Required to build default feature stack:
+    
+      
+    * libmtp >= 0.2.0 (0.2.6 recommended)
+
+      
+    * ipod-sharp >= 0.8.0
+
+    
+  
+
+
+
+  
+  * Run-time requirements for default feature stack:
+    
+      
+    * podsleuth 
+
+      
+    * brasero
+
+    
+  
+
+
+
+  
+  * Required to build not-enabled-by-default features:
+    
+      
+    * boo >= 0.8.1
+
+      
+    * mono-zeroconf >= 0.7.3
+
+    
+  
+
+
+
+
+
+Please note that for openSUSE, all of the dependencies above can be found in the openSUSE Build Service, and are linked into the Banshee project. Even if you build from source, if you wish to avoid building the entire dependency chain above, add the [Banshee repository](http://download.opensuse.org/repositories/Banshee/) to your repository list.
+
+
+
+
+
+Historically, Banshee has fostered development of a number of projects and bundled their source code instead of depending on external builds. Many of these dependencies have matured and grown into well maintained projects on their own, and we are now depending on them externally. We waited to remove the bundles long enough to allow for distributions to ship packages to reduce the pain of building Banshee.
+
+
+
+
+
+
+### No Conflicts
+
+
+
+
+
+This new release is not backwards compatible with previous Banshee releases, however, it _will not_ conflict or cause any problems with any previous release you may have installed. If a Banshee library is located from a previous release, it will be _copied_ and _migrated_ to work with the new version.
+
+Previously, all paths and packaging used the `banshee` project name. We are now using the `banshee-1` project name to avoid any packaging, installation, or user-data conflicts with previous releases of Banshee. For instance, the following file/data related things have changed:
+
+
+
+
+
+
+  
+  * Packaging/Installation
+    
+      
+    * Installation path changed from `$(prefix)/lib/banshee` to `$(prefix)/lib/banshee-1`
+
+      
+    * Application launcher changed from `$(prefix)/bin/banshee` to `$(prefix)/bin/banshee-1`
+
+      
+    * Application icon name changed from `music-player-banshee` to `media-player-banshee`
+
+      
+    * DBus service changed from `org.gnome.Banshee` to `org.bansheeproject.Banshee`
+
+    
+  
+
+  
+  * User Data Access
+    
+      
+    * GConf Root Key changed from `/apps/banshee` to `/apps/banshee-1`
+
+      
+    * Application data directory changed from `~/.config/banshee` to `~/.config/banshee-1` (note, the `~/.config` base directory depends on XDG settings for the user)
+
+    
+  
+
+
+
+
+
+These changes mean you can have installed and use both older Banshee releases (0.13.2 and older) and new Banshee releases (0.98.1 and newer) without worrying about packaging or installation problems or user data conflicts. Keep in mind however, that this release is not backwards compatible with older releases. If library changes are made in this new release, they will not be reflected if you run an older release.
+
+
+
+
+
+
+### Community
+
+
+
+
+
+#### Contributors For This Release
+
+
+
+
+
+The following people directly contributed to the release of this version of Banshee. Without their help, there would be no release!
+
+
+
+
+
+> Aaron Bockover, Alan McGovern, Alex Kloss, Alexander Hixon, Bertrand Lorentz, Christopher Rogers, Gabriel Burt, James Willcox, Michael Monreal, Mike Urbanski, Nicholas Parker, Ruben Vermeersch, Scott Peterson, Sebastian DrÃ¶ge, Will Farrington, Wouter Bolsterlee
+
+
+
+
+
+The following people contributed updated translations to this release. Without them, our project's reach would be much more limited.
+
+
+
+
+
+> Artur Flinta, Claude Paroz, Daniel Abramov, Daniel Nylander,
+      Duarte Loreto, Gabor Kelemen, Ignacio Casal Quinteiro, Ihar Hrachyshka,
+      Ilkka Tuohela, Jonh Wendell, Jordi Mas, Jorge Gonzalez,
+      Lasse Bang Mikkelsen, Luca Ferretti, Nickolay V. Shmyrev,
+      Philipp Kerling, Philip Withnall, Wadim Dziedzic, Wouter Bolsterlee,
+      Yair Hershkovitz, Å½ygimantas BeruÄka
+
+
+
+
+
+The release notes and screenshots for this release were crafted by:
+
+
+
+
+> Aaron Bockover, Gabriel Burt, Jorge Castro, Josiah Ritchie,
+      Paul Cutler, Scott Peterson
+
+
+
+
+
+#### Contributors In Past Releases
+
+
+
+
+
+> Aaron Bockover, Alan McGovern, Alex Kloss, Alexander Hixon,
+    Alexandros Frantzis, Alp Toker, Andy Midgette, Aydemir UlaÅŸ Åžahin,
+    Ben Maurer, Bertrand Lorentz, Bill Dawson, Bob Copeland, Bojan Rajkovic,
+    Brian Nickel, Chris Lahey, Chris Toshok, Chris Turchin, Christian Krause,
+    Christopher James Halse Rogers, Dan Wilson, Dan Winship, Daniel Munkton,
+    Eric Butler, Fredrik Hedberg, Gabriel Burt, Hans Petter Jansson,
+    Igor Guerrero Fonseca, Ilya Konstantinov, Ivan N. Zlatev, James Willcox,
+    Jan Arne Petersen, Jason Conti, Jeff Tickle, Jorge Castro, Juri Pakaste,
+    Ken Vandine, Larry Ewing, Lauri Kotilainen, Michael Monreal,
+    Miguel de Icaza, Mike Urbanski, Nathan Palmer, Nicholas Parker,
+    Oscar Forero, Patrick van Staveren, Pepijn van de Geer, Ruben Vermeersch,
+    Scott Peterson, Sebastian DrÃ¶ge, Tim Yamin, Trey Ethridge, Will Farrington,
+    Wouter Bolsterlee
+
+
+
+
+
+#### Reporting Bugs, Joining the Community
+
+
+
+
+
+If you encounter any bad behavior with this release, please do not hesitate to [file bugs](http://bugzilla.gnome.org/enter_bug.cgi?product=banshee&version=1.0.0)!
+
+We welcome new contributors - developers, translators, artists, writers, support gurus - to join our community.  [Join us!](/contribute)
+
+
+

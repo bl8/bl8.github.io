@@ -1,0 +1,525 @@
+---
+author: Gabriel Burt
+comments: false
+date: 2009-10-14 03:20:56+00:00
+layout: page-release
+permalink: /download/archives/1.5.1/index.html
+title: Banshee 1.5.1
+wordpress_id: 152
+---
+
+
+
+    
+  * **Release Date:** October 13, 2009
+
+    
+  * **Source Tarball:** [banshee-1-1.5.1.tar.bz2](http://download.banshee-project.org/banshee/stable/1.5.1/banshee-1-1.5.1.tar.bz2)
+
+    
+  * **Release Information:**
+      [NEWS](http://download.banshee-project.org/banshee/stable/1.5.1/banshee-1-1.5.1.news),
+      [sha256sum](http://download.banshee-project.org/banshee/stable/1.5.1/banshee-1-1.5.1.sha256sum)
+
+    
+
+  
+  
+
+[![Download Now](/theme/css/images/download-button.png)](/download)
+
+ 
+  
+
+
+
+
+
+Banshee 1.5.1 is a stable release, with tons of bug fixes and new features.  It is the result of four and a half months work by more than 50 contributors.
+
+
+
+### New Features
+
+
+
+
+
+#### New Shuffle Modes
+
+
+
+
+Shuffle by artist or album let you listen to everything by an artist or on an album before jumping to a new random artist or album.
+
+
+
+
+Shuffle by rating or score lets you shuffle through your songs, with higher rated or scored tracks being more likely to play.
+
+
+
+
+Alexander blogged [more about this feature](http://versia.com/2009/09/21/new-shuffle-modes-in-banshee/).
+
+
+
+
+
+#### Auto DJ
+
+
+
+
+This new feature gives you the option to keep your Play Queue filled with endless music.  It builds on the shuffle modes work, letting you fill the queue randomly in artist, album, song, rating, or score mode.
+
+
+![screenshot of new auto dj feature, showing options of how to auto-fill the play queue](http://download.banshee-project.org/shots/1.5.1/banshee-autodj.png)
+
+
+Alexander blogged [more about this feature](http://versia.com/2009/09/23/updated-play-queue-in-banshee/).
+
+
+
+
+
+#### Keep Playing Song Visible
+
+
+
+
+The playing song is kept visible and selected in the track list.
+
+
+
+
+
+#### Support WebOS Devices
+
+
+
+
+Add support for WebOS devices
+
+
+
+
+
+#### Support Samsung Galaxy Phones
+
+
+
+
+Add support for the Samsung Galaxy Android Phone
+
+
+
+
+
+#### More New Features
+
+
+
+
+
+
+  * Add tooltips for ellipsized ListView text
+
+
+
+
+
+### Other Enhancements
+
+
+
+
+
+
+    
+  * When user picks new sort column, default to sort ascending
+
+    
+  * Drop the " Library" suffix on the Music and Video sources
+
+    
+  * Add thin highlight to ListView selection for 3D effect
+
+    
+  * Keyboard shortcut (ESC) to clear the search box (BGO #558938)
+
+    
+  * Expose LAME's "preset" option (BGO #563303)
+
+    
+  * Added a --gconf-base-key for running sandboxed (BGO #585546)
+
+    
+  * Trim URL pasted from clipboard to podcast dialog (BGO  #585679)
+
+    
+  * Allow selection of multiple folders on import (BGO#586946)
+
+    
+  * Support playlists on Android G1 devices (BGO #583335)
+
+    
+  * Better support for devices running Rockbox
+
+    
+  * Set video sync folder for Android and WebOS devices
+
+    
+  * Made the error message label selectable (BGO #589741)
+
+    
+  * Save and load the Gtk.AccelMap (BGO #579013)
+
+    
+  * Added taglib/oga mimetype to the vorbis audio profile (BGO #586999)
+
+    
+  * Auto-completion for composer, conductor, grouping and copyright (BGO #592129)
+
+    
+  * Added the 'comment' search filter (BGO #380524)
+
+    
+  * Selectable song properties (BGO #586106)
+
+    
+  * Show a tooltip in track editor when the property is truncated (BGO #589782)
+
+
+
+
+
+### Notable Bug Fixes
+
+
+
+
+
+**131 bugs were fixed since 1.5.0!**
+
+
+
+
+
+ 
+    
+  * Fix blank MimeTypes for tracks ripped before 1.4 (BGO #536590)
+
+    
+  * Fix a Bit Rate column sizing glitch (BGO #584587)
+
+    
+  * Fix browser positioning when Banshee is maximised (BGO #575834)
+
+    
+  * Fix compilation metadata reading and writing (BGO #563283)
+
+    
+  * Work with new notification-daemon (BGO #565876)
+
+    
+  * Avoid needlessly syncing iPods twice
+
+    
+  * Deterministically sort sources to avoid fluttering
+
+    
+  * Look for Rhythmbox db at both new and old paths
+
+    
+  * Fix bug with scrobbling after skipping a track (BGO #584614)
+
+    
+  * Fix crash in equalizer (BGO #548912)
+
+    
+  * Fix an exception on startup when DBus is disabled (BGO #573050)
+
+    
+  * Fix off-by-one-day date querying bug (BGO #546844)
+
+    
+  * Fix a UI/spacing glitch in the Smart Playlist Editor (BGO #571288)
+
+    
+  * Don't hide the track info popup while it has focus (BGO #544592)
+
+    
+  * Prevent endless "Searching for CD metadata..." (BGO #527788)
+
+    
+  * Fix Last.fm now-playing for non-decimal track lengths (BGO #586460)
+
+    
+  * Dispose the SqliteCommand after it's executed (BGO #586498)
+
+    
+  * Fix notification area popup positioning on multi-monitor systems (BGO #586589)
+
+    
+  * Fix the playing indicator when song in list more than once (BGO #585798)
+
+    
+  * Fix crash when opening the profile conf dialog (BGO #587308)
+
+    
+  * Fix crash stopping jobs on shutdown (BGO #587373)
+
+    
+  * Fix notification area popup flashing (BGO #587703)
+
+    
+  * Trim filename dots and spaces to be NTFS compliant (BGO #588350)
+
+    
+  * Stop playing from audio CD when it's ejected (BGO #475094)
+
+    
+  * Don't update DateUpdated stamp when transient fields change (BGO #585896)
+
+    
+  * Fix DAP content page title not changing when device renamed (BGO #589290)
+
+    
+  * Set the Podcast flag on import based on genre (BGO #589831)
+
+    
+  * Fix hang when slider dragged to track change (BGO #539395).
+
+    
+  * Prevent slider jumping around after seeking in stream (BGO #591016)
+
+    
+  * Fix Last.fm logos on dark themes (BGO #588094)
+
+    
+  * --query-X option sometimes returned an error (BGO #591291)
+
+    
+  * Build and runtime fixes for FreeBSD
+
+    
+  * Fix editor always prompting to save podcasts (BGO #584880)
+
+    
+  * Fix rounding when updating the track score
+
+    
+  * Fix initial track score calculation (BGO #594568)
+
+    
+  * Fix playback buttons' a11y (BGO #595294)
+
+    
+  * Fix crasher on PPC (BGO #547218)
+
+
+
+
+
+#### Banshee has a lot more to offer! Check out the previous major release notes...
+
+
+
+
+
+  
+  * [Read about features added in Banshee 1.5.0](/download/archives/1.5.0)
+
+  
+  * [Read about features added in Banshee 1.4.3](/download/archives/1.4.3)
+
+  
+  * [Read about features added in Banshee 1.4.2](/download/archives/1.4.2)
+
+  
+  * [Read about features added in Banshee 1.4.1](/download/archives/1.4.1)
+
+  
+  * [Read about features added in Banshee 1.2](/download/archives/1.2.0)
+
+  
+  * [Read about features added in Banshee 1.0](/download/archives/1.0.0)
+
+
+
+
+
+
+### Dependencies
+
+
+
+
+
+
+  
+  * Mono 1.9.1 (.NET 2.0 Profile / gmcs)
+
+  
+  * SQlite 3.4
+
+  
+  * Gtk# 2.12
+
+  
+  * GStreamer 0.10.13
+
+
+  
+  * NDesk DBus (ndesk-dbus) 0.5
+
+  
+  * NDesk DBus GLib (ndesk-dbus-glib) 0.3
+
+  
+  * Mono.Addins (mono-addins) 0.3.1
+
+  
+  * TagLib# (taglib-sharp) 2.0.3.2
+
+  
+  * Required to build default feature stack:
+    
+      
+    * libmtp >= 0.2.0
+
+
+      
+    * ipod-sharp >= 0.8.0
+
+      
+    * mono-zeroconf >= 0.7.3
+
+      
+    * boo >= 0.8.1
+
+    
+  
+
+  
+  * Run-time requirements for default feature stack:
+    
+
+      
+    * podsleuth 0.6.4
+
+      
+    * brasero
+
+      
+    * avahi
+
+    
+  
+
+
+
+
+
+### Community
+
+
+
+
+
+
+#### Contributors For This Release
+
+
+
+
+
+The following people directly contributed to the release of this version of Banshee. Without their help, there would be no release!
+
+
+
+
+
+> 
+      Aaron Bockover, Alex Bennee, Alex Launi, Alexander Kojevnikov,
+      Andrea Cimitan, BenjamÃ­n Valero Espinosa, Bertrand Lorentz,
+      Chow Loong Jin, Christopher James Halse Rogers, David Stone,
+      Eitan Isaacson, Elena Grassi, Florent Thoumie, Gabriel Burt,
+      Haitao Feng, Jack Deslippe, Jeff Wheeler, Jensen Somers, Johannes Kuhn,
+      Michael Martin-Smucker, Neil Loknath, Nils Naumann, Olivier Duff,
+      Paul Lange, Pratik Patel, Romain TartiÃ¨re, Sandy Armstrong,
+      Tobias Mueller, Travis Glenn Hansen
+
+
+
+
+
+
+The following people contributed updated translations to this release.    Without them, our project's reach would be much more limited.
+
+
+
+
+
+> 
+      A S Alam, AntÃ³nio Lima, Aron Xu, BenjamÃ­n Valero Espinosa,
+      Christian Kirbach, Daniel Nylander, Denis ARNAUD, Fran DiÃ©guez,
+      Gabor Kelemen, Gianvito Cavasoli, Gintautas Miliauskas, Ilkka Tuohela,
+      Inaki Larranaga Murgoitio, Jordi Mas, Jorge GonzÃ¡lez,
+      Mario BlÃ¤ttermann, MiloÅ¡ PopoviÄ‡, Piotr DrÄ…g, Timur Zhamakeev,
+      Tomasz Dominikowski, Wolfgang StÃ¶ggl, Yaron Shahrabani,
+      Å½ygimantas BeruÄka
+
+
+
+
+
+
+#### Contributors In Past Releases
+
+
+
+
+
+> 
+    Aaron Bockover, Gabriel Burt, Alexander Kojevnikov, Bertrand Lorentz,
+    John Millikin, Scott Peterson, Alan McGovern, Alex Kloss, Alex Launi,
+    Alexander Hixon, Alexandros Frantzis, Alp Toker, Andreas Neustifter,
+    AndrÃ©s G. Aragoneses, Andrew Conkling, Andy Midgette, Arthur Carli,
+    Aydemir UlaÅŸ Åžahin, Ben Maurer, BenjamÃ­n Valero Espinosa, Bill Dawson,
+    Bob Copeland, Bojan Rajkovic, Brad Taylor, Brandon Perry, Brian Lucas,
+    Brian Nickel, Brian Teague, Chris Howie, Chris Jones, Chris Lahey,
+    Chris Toshok, Chris Turchin, Christian Krause, Christoph Burgdorf,
+    Christopher Halse Rogers, Cody Russell, Cosmin Banu, Dan Wilson,
+    Dan Winship, Daniel Munkton, Daniel Siegel, David Spreen,
+    Diego E. PettenÃ², Eoin Hennessy, Eric Butler, Erik Schmidt, Fabian Jost,
+    Fredrik Hedberg, FÃ©lix Velasco, Hans Petter Jansson, Iain Lane,
+    Igor Guerrero Fonseca, Ilya Konstantinov, Ivan N. Zlatev, James Willcox,
+    Jan Arne Petersen, Jason Conti, Jeff Tickle, Jo Shields, Jorge Castro,
+    Juri Pakaste, Ken Vandine, Larry Ewing, Lauri Kotilainen, Matt Enright,
+    Michael Kaiser, Michael Monreal, Miguel de Icaza, Mike Urbanski,
+    Moritz SchallabÃ¶ck, Nathan Palmer, Neil Loknath, Nicholas Doyle,
+    Nicholas Parker, NicolÃ² Chieffo, Oscar Forero, Pacho Ramos,
+    Patrick van Staveren, Paul Lange, Pepijn van de Geer, Peter de Kraker,
+    PrzemysÅ‚aw Grzegorczyk, Roderich Schupp, Ruben Vermeersch,
+    Sandy Armstrong, Sebastian DrÃ¶ge, Tim Yamin, Todd Berman, Trey Ethridge,
+    Valentin Sawadski, Will Farrington, William Pettersson, Wouter Bolsterlee
+
+
+
+
+
+
+#### Reporting Bugs, Joining the Community
+
+
+
+
+
+If you encounter any bad behavior with this release, please do not hesitate to [file bugs](/contribute/file-bugs/)!
+
+We welcome new contributors - developers, translators, artists, writers, support gurus - to join our community.  [Join us!](/contribute)
+
+
+

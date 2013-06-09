@@ -1,0 +1,367 @@
+---
+author: Bertrand
+comments: false
+date: 2011-05-12 20:57:38+00:00
+layout: page-release
+permalink: /download/archives/2.1.0/index.html
+title: Banshee 2.1.0
+wordpress_id: 1051
+---
+
+
+	
+  * **Release Date:** 2011-05-12
+
+	
+  * **Source Tarball:** [banshee-2.1.0.tar.bz2](http://ftp.gnome.org/pub/GNOME/sources/banshee/2.1/banshee-2.1.0.tar.bz2)
+
+	
+  * **Release Information:**
+[NEWS](http://ftp.gnome.org/pub/GNOME/sources/banshee/2.1/banshee-2.1.0.news),
+[sha256sum](http://ftp.gnome.org/pub/GNOME/sources/banshee/2.1/banshee-2.1.0.sha256sum)
+
+
+
+
+[![Download Now](/theme/css/images/download-button.png)](/download)
+
+
+
+
+
+
+        Banshee 2.1.0 is the first release in the 2.1 development series leading up
+    to 2.2.  It brings a significant change in dependency policy.  We will be
+    dropping legacy dependencies, and bump other deps to recent versions.  To
+    support users on older distros, we'll publish a Linux bundle.
+
+
+
+
+
+### New Features
+
+
+      
+
+#### eMusic Store
+
+
+
+
+
+### Other Enhancements
+
+
+
+
+
+      
+  * ArtworkManager: add --fetch-artwork argument
+      
+  * bgo#647754: Xperia X12 support
+      
+  * bgo#508713: MiniMode: Reduce height of window
+      
+  * bgo#648941: Support .spc files
+      
+  * bgo#649401: Set UserAgent when doing MusicBrainz queries
+
+
+
+
+### Notable Bug Fixes (51 fixed since 2.0!)
+
+
+
+
+
+      
+  * Windows installer fixes
+      
+  * [bgo#647059](http://bugzilla.gnome.org/show_bug.cgi?id=647059): Fix Remote Daap crash
+      
+  * [bgo#647089](http://bugzilla.gnome.org/show_bug.cgi?id=647089): Daap: Bind to IPAddress.Loopback instead of Any
+      
+  * [bgo#644648](http://bugzilla.gnome.org/show_bug.cgi?id=644648): libbanshee fixes
+      
+  * [bgo#642113](http://bugzilla.gnome.org/show_bug.cgi?id=642113): Change Remote dialog's button from Ok to Add
+      
+  * [bgo#647144](http://bugzilla.gnome.org/show_bug.cgi?id=647144): StreamPositionLabel fixes
+      
+  * AmazonMp3.Store: Fix signed-in detection for UK store
+      
+  * [bgo#633552](http://bugzilla.gnome.org/show_bug.cgi?id=633552): AppleDevice: Ensure m4a/mp3 are supported
+      
+  * [bgo#634647](http://bugzilla.gnome.org/show_bug.cgi?id=634647): Have ctrl-a select text in SearchEntry
+      
+  * [bgo#642140](http://bugzilla.gnome.org/show_bug.cgi?id=642140): Last.fm: Close HTTP streams when finished with them
+      
+  * [bgo#648133](http://bugzilla.gnome.org/show_bug.cgi?id=648133): build: Don't delete gnome-doc-utils.make during distclean
+      
+  * [bgo#647932](http://bugzilla.gnome.org/show_bug.cgi?id=647932): DatabaseSource: Fix NRE in SkipTrackIfRemoved
+      
+  * [bgo#646991](http://bugzilla.gnome.org/show_bug.cgi?id=646991): AlbumListView: Fix disappearing option in Preferences
+      
+  * [bgo#647024](http://bugzilla.gnome.org/show_bug.cgi?id=647024): Lastfm: Fix NRE crash
+      
+  * [bgo#636057](http://bugzilla.gnome.org/show_bug.cgi?id=636057): Fix rendering glitch
+      
+  * PodcastFeedPropertiesDialog: Fix display of feed URL
+      
+  * [bgo#648458](http://bugzilla.gnome.org/show_bug.cgi?id=648458): PlsPlaylistFormat: Make parsing the header case-insensitive
+      
+  * [bgo#611489](http://bugzilla.gnome.org/show_bug.cgi?id=611489): GStreamer: Use Banshee.IO instead of System.IO
+      
+  * [bgo#641748](http://bugzilla.gnome.org/show_bug.cgi?id=641748): ViewActions: enable eq once we know backend supports it
+      
+  * [bgo#638889](http://bugzilla.gnome.org/show_bug.cgi?id=638889): Banshee.Services: Avoid creating dupes after moves
+
+
+
+
+### Packaging Changes
+
+
+
+
+
+      
+  * HAL dependency dropped
+
+      
+  * ipod-sharp and podsleuth dependencies dropped
+
+      
+  * NDesk.DBus dependency dropped
+
+      
+  * dbus-sharp >= 0.7 and dbus-sharp-glib >= 0.5 required (available from http://mono.github.com/dbus-sharp/)
+
+      
+  * Gtk# >= 2.12.10 required
+
+      
+  * Mono >= 2.4.3 required
+
+      
+  * GStreamer >= 0.10.26 required
+
+      
+  * Various configure flags removed:
+        
+        
+    * --disable-ipod
+        
+    * --disable-hal
+        
+    * --disable-podcasts
+        
+      
+
+      
+  * Banshee releases now hosted on ftp.gnome.org
+
+
+  
+
+
+
+#### Banshee has a lot more to offer! Check out the previous major release notes...
+
+
+
+
+
+	
+  * [Read about features added in Banshee 2.0.0](/download/archives/2.0.0)
+
+	
+  * [Read about features added in Banshee 1.8.0](/download/archives/1.8.0)
+
+	
+  * [Read about features added in Banshee 1.6.0](/download/archives/1.6.0)
+
+	
+  * [Read about features added in Banshee 1.4.0](/download/archives/1.4.0)
+
+
+
+
+### Dependencies
+
+
+
+
+
+	
+  * Mono 2.4.3 (.NET 2.0 Profile / gmcs)
+
+	
+  * SQlite 3.4
+
+	
+  * Gtk# 2.12
+
+	
+  * GStreamer 0.10.26
+
+	
+  * dbus-sharp 0.7
+
+	
+  * dbus-sharp-glib 0.5
+
+	
+  * Mono.Addins (mono-addins) 0.3.1
+
+	
+  * TagLib# (taglib-sharp) >= 2.0.3.7
+
+	
+  * Required to build default feature stack:
+
+	
+    * libmtp >= 0.2.0
+
+	
+    * mono-zeroconf >= 0.8.0
+
+	
+    * boo >= 0.8.1
+
+	
+    * webkit-1.0 >= 1.2.2
+
+	
+    * gdata-sharp-youtube >= 1.4
+
+	
+    * gio-sharp >= 2.22.2, gtk-sharp-beans >= 2.14.1, gudev-sharp and gkeyfile-sharp
+
+	
+    * libgpod-sharp >= 0.7.95
+
+
+
+
+	
+  * Run-time requirements for default feature stack:
+
+	
+    * udev
+
+	
+    * media-player-info
+
+	
+    * Brasero >= 0.8.1
+
+	
+    * Avahi
+
+	
+    * gst-plugins-bad (providing the bpmdetect GStreamer plugin)
+
+
+
+
+
+
+
+### Community
+
+
+
+
+
+#### Contributors For This Release
+
+
+The following people directly contributed to the release of this version of Banshee. Without their help, there would be no release!
+
+
+> 
+      Alexander Kojevnikov, Andrés G. Aragoneses, Bertrand Lorentz,
+      Chow Loong Jin, Christopher James Halse Rogers, David Nielsen,
+      Dustin C. Hatch, Frank Ziegler, Gabriel Burt, Hajime Mizuno,
+      Jérémie Laval, Jonas Urth Olsen, Mackenan Grassi, Michael Martin-Smucker,
+      Olivier Dufour, Pete Johanson, Rodney Dawes, Sjoerd Simons, Will Thompson
+
+
+
+
+The following people contributed updated translations to this release.    Without them, our project's reach would be much more limited.
+
+
+> 
+      Andrej Žnidarši?, Benjamín Valero, Bruno Brouard, Changwoo Ryu,
+      Daniel Korostil, Djavan Fagundes, Fran Diéguez, Gabor Kelemen,
+      Hajime Taira, krishnababu k, Kristjan SCHMIDT, Lê Hoàng Ph??ng,
+      Mario Blättermann, Marek ?ernocký, Markus Schley, Michael Kotsarinis,
+      Nguy?n Thái Ng?c Duy, Rudolfs Mazurs, Wouter Bolsterlee, Yuri Myasoedov
+
+
+
+
+
+
+#### Contributors In Past Releases
+
+
+
+
+> 
+        Aaron Bockover, Alan McGovern, Alex Bennee, Alex Kloss, Alex Launi,
+    Alex Mauer, Alex Willmy, Alexander Hixon, Alexander Kojevnikov,
+    Alexandros Frantzis, Alp Toker, Anders Petersson, Andrea Cimitan,
+    Andreas Neustifter, Andreas Nilsson, Andrew Conkling,
+    Andrés G. Aragoneses, Andy Midgette, Aran Cox, Arthur Carli,
+    Arun Raghavan, Aurélien Mino, Aydemir Ula? ?ahin, Ben Maurer,
+    Benjamín Valero Espinosa, Bertrand Lorentz, Bill Dawson, Bob Copeland,
+    Bojan Rajkovic, Brad Taylor, Brandon Perry, Brian Lucas, Brian Nickel,
+    Brian Teague, Chow Loong Jin, Chris Howie, Chris Jones, Chris Lahey,
+    Chris Toshok, Chris Turchin, Christian Hergert, Christian Krause,
+    Christoph Burgdorf, Christopher James Halse Rogers, Claude Paroz,
+    Cody Russell, Cosmin Banu, Dan Wilson, Dan Winship, Daniel Munkton,
+    Daniel Siegel, David Nielsen, David Spreen, David Stone, Diego E. Pettenò,
+    Dougal Stanton, Dustin C. Hatch, Eitan Isaacson, Elena Grassi,
+    Eoin Hennessy, Eric Butler, Erik Schmidt, Fabian Jost,
+    Felipe Almeida Lessa, Fernando Casanova, Florent Thoumie, Frank Ziegler,
+    Fredrik Hedberg, Félix Velasco, Gabriel Burt, Garrett LeSage,
+    Ghislain Lacroix, Götz Waschk, Haitao Feng, Hajime Mizuno,
+    Hans Petter Jansson, Harold Schreckengost, Iain Lane,
+    Igor Guerrero Fonseca, Ilya Konstantinov, Ivan N. Zlatev, Jack Deslippe,
+    Jakub Steiner, James Willcox, Jan Arne Petersen, Jason Conti, Jason Taylor,
+    Jeff Tickle, Jeff Wheeler, Jensen Somers, Jeroen Budts, Jo Shields,
+    Johannes Kuhn, John Millikin, Jonas Urth Olsen, Jordi Mas, Jorge Castro,
+    Julien Moutte, Juri Pakaste, Ján Sokoly, Jérémie Laval,
+    K. Vishnoo Charan Reddy, Ken Vandine, Kentaro KAZUHAMA, Kevin Duffus,
+    Koichi Akabe, Konstantin Oshiyko, Larry Ewing, Lauri Kotilainen,
+    Lukas Lipka, Mackenan Grassi, Marijn Ros, Mark Busby, Matt Enright,
+    Matt Sturgeon, Michael Kaiser, Michael Martin-Smucker, Michael Monreal,
+    Michael Monreal, Micha? Sawicz, Miguel de Icaza, Mike Gemünde,
+    Mike Urbanski, Moritz Schallaböck, Nathan Palmer, Neil Loknath,
+    Nicholas Doyle, Nicholas Parker, Nicolò Chieffo, Nils Naumann, Oben Sonne,
+    Olivier Dufour, Oscar Forero, Pacho Ramos, Patrick van Staveren,
+    Paul Cutler, Paul Lange, Pavel Antonov, Pepijn van de Geer, Pete Johanson,
+    Peter de Kraker, Pratik Patel, Przemys?aw Grzegorczyk, Raimo Radczewski,
+    Robin Stocker, Roderich Schupp, Rodney Dawes, Romain Tartière,
+    Ruben Vermeersch, Ryan Collier, Samuel Gyger, Sandy Armstrong,
+    Scott Peterson, Sebastian Dröge, Shaun McCance, Sjoerd Simons, Tim Fisken,
+    Tim Yamin, Tobias Mueller, Todd Berman, Travis Glenn Hansen,
+    Travis Reitter, Trey Ethridge, Valentin Sawadski, Will Farrington,
+    Will Thompson, William Friesen, William Pettersson, Wouter Bolsterlee,
+    Yuuto Tokunaga, Zhou Ting
+
+
+
+
+
+
+#### Reporting Bugs, Joining the Community
+
+
+If you encounter any bad behavior with this release, please do not hesitate to [file bugs](/contribute/file-bugs/)!
+
+We welcome new contributors - developers, translators, artists, writers, support gurus - to join our community.  [Join us!](/contribute)
