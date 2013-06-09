@@ -2,8 +2,8 @@
 author: Bertrand
 comments: false
 date: 2012-03-08 02:05:53+00:00
-layout: page
-slug: 2-3-6
+layout: page-release
+permalink: /download/archives/2.3.6/index.html
 title: Banshee 2.3.6
 wordpress_id: 1188
 ---

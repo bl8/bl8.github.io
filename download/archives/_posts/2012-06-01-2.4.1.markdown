@@ -1,24 +1,24 @@
 ---
 author: Bertrand
 comments: false
-date: 2012-02-16 01:16:15+00:00
-layout: page
-slug: 2-3-5
-title: Banshee 2.3.5
-wordpress_id: 1179
+date: 2012-06-01 01:50:58+00:00
+layout: page-release
+permalink: /download/archives/2.4.1/index.html
+title: Banshee 2.4.1
+wordpress_id: 1220
 ---
 
 
 	
-  * **Release Date:** 2012-02-15
+  * **Release Date:** 2012-05-31
 
 	
-  * **Source Tarball:** [banshee-2.3.5.tar.xz](http://ftp.gnome.org/pub/GNOME/sources/banshee/2.3/banshee-2.3.5.tar.xz)
+  * **Source Tarball:** [banshee-2.4.1.tar.xz](http://ftp.gnome.org/pub/GNOME/sources/banshee/2.4/banshee-2.4.1.tar.xz)
 
 	
   * **Release Information:**
-[NEWS](http://ftp.gnome.org/pub/GNOME/sources/banshee/2.3/banshee-2.3.5.news),
-[sha256sum](http://ftp.gnome.org/pub/GNOME/sources/banshee/2.3/banshee-2.3.5.sha256sum)
+[NEWS](http://ftp.gnome.org/pub/GNOME/sources/banshee/2.4/banshee-2.4.1.news),
+[sha256sum](http://ftp.gnome.org/pub/GNOME/sources/banshee/2.4/banshee-2.4.1.sha256sum)
 
 
 
@@ -30,65 +30,37 @@ wordpress_id: 1179
 
 
 
- Banshee 2.3.5 is part of the 2.3 development series leading up to 2.4, scheduled for March 2012.
+    Banshee 2.4.1 is a stable, bug-fix-only release building on Banshee 2.4.0.
 
 
 
 
 
 
-### New features
-
-
-
-
-#### UPnP support
-
-
-
-
-Browse and play music or videos shared over your local network by UPnP device.
-
-
-
-
-
-### Other Enhancements
+### Notable Bug Fixes (12 fixed since 2.4.0)
 
 
 
 
 
       
-  * bgo#587964: Dap: Add support for DOS folder separator in playlists
+  * Migo.Syndication: Handle feeds with malformed enclosure URLs
       
-  * bgo#548636: Lastfm: Use one standard directory for last.fm caching
+  * [bgo#626659](http://bugzilla.gnome.org/show_bug.cgi?id=626659): ServiceManager: check properly if a service is required
       
-  * Add option to hide the artist filter
+  * [bgo#634758](http://bugzilla.gnome.org/show_bug.cgi?id=634758): PlaylistSource: Make sure the right tracks are removed
       
-  * Add a Composer filter in the SearchEntry filter menu
+  * [bgo#662909](http://bugzilla.gnome.org/show_bug.cgi?id=662909): PlaylistParser: Retry HTTP request after timeout
       
-  * MusicBrainz: Enable FreeBSD support
+  * [bgo#666696](http://bugzilla.gnome.org/show_bug.cgi?id=666696): DapSource: Flush pending changes when quitting
       
-  * AudioscrobblerConnection: Add logging for last.fm scrobbler
-
-
-
-
-### Notable Bug Fixes (5 fixed since 2.3.4)
-
-
-
-
-
+  * [bgo#672744](http://bugzilla.gnome.org/show_bug.cgi?id=672744): UPnPServerSource: Fix crash when getting the root object
       
-  * Fix MusicBrainz dllmap for cross-architecture support
+  * [bgo#673037](http://bugzilla.gnome.org/show_bug.cgi?id=673037): libossifer: Fix certificate validation with libsoup 2.38
       
-  * LibraryWatcher: Catch and log exception when processing changes
+  * [bgo#673416](http://bugzilla.gnome.org/show_bug.cgi?id=673416): DbIteratorJob: Abort job after several consecutive failures
       
-  * Improve readability of the Last.fm user guide page
-      
-  * Prevent missing icons in the source tarball
+  * [bgo#676144](http://bugzilla.gnome.org/show_bug.cgi?id=676144): PlayQueueSource: Fix high memory usage when shuffling
 
   
 
@@ -99,6 +71,9 @@ Browse and play music or videos shared over your local network by UPnP device.
 
 
 
+
+	
+  * [Read about features added in Banshee 2.4.0](/download/archives/2.4.0)
 
 	
   * [Read about features added in Banshee 2.2.0](/download/archives/2.2.0)
@@ -218,9 +193,7 @@ The following people directly contributed to the release of this version of Bans
 
 
 > 
-     Alexander Kojevnikov, Andres G. Aragoneses, Bertrand Lorentz,
-     Chow Loong Jin, Jo Shields, Phil Trimble, Tobias Arrskog,
-     Udesh Liyanaarachchi, William Witt
+     Andres G. Aragoneses, Bertrand Lorentz, Olivier Dufour
 
 
 
@@ -228,9 +201,8 @@ The following people contributed updated translations to this release.    Withou
 
 
 > 
-     Benjamín Valero, Bruno Brouard, Cheng-Chia Tseng, Hendrik Knackstedt,
-     Marek ?ernocký, Mario Blättermann, Matej Urban?i?, Muhammet Kara,
-     OKANO Takayoshi
+     Andika Triwidada, Bruno Brouard, Daniel Mustieles, Gabor Kelemen,
+     Matej Urban?i?, Piotr Dr?g
 
 
 
@@ -245,8 +217,8 @@ The following people contributed updated translations to this release.    Withou
         Aaron Bockover, Abner Silva, Adam Lofts, Age Bosma, Alan McGovern,
     Alban Crequy, Alberto Gonzalez, Alex Bennee, Alex Kloss, Alex Launi,
     Alex Mauer, Alex Willmy, Alexander Hixon, Alexander Kojevnikov,
-    Alexandros Frantzis, Alp Toker, Anders Petersson, Andrea Cimitan,
-    Andreas Neustifter, Andreas Nilsson, Andrew Conkling,
+    Alexandros Frantzis, Alp Toker, Anders Petersson, Andre Klapper,
+    Andrea Cimitan, Andreas Neustifter, Andreas Nilsson, Andrew Conkling,
     Andrés G. Aragoneses, Andy Midgette, Andy Street, Aran Cox, Arthur Carli,
     Arun Raghavan, Aurélien Mino, Aydemir Ula? ?ahin, Ben Maurer,
     Benjamín Valero Espinosa, Bertrand Lorentz, Bill Dawson, Bob Copeland,
@@ -274,18 +246,19 @@ The following people contributed updated translations to this release.    Withou
     Michael Martin-Smucker, Michael Monreal, Michael Monreal, Micha? Sawicz,
     Miguel de Icaza, Mike Gemünde, Mike Urbanski, Moritz Schallaböck,
     Nathan Palmer, Neil Loknath, Nicholas Doyle, Nicholas Parker,
-    Nicolò Chieffo, Nils Naumann, Oben Sonne, Okano Takayoshi, Olivier Dufour,
-    Oscar Forero, Pacho Ramos, Patrick van Staveren, Paul Cutler, Paul Lange,
-    Pavel Antonov, Pepijn van de Geer, Pete Johanson, Peter de Kraker,
-    Phil Trimble, Pratik Patel, Przemys?aw Grzegorczyk, Raimo Radczewski,
-    Robin Stocker, Roderich Schupp, Rodney Dawes, Romain Tartière,
-    Ruben Vermeersch, Ryan Collier, Samuel Gyger, Sandy Armstrong,
-    Scott Peterson, Sebastian Dröge, Shaun McCance, Sjoerd Simons, Tim Fisken,
-    Tim Yamin, Timothy Arceri, Tobias Arrskog, Tobias Mueller, Todd Berman,
-    Travis Glenn Hansen, Travis Patterson, Travis Reitter, Trey Ethridge,
-    Udesh Liyanaarachchi, Valentin Sawadski, Victor Vargas, Will Farrington,
-    Will Thompson, William Friesen, William Pettersson, William Witt,
-    Wouter Bolsterlee, Yuuto Tokunaga, Zhou Ting.
+    Nicolò Chieffo, Nils Naumann, Nuno Araujo, Oben Sonne, Okano Takayoshi,
+    Olivier Dufour, Oscar Forero, Pacho Ramos, Patrick van Staveren,
+    Paul Cutler, Paul Lange, Pavel Antonov, Pepijn van de Geer, Pete Johanson,
+    Peter de Kraker, Phil Trimble, Pratik Patel, Przemys?aw Grzegorczyk,
+    Raimo Radczewski, Robin Stocker, Roderich Schupp, Rodney Dawes,
+    Romain Tartière, Ruben Vermeersch, Ryan Collier, Samuel Gyger,
+    Sandy Armstrong, Scott Peterson, Sebastian Dröge, Shaun McCance,
+    Sjoerd Simons, Tim Fisken, Tim Yamin, Timothy Arceri, Tobias Arrskog,
+    Tobias Mueller, Todd Berman, Travis Glenn Hansen, Travis Patterson,
+    Travis Reitter, Trey Ethridge, Udesh Liyanaarachchi, Valentin Sawadski,
+    Victor Vargas, Will Farrington, Will Thompson, William Friesen,
+    William Pettersson, William Witt, Wouter Bolsterlee, Yuuto Tokunaga,
+    Zhou Ting.
 
 
 
