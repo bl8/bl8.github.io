@@ -1,0 +1,235 @@
+---
+author: Gabriel Burt
+comments: false
+date: 2008-06-06 19:14:41+00:00
+layout: page
+slug: download
+title: Download
+long-title: Download the Banshee Media Player
+show-sidebar: true
+sidebar-group: download
+wordpress_id: 8
+---
+
+<p class="latest-version">Latest Version: {{site.release-info.banshee.version}} ‒ {{site.release-info.banshee.date}}</p>
+
+<h3 class="download">1. Select Your Operating System</h3>
+
+<!-- Make sure to follow the naming convention for the various distro-* id attributes below -->
+<div id="distros">
+  <div id="distro-opensuse" class="button">
+    <img src="/images/distro-logos/48x48/opensuse.png" alt="openSUSE Logo" title="Download Banshee for openSUSE" />
+    <h4>openSUSE</h4>
+    <div class="details">
+      <table class="download-opensuse">
+        <tr>
+          <th>openSUSE 12.1</th>
+          <th>openSUSE 11.4</th>
+        </tr>
+        <tr>
+          <td><a href="http://download.banshee.fm/banshee/ymp?12.1" ><img src="http://download.banshee.fm/images/1click-install-button.png" alt="1-Click Install for openSUSE 12.1" title="1-Click Install for openSUSE 12.1" /></a></td>
+          <td><a href="http://download.banshee.fm/banshee/ymp?11.4" ><img src="http://download.banshee.fm/images/1click-install-button.png" alt="1-Click Install for openSUSE 11.4" title="1-Click Install for openSUSE 11.4" /></a></td>
+        </tr>
+        <tr class="text">
+          <td>
+            <p>Banshee 2.2.0 is included by default. Subscribing to the Banshee repository is recommended to receive automatic major release updates.</p>
+            <p><a href="http://download.opensuse.org/repositories/Banshee/12.1/" title="openSUSE 12.1 Repository">Repository</a></p>
+          </td>
+          <td>
+            <p>Banshee 1.9.3 is included by default. Subscribing to the Banshee repository will provide automatic major release updates.</p>
+            <p><a href="http://download.opensuse.org/repositories/Banshee/11.4/" title="openSUSE 11.4  Repository">Repository</a></p>
+          </td>
+        </tr>
+      </table>
+      <p><strong>Make sure your openSUSE installation is fully up to date before installing the latest Banshee!</strong></p>
+
+      <h4>For other SUSE distributions:</h4>
+      <ul>
+        <li><strong>openSUSE Tumbleweed:</strong> <a href="http://download.banshee.fm/banshee/ymp?Tumbleweed">1-Click Install</a> &#124; <a href="http://download.opensuse.org/repositories/Banshee/Tumbleweed/" title="openSUSE Tumbleweed Repository">Repository</a></li>
+        <li><strong>openSUSE Factory:</strong> <a href="http://download.banshee.fm/banshee/ymp?Factory">1-Click Install</a> &#124; <a href="http://download.opensuse.org/repositories/Banshee/Factory/" title="openSUSE Factory Repository">Repository</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="distro-ubuntu" class="button">
+    <img src="/images/distro-logos/48x48/ubuntu.png" alt="Ubuntu Logo" title="Download Banshee for Ubuntu" />
+    <h4>Ubuntu</h4>
+    <div class="details">
+      <a href="https://apps.ubuntu.com/cat/applications/banshee/"><img src="http://developer.ubuntu.com/wp-content/uploads/2012/06/downloadonubuntubutton.png"  title="Download for Ubuntu" alt="Download for Ubuntu button" width="122" height="49" /></a>
+      <p>Banshee is a default app on Ubuntu 11.04 and 11.10. Ubuntu has a policy of not updating the version of a shipped application, so the version available in the default repository might be old. Note that Canonical modifies our code to take a 75% cut of our Amazon affiliate revenue.  If you use Banshee from the community PPA below, 100% of the affiliate revenue will go to GNOME.</p>
+      To add the community-run <a href="https://launchpad.net/~banshee-team/+archive">Banshee Team PPA</a>:
+      <ul>
+        <li>In a terminal, run <code>sudo add-apt-repository ppa:banshee-team/ppa</code></li>
+        <li>Then install or update Banshee</li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="distro-foresight" class="button">
+    <img src="/images/distro-logos/48x48/foresight.png" alt="Foresight Logo" title="Download Banshee for Foresight" />
+    <h4>Foresight</h4>
+    <div class="details">
+      <ul>
+        <li>Banshee is the default media player on Foresight Linux.</li>
+        <li>Install or update <code>banshee</code> from PackageKit, or in a terminal type, <code>sudo conary update banshee</code></li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="distro-fedora" class="button">
+    <img src="/images/distro-logos/48x48/fedora.png" alt="Fedora Logo" title="Download Banshee for Fedora" />
+    <h4>Fedora</h4>
+    <div class="details">
+      <ul>
+        <li>Install via yum: <code>yum install banshee</code></li>
+        <li>View Fedora's <a href="https://admin.fedoraproject.org/pkgdb/applications/Banshee">Banshee package page</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="distro-debian" class="button">
+    <img src="/images/distro-logos/48x48/debian.png" alt="Debian Logo" title="Download Banshee for Debian" />
+    <h4>Debian</h4>
+    <div class="details">
+      <ul>
+        <li><strong>Unstable / Lenny</strong>: <code>apt-get install banshee</code></li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="distro-mandriva" class="button">
+    <img src="/images/distro-logos/48x48/mandriva.png" alt="Mandriva Logo" title="Download Banshee for Mandriva" />
+    <h4>Mandriva</h4>
+    <div class="details">
+      <ul>
+        <li><strong>Spring 2008</strong> (latest stable release): Enable the <code>/contrib/backports</code> repository and install the <code>banshee-1</code> package</li>
+        <li>The <code>banshee</code> package provides the legacy 0.13.x series Banshee</li>
+        <li><a href="http://wiki.mandriva.com/en/Docs/Basic_tasks/Installing_and_removing_software">Details on enabling /contrib/backports</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="distro-osx" class="button">
+    <img src="/images/distro-logos/48x48/osx.png" alt="Mac OS X Logo" title="Download Banshee for Mac OS X" />
+    <h4>Mac OS X</h4>
+    <div class="details">
+      <p>This release is a <em><strong>beta-quality technology preview</strong></em> with only partial device support (only mass storage devices), no CD support, or video support. We encourage you to test and <a href="/contribute/file-bugs">report issues</a>. Banshee for OS X is not yet as complete or as stable as our Linux releases.</p>
+      <p>Banshee for OS X runs on Intel 10.7 (Lion) and 10.8 (Mountain Lion). <em>OS X 10.6 and older and the PowerPC architecture are not supported.</em></p>
+      <ul>
+        <li>Install <a href="http://ftp.gnome.org/pub/GNOME/binaries/mac/banshee/banshee-2.6.1.macosx.intel.dmg">Banshee 2.6.1</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="distro-windows" class="button">
+    <img src="/images/distro-logos/48x48/windows.png" alt="Windows Logo" title="Download Banshee for Windows" />
+    <h4>Windows</h4>
+    <div class="details">
+      <p>This release is a <em><strong>alpha-quality technology preview</strong></em> with many <a href="https://bugzilla.gnome.org/buglist.cgi?query=product%3Abanshee%20os%3Awindows">known bugs and deficiencies</a>, including some obvious, glaring ones.  With that in mind, please test it and <a href="http://banshee.fm/contribute/file-bugs/">file</a> any new bugs you find.  If you are a developer, you can help us improve <a href="http://banshee.fm/download/development/#windows">the Windows build</a>.</p>
+      <p>Banshee for Windows should run on Windows XP or newer. </p>
+      <ul>
+        <li>Install <a href="http://ftp.gnome.org/pub/GNOME/binaries/win32/banshee/2.4/Banshee-2.4.0.msi">Banshee 2.4.0</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="clear"></div>
+
+<h3 id="distro-details-header" class="download"></h3>
+
+<div id="distro-details">
+</div>
+
+<h3>Source Releases</h3>
+<ul>
+  <li>The latest stable release of Banshee is version 2.6.1 released on April 16, 2013.</li>
+  <li><a href="http://ftp.gnome.org/pub/GNOME/sources/banshee/2.6/banshee-2.6.1.tar.xz">Download Source Tarball</a></li>
+  <li><a href="/download/archives">See older releases</a></li>
+</ul>
+
+<h3>Beta Releases</h3>
+<p>
+  <ul>
+    <li><a href="http://download.opensuse.org/repositories/Banshee:/Unstable/">SUSE</a></li>
+    <li><a href="https://launchpad.net/~banshee-team/+archive/banshee-unstable">Ubuntu</a></li>
+  </ul>
+</p>
+
+<h3>Snapshot/Alpha Releases</h3>
+<p>
+  <ul>
+    <li><a href="https://launchpad.net/~banshee-team/+archive/banshee-daily">Ubuntu</a></li>
+  </ul>
+</p>
+
+<h3>Development Version</h3>
+<p>See <a href="/download/development">getting the development version</a> for more information.</p>
+
+<!-- Include this script inline here so that the distro/OS buttons are clickable even if not all the JS has been loaded async -->
+<script>
+var app_version = navigator.appVersion.toLowerCase ();
+var user_agent = navigator.userAgent.toLowerCase ();
+var detected_os = "unknown";
+
+function detect_os (ua_fragment, output_os) 
+{
+    var fingerprint = ua_fragment.toLowerCase ();
+    if (app_version.indexOf (fingerprint) >= 0 || user_agent.indexOf (fingerprint) >= 0) {
+        detected_os = output_os;
+    }
+}
+
+detect_os ("Win", "Windows");
+detect_os ("Intel Mac OS X", "OSX");
+detect_os ("openSUSE", "openSUSE");
+detect_os ("SUSE", "openSUSE");
+detect_os ("SLED", "SLED");
+detect_os ("Ubuntu", "Ubuntu");
+detect_os ("Debian", "Debian");
+detect_os ("Fedora", "Fedora");
+detect_os ("RedHat", "Fedora");
+detect_os ("Foresight", "Foresight");
+
+var default_distro = detected_os.toLowerCase ();
+var href_parts = document.location.href.split ('#');
+if (href_parts.length > 1) {
+    var override_distro = href_parts[href_parts.length - 1].toLowerCase ();
+    if (override_distro.length > 1) {
+        default_distro = override_distro;
+    }
+}
+
+var download_action = "Install on";
+
+function show_distro_details (button)
+{
+    var title = $$('#' + button.id + ' h4')[0].innerHTML;
+    var content = $$('#' + button.id + ' div.details')[0].innerHTML;
+    
+    button.addClassName ('chosen');
+    $$('#distros div.button').each (function (element, index) {
+        if (element != button) {
+            element.removeClassName ('chosen');
+        }
+    });
+    
+    $('distro-details').innerHTML = content;
+    $('distro-details-header').innerHTML = '2. ' + download_action + ' ' + title;
+}
+
+function install_distro_button_actions ()
+{
+    $$('#distros div.button').each (function (button, index) {
+        if (button.id == 'distro-' + default_distro) {
+            show_distro_details (button);
+        }
+        
+        button.observe ('click', function () { show_distro_details (button); } );
+    });
+    
+    $('distro-details').setStyle ("display: block");
+}
+
+Event.observe (window, 'load', install_distro_button_actions);
+</script>

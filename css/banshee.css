@@ -4,10 +4,6 @@ body {
 	font: 0.80em/1.5em Cantarell,"Droid Sans","DejaVu Sans","Bitstream Vera Sans",Verdana,sans-serif
 }
 
-code, pre {
-	font: 0.80em "Droid Sans Mono", "Consolas","DejaVu Sans Mono",monospace;
-}
-
 #content-header.home-slide-show .text h2 {
 	letter-spacing: -1px;
 }
