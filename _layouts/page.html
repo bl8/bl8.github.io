@@ -35,7 +35,7 @@
     </div>
   </div>
   
-  <div id="content-header"><h2>{{ page.long-title }}</h2></div>
+  <div id="content-header"><h2>{% if page.long-title %}{{ page.long-title }}{% else %}{{ page.title }}{% endif %}</h2></div>
 
   <div id="wrapper">
     <div id="content" {% unless page.show-sidebar %} class="wide" {% endunless %}>
