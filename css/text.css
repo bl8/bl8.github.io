@@ -28,7 +28,7 @@ a:hover {
 }
 
 pre {
-    font: "Droid Sans Mono", "Consolas", "DejaVu Sans Mono", monospace;
+    font: 1em "Droid Sans Mono", "Consolas", "DejaVu Sans Mono", monospace;
     background: #f8f8f8;
     padding: 5px;
     margin: 1em;
