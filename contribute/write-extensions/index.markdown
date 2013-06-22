@@ -1,14 +1,10 @@
 ---
-author: Gabriel Burt
-comments: false
-date: 2010-02-18 05:30:50+00:00
 layout: page
 title: Write Extensions
 show-sidebar: true
 group: contribute
 order: 5
 sidebar-group: contribute
-wordpress_id: 355
 ---
 
 ### Introduction

@@ -1,16 +1,11 @@
 ---
-author: Gabriel Burt
-comments: false
-date: 2008-06-06 21:20:26+00:00
 layout: page
-slug: publicity
 title: Publicity
 long-title: Publicity, Reviews and Developer Talks
 show-sidebar: true
 group: about
 order: 6
 sidebar-group: about
-wordpress_id: 19
 ---
 
 Interested in interviewing a Banshee maintainer or having them speak at your LUG, conference, or other event?  [Contact us](http://git.gnome.org/browse/banshee/tree/MAINTAINERS).

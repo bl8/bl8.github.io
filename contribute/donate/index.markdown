@@ -1,14 +1,10 @@
 ---
-author: Bertrand
-comments: false
-date: 2013-05-21 22:12:29+00:00
 layout: page
 title: Donate
 show-sidebar: true
 group: contribute
 order: 6
 sidebar-group: contribute
-wordpress_id: 1312
 ---
 
 For more than 2 years now, [Aaron Bockover](http://abock.org), the creator of Banshee, has been paying the costs of our web hosting (Linode server and domain names). This amounts to a bit over $500 per year.

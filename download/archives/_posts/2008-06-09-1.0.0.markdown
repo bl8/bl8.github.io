@@ -1,11 +1,7 @@
 ---
-author: Gabriel Burt
-comments: false
-date: 2008-06-09 20:37:03+00:00
 layout: page-release
 permalink: /download/archives/1.0.0/
 title: Banshee 1.0
-wordpress_id: 34
 ---
 
 
@@ -26,7 +22,7 @@ wordpress_id: 34
 
 
 
-[![Download Now](/theme/css/images/download-button.png)](/download)
+[![Download Now](/images/download-button.png)](/download)
 
 
 
@@ -410,7 +406,7 @@ This new extension automatically downloads cover art for any songs added to your
 
 
 
-[![Download Now](/theme/css/images/download-button.png)](/download)
+[![Download Now](/images/download-button.png)](/download)
 
 
 

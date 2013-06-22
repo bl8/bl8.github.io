@@ -1,14 +1,9 @@
 ---
-author: Gabriel Burt
-comments: false
-date: 2008-06-06 19:57:39+00:00
 layout: page
-slug: contribute
 title: Contribute
 long-title: Contribute — How You Can Help Make Banshee Better
 show-sidebar: true
 sidebar-group: contribute
-wordpress_id: 11
 ---
 
 Banshee is a free/open-source project, and you are more than welcome to help us make it better!  There are many ways you can help:

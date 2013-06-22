@@ -1,7 +1,4 @@
 ---
-author: Gabriel Burt
-comments: false
-date: 2008-06-06 19:18:22+00:00
 layout: page
 title: FAQ
 long-title: Frequently Asked Questions
@@ -9,7 +6,6 @@ show-sidebar: true
 group: support
 order: 1
 sidebar-group: support
-wordpress_id: 10
 ---
 
 ### Features

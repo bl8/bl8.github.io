@@ -1,14 +1,10 @@
 ---
-author: Gabriel Burt
-comments: false
-date: 2008-06-09 23:21:56+00:00
 layout: page
 title: Audio CDs
 show-sidebar: true
 group: guide
 order: 1
 sidebar-group: guide
-wordpress_id: 35
 ---
 
 Banshee supports playing audio CDs and importing (ripping) them into your Music Library

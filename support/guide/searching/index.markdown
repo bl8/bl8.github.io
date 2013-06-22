@@ -1,14 +1,10 @@
 ---
-author: Gabriel Burt
-comments: false
-date: 2008-06-06 19:12:17+00:00
 layout: page
 title: Searching
 show-sidebar: true
 group: guide
 order: 3
 sidebar-group: guide
-wordpress_id: 6
 ---
 
 Banshee supports a very extensive user search language, which is actually a super-set of the [Xesam user search language](http://xesam.org/main/XesamUserSearchLanguage). The search language is very similar to that which is supported by Google and other major search engines and desktop search applications, such as [Beagle](http://beagle-project.org/).

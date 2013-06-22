@@ -1,14 +1,10 @@
 ---
-author: Gabriel Burt
-comments: false
-date: 2010-08-26 17:08:53+00:00
 layout: page
 title: Affiliate Revenue
 show-sidebar: true
 group: about
 order: 1
 sidebar-group: about
-wordpress_id: 638
 ---
 
 Since July 2010 Banshee has had [Amazon MP3 Store integration](http://integrated-services.banshee.fm/amz/redirect.do/geo/home/).  Amazon pays an affiliate fee for purchases (10% of MP3s, less for other items), all of which goes to the non-profit [GNOME Foundation](http://foundation.gnome.org/), except on distributions that patch our code: Ubuntu, where Canonical takes a 75% cut, and Linux Mint, where they keep 50%.

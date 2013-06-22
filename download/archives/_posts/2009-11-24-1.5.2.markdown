@@ -1,11 +1,7 @@
 ---
-author: Gabriel Burt
-comments: false
-date: 2009-11-24 02:07:31+00:00
 layout: page-release
 permalink: /download/archives/1.5.2/
 title: Banshee 1.5.2
-wordpress_id: 183
 ---
 
 
@@ -26,7 +22,7 @@ wordpress_id: 183
   
   
 
-[![Download Now](/theme/css/images/download-button.png)](/download)
+[![Download Now](/images/download-button.png)](/download)
 
  
   

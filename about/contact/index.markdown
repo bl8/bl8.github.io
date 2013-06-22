@@ -1,7 +1,4 @@
 ---
-author: Gabriel Burt
-comments: false
-date: 2008-06-06 22:32:46+00:00
 layout: page
 title: Contact
 long-title: Contact — Questions, Feedback, Discussion
@@ -9,7 +6,6 @@ show-sidebar: true
 group: about
 order: 3
 sidebar-group: about
-wordpress_id: 23
 ---
 
 We use two main ways of communicating with each other: a mailing-list/forum and a chatroom in IRC.  If you have found a bug, you can ask in the chatroom or on the list/forum about it, but it really belongs in [our bug tracker](/contribute/file-bugs).

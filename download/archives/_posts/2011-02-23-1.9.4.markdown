@@ -1,11 +1,7 @@
 ---
-author: alexk
-comments: false
-date: 2011-02-23 16:29:16+00:00
 layout: page-release
 permalink: /download/archives/1.9.4/
 title: Banshee 1.9.4
-wordpress_id: 838
 ---
 
 
@@ -23,7 +19,7 @@ wordpress_id: 838
 
 
 
-[![Download Now](/theme/css/images/download-button.png)](/download)
+[![Download Now](/images/download-button.png)](/download)
 
 
 

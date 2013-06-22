@@ -1,11 +1,7 @@
 ---
-author: Bertrand
-comments: false
-date: 2011-12-22 02:32:29+00:00
 layout: page-release
 permalink: /download/archives/2.3.3/
 title: Banshee 2.3.3
-wordpress_id: 1154
 ---
 
 
@@ -23,7 +19,7 @@ wordpress_id: 1154
 
 
 
-[![Download Now](/theme/css/images/download-button.png)](/download)
+[![Download Now](/images/download-button.png)](/download)
 
 
 

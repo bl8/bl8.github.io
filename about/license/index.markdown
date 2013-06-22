@@ -1,16 +1,11 @@
 ---
-author: Gabriel Burt
-comments: false
-date: 2008-06-06 21:28:06+00:00
 layout: page
-slug: license
 title: License
 long-title: Banshee's Source Code License
 show-sidebar: true
 group: about
 order: 5
 sidebar-group: about
-wordpress_id: 20
 ---
 
 ### Free/Open Source Software

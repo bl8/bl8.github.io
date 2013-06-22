@@ -1,15 +1,10 @@
 ---
-author: Gabriel Burt
-comments: false
-date: 2008-06-08 04:09:24+00:00
 layout: page
-slug: extensions
 title: Extensions
 show-sidebar: true
 group: download
 sidebar-group: download
 order: 3
-wordpress_id: 32
 ---
 
 Banshee is written to be easily enhanced by extensions.  In fact, the Play Queue, Podcasting, and Last.fm support are all extensions.  You can turn extensions on and off within the _Extensions_ tab of the _Preferences_ dialog (under the Edit menu).

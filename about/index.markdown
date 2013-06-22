@@ -1,13 +1,9 @@
 ---
-author: Gabriel Burt
-comments: false
-date: 2008-06-06 21:13:55+00:00
 layout: page
 title: About
 long-title: About the Banshee Media Player
 show-sidebar: true
 sidebar-group: about
-wordpress_id: 18
 ---
 
 ### Community

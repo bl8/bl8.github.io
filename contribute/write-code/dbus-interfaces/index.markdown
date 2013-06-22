@@ -1,12 +1,8 @@
 ---
-author: admin
-comments: false
-date: 2008-09-11 21:32:19+00:00
 layout: page
 title: DBus Interfaces
 show-sidebar: true
 sidebar-group: none
-wordpress_id: 52
 ---
 
 Banshee exposes a lot of functionality through D-Bus interfaces, which you can use to make you own software interact with Banshee.

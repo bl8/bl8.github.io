@@ -1,11 +1,6 @@
 ---
-author: Gabriel Burt
-comments: false
-date: 2008-06-06 20:06:49+00:00
 layout: page
-slug: main-page
 title: Home
-wordpress_id: 7
 ---
 
 ### Rockin' Features

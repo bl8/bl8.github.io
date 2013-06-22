@@ -1,14 +1,10 @@
 ---
-author: Gabriel Burt
-comments: false
-date: 2008-06-06 19:16:57+00:00
 layout: page
 title: Keyboard Shortcuts
 show-sidebar: true
 group: guide
 order: 2
 sidebar-group: guide
-wordpress_id: 9
 ---
 
 For advanced control of playback and other interface elements, Banshee supports key bindings, or combinations of keys (and/or clicks), that can be pressed to perform an action.

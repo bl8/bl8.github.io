@@ -1,11 +1,7 @@
 ---
-author: andres
-comments: false
-date: 2013-04-17 01:19:42+00:00
 layout: page-release
 permalink: /download/archives/2.6.1/
 title: Banshee 2.6.1
-wordpress_id: 1285
 ---
 
   * **Release Date:** 2013-04-16

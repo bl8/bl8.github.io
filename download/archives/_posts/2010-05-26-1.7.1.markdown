@@ -1,11 +1,7 @@
 ---
-author: Bertrand
-comments: false
-date: 2010-05-26 22:25:46+00:00
 layout: page-release
 permalink: /download/archives/1.7.1/
 title: Banshee 1.7.1
-wordpress_id: 550
 ---
 
 
@@ -23,7 +19,7 @@ wordpress_id: 550
 
 
 
-[![Download Now](/theme/css/images/download-button.png)](/download)
+[![Download Now](/images/download-button.png)](/download)
 
 
 

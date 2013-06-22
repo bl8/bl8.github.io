@@ -1,14 +1,10 @@
 ---
-author: Gabriel Burt
-comments: false
-date: 2008-06-06 20:05:15+00:00
 layout: page
 title: Help With Bug Reports
 show-sidebar: true
 group: contribute
 order: 2
 sidebar-group: contribute
-wordpress_id: 15
 ---
 
 You can help the development team keep up with the bug reports by closing duplicates, helping to clarify reporters' problems, and confirming that you can reproduce bugs.

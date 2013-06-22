@@ -1,14 +1,10 @@
 ---
-author: Gabriel Burt
-comments: false
-date: 2008-06-06 19:59:28+00:00
 layout: page
 title: File Bugs
 show-sidebar: true
 group: contribute
 order: 1
 sidebar-group: contribute
-wordpress_id: 12
 ---
 
 Banshee uses an issue tracker called Bugzilla for bug reports.

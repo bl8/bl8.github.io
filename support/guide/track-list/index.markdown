@@ -1,14 +1,10 @@
 ---
-author: Gabriel Burt
-comments: false
-date: 2008-08-13 16:00:51+00:00
 layout: page
 title: Track List
 show-sidebar: true
 group: guide
 order: 4
 sidebar-group: guide
-wordpress_id: 51
 ---
 
 The track list is where your songs, videos, and podcasts are listed.

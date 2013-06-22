@@ -1,14 +1,10 @@
 ---
-author: Gabriel Burt
-comments: false
-date: 2008-06-06 20:07:11+00:00
 layout: page
 title: Write Code
 show-sidebar: true
 group: contribute
 order: 4
 sidebar-group: contribute
-wordpress_id: 16
 ---
 
 Banshee is written mostly in C# using Gtk#.  It is licensed under the [MIT/X11 free/open source software license](/about/license).  When you contribute to Banshee, you keep your copyright, but all contributions are licensed under the MIT/X11 license.

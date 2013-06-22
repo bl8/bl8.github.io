@@ -1,13 +1,9 @@
 ---
-author: Gabriel Burt
-comments: false
-date: 2008-06-06 19:11:58+00:00
 layout: page
 title: Help
 long-title: Help for Using Banshee and Solving Problems
 show-sidebar: true
 sidebar-group: support
-wordpress_id: 5
 ---
 
 Banshee is a community project, so we rely on each other to be helpful and document problems and their solutions.  For Banshee to be able to grow and support a large number of users, it's important that we are clear, concise, and respectful of others and their time.

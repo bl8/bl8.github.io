@@ -1,14 +1,10 @@
 ---
-author: Gabriel Burt
-comments: false
-date: 2008-06-06 20:01:21+00:00
 layout: page
 title: Translate Banshee
 show-sidebar: true
 group: contribute
 order: 3
 sidebar-group: contribute
-wordpress_id: 13
 ---
 
 Banshee has been translated into dozens of languages, but if the translation for your language doesn't exist or is out of date, you can help bring Banshee to entire new populations simply by translating some text.

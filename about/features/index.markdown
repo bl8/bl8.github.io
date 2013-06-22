@@ -1,13 +1,8 @@
 ---
-author: Gabriel Burt
-comments: false
-date: 2010-09-28 17:46:04+00:00
 layout: page
-slug: features
 title: Features
 group: about
 order: 4
-wordpress_id: 683
 ---
 
 <table cellspacing="0" cellpadding="0" border="0">
