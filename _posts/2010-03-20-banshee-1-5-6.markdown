@@ -1,12 +1,7 @@
 ---
-author: Gabriel Burt
-comments: false
-date: 2010-03-21 02:41:19+00:00
 layout: post
-slug: banshee-1-5-6
 title: Banshee 1.5.6
-wordpress_id: 486
-tag:
+tags:
 - news
 ---
 

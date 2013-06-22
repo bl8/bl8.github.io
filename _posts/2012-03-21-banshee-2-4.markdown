@@ -1,0 +1,14 @@
+---
+layout: post
+title: Banshee 2.4 released!
+tags:
+- news
+---
+
+[Banshee 2.4](/download/archives/2-4-0/) has been released!  
+
+Banshee 2.4 is the culmination of six months' work by 31 developers, 33 translators and dozens of bug reporters and testers. It is a stable release, the successor to Banshee 2.2.  
+
+It has some exciting new features, like DVD playback and UPnP support, and lots of polish!  Read the [release notes](/download/archives/2-4-0/) for more info.  
+
+[Get it now!](/download)

@@ -1,12 +1,7 @@
 ---
-author: Gabriel Burt
-comments: false
-date: 2008-07-21 18:21:38+00:00
 layout: post
-slug: banshee-talk-at-guadec-2008-in-istanbul
 title: Banshee Talk at GUADEC 2008 in Istanbul
-wordpress_id: 39
-tag:
+tags:
 - talk
 ---
 

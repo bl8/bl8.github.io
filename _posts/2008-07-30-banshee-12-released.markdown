@@ -1,12 +1,7 @@
 ---
-author: Gabriel Burt
-comments: false
-date: 2008-07-30 17:15:23+00:00
 layout: post
-slug: banshee-12-released
 title: Banshee 1.2 Released!
-wordpress_id: 42
-tag:
+tags:
 - news
 ---
 
