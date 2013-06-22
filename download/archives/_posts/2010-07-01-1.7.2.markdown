@@ -3,7 +3,7 @@ author: alexk
 comments: false
 date: 2010-07-01 04:10:02+00:00
 layout: page-release
-permalink: /download/archives/1.7.2/index.html
+permalink: /download/archives/1.7.2/
 title: Banshee 1.7.2
 wordpress_id: 569
 ---

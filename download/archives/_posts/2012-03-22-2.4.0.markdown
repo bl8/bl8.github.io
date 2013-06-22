@@ -3,7 +3,7 @@ author: Bertrand
 comments: false
 date: 2012-03-22 00:47:40+00:00
 layout: page-release
-permalink: /download/archives/2.4.0/index.html
+permalink: /download/archives/2.4.0/
 title: Banshee 2.4.0
 wordpress_id: 1197
 ---

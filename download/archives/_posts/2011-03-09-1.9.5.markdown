@@ -3,7 +3,7 @@ author: Gabriel Burt
 comments: false
 date: 2011-03-09 19:40:28+00:00
 layout: page-release
-permalink: /download/archives/1.9.5/index.html
+permalink: /download/archives/1.9.5/
 title: Banshee 1.9.5
 wordpress_id: 863
 ---
