@@ -1,7 +1,6 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   
   <link rel="stylesheet" type="text/css" href="/css/style.css" media="screen" />
-  <link rel="stylesheet" type="text/css" href="/css/banshee.css" media="screen" />
   <link rel="stylesheet" type="text/css" href="/css/syntax.css" media="screen" />
   <link rel="alternate" type="application/rss+xml" title="Banshee RSS 2.0 Feed" href="{{ site.url }}{{ site.rss_path }}" />
   <link rel="alternate" type="application/atom+xml" title="Banshee Atom Feed" href="{{ site.url }}{{ site.atom_path }}" />

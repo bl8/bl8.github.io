@@ -1,7 +1,7 @@
+@import url(http://fonts.googleapis.com/css?family=Cantarell:400,700&v2);
+
 body {
-    /* 0.8125em */
-    font: 0.85em "DejaVu Sans", "Bitstream Vera Sans", Verdana, sans-serif;
-    line-height: 1.5em;
+    font: 0.80em/1.5em Cantarell,"Droid Sans","DejaVu Sans","Bitstream Vera Sans",Verdana,sans-serif
 }
 
 #content-header h2 {
@@ -9,7 +9,7 @@ body {
     font-weight: normal;
     line-height: 1em;
     margin: 0;
-    padding: .75em 0 .75em .75em;
+    padding: 10px 0 10px 10px;
     color: #3c719d;
 }
 
@@ -18,7 +18,7 @@ body {
 }
 
 a {
-    color: #0d71c0;
+    color: #3c719d;
     text-decoration: none;
     font-weight: bold;
 }
@@ -56,7 +56,8 @@ h3 {
     font-weight: normal;
     font-size: 1.3em;
     border-bottom: 1px solid #ddd;
-    margin-top: 1.5em;
+    margin-bottom: 10px;
+    margin-top: 10px;
     line-height: 1.5em;
 }
 
@@ -96,7 +97,8 @@ li {
 /* News list on home page */
 
 #news .date {
-    color: #666;
+    text-align: right;
+    color: #777;
     font-style: italic;
 }
 

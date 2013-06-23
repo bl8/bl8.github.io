@@ -1,11 +1,9 @@
 body {
 	background: #f8f8f8 url("../images/header-bg.png") repeat-x;
-	text-align: center;
 	margin: 0;
 }
 
 #page {
-	text-align: left;
 	margin: 0 auto;
 	padding: 0;
 	width: 980px !important;
@@ -79,14 +77,14 @@ body {
 }
 
 #content {
-    padding: 15px 15px 70px 15px;
+    padding: 10px 10px 20px 10px;
     display: block;
     float: left;
     width: 730px;
 }
 
 #content.wide {
-    width: 938px !important;
+    width: 958px !important;
 }
 
 #sidebar {
@@ -124,6 +122,36 @@ body {
 #search .gsc-clear-button {
     display: none;
 }
+
+#sitemap {
+    text-align: center;
+    width: 100%;
+    padding: 0px 140px 0px 140px;
+}
+
+#footer #sitemap td {
+    vertical-align: top;
+    font-size: .8em !important;
+    line-height: 1.3em;
+    text-align: left;
+}
+
+#sitemap td a {
+    font-weight: normal;
+    display: block;
+    color: #3c719d;
+    padding-bottom: 5px;
+}
+
+#sitemap td a:hover { color: #CE7B00; }
+
+#sitemap td a.section {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#sitemap #powered-by a { display: inline; }
+
 
 /* DOWNLOAD PAGE */
 
@@ -242,7 +270,7 @@ h3.download {
     margin: 0;
     padding: 0;
     font-size: 35px;
-    letter-spacing: -3px;
+    letter-spacing: -1px;
     white-space: nowrap;
     margin-left: 15px;
 }
@@ -320,7 +348,9 @@ dl.features dd {
 
 dl.features dd {
     font-size: .85em;
-    color: #666;
+    text-align: justify;
+    padding-top: 3px;
+    color: #777;
     margin-top: -10px;
     margin-bottom: 1em;
 }
@@ -352,13 +382,14 @@ dl.features span.new {
 }
 
 #news h4 {
+    float: left;
     margin-bottom: 0;
     font-size: 1.2em;
 }
 
 #news p {
     margin-top: .5em;
-    margin-bottom: 3em;
+    margin-bottom: 1em;
 }
 
 /* --- Home Screenshots --- */
