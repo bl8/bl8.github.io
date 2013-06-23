@@ -1,0 +1,14 @@
+  <div id="header">
+    <h1>{{ site.name }}</h1>
+    <a href="/"><img src="/images/header-logo.png" alt="{{ site.name }}" /></a>
+    <ul>
+      <li {% if page.url contains '/about/' %}class="current_page_item"{% endif %}><a href="/about/" title="About the Banshee Media Player">About</a></li>
+      <li {% if page.url contains '/contribute/' %}class="current_page_item"{% endif %}><a href="/contribute/" title="Contribute — How You Can Help Make Banshee Better">Contribute</a></li>
+      <li {% if page.url contains '/download/' %}class="current_page_item"{% endif %}><a href="/download/" title="Download the Banshee Media Player">Download</a></li>
+      <li {% if page.url contains '/support/' %}class="current_page_item"{% endif %}><a href="/support/" title="Help for Using Banshee and Solving Problems">Help</a></li>
+      <li {% if page.url contains '/planet/' %}class="current_page_item"{% endif %}><a href="/planet/" title="Aggregated Banshee and contributor blogs">Planet</a></li>
+    </ul>
+    <div id="search">
+      <gcse:searchbox-only></gcse:searchbox-only>
+    </div>
+  </div>

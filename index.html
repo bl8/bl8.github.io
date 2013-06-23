@@ -1,0 +1,109 @@
+---
+layout: nil
+---
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>{{ site.name }} » {{ page.title}}</title>
+
+{% include html_head %}
+
+  <script type="text/javascript" src="/js/photoshuffler.js"></script>
+
+{% include analytics %}
+{% include google-search %}
+
+</head>
+<body>
+<div id="page">
+
+  {% include page_header %}
+  
+  <div id="content-header" class="home-slide-show">
+    <div id="screenshot-slide">
+      <img id="screenshot-slide-image" src="/images/slides/scaled/music-450.png" alt="" />
+    </div>
+    <div class="text">
+      <h2>Banshee 2.6 is here!</h2>
+      <p>Play your music and videos.  Keep up with your podcasts and Internet radio.  Discover new music and podcasts.  Keep your portable device loaded with good stuff.</p>
+
+      <p>Simple enough to enjoy.  Powerful enough to thrill.  Open source through and through.</p>
+
+      <p class="download"><a href="/download"><img src="/images/download-button.png" width="160" height="54"  alt="Download Banshee" title="Download Banshee" /></a></p>
+    </div>
+  </div>
+  <div id="wrapper">
+    <div id="content" class="wide">
+      <div class="page">
+        <table id="home">
+          <tr>
+            <td class="first">
+              <h3>Rockin' Features</h3>
+              <dl class="features">
+                  <dt style="background-image:url('/images/features/g1.png')"><img src="/images/features/g1.png" alt="Sync Devices" /> Sync Devices</dt>
+                  <dd>Put media on your Android, Apple, or other player — or import from it</dd>
+                  <dt style="background-image:url('/images/features/podcast.png')"><img src="/images/features/podcast.png" alt="Discover and Subscribe to Podcasts" /> Discover and Subscribe to Podcasts</dt>
+                  <dd>Stay up to date with your favorite podcasts, and discover new ones with Miro Guide</dd>
+                  <dt style="background-image:url('/images/features/amazon-mp3-store-source.png')"><img src="/images/features/amazon-mp3-store-source.png" alt="Buy New Music" /> Buy New Music</dt>
+                  <dd>Get free and purchased music from the integrated Amazon MP3 Store</dd>
+                  <dt style="background-image:url('/images/features/playqueue.png')"><img src="/images/features/playqueue.png" alt="Queue Tracks" /> Queue Tracks</dt>
+                  <dd>Queue the track, album, or podcast you want to listen to next, or let the Auto DJ take over</dd>
+                  <dt style="background-image:url('/images/features/shuffle.png')"><img src="/images/features/shuffle.png" alt="Smartly Shuffle" /> Smartly Shuffle</dt>
+                  <dd>Listen to songs in random order, a song, album, or artist at a time, or with higher ratings preferred</dd>
+                  <dt style="background-image:url('/images/features/coverart.png')"><img src="/images/features/coverart.png" alt="Automatic Cover Art" /> Automatic Cover Art</dt>
+                  <dd>Cover art is immediately fetched for your music from a variety of sources</dd>
+                  <dt style="background-image:url('/images/features/smartplaylist.png')"><img src="/images/features/smartplaylist.png" alt="Powerful Search, Smart Playlists" /> Powerful Search, Smart Playlists</dt>
+                  <dd>Find exactly what you want, fast</dd>
+              </dl>
+            </td>
+
+            <td class="second">
+              <h3>From The Banshee Blog</h3>
+              <ul id="news">
+                {% for post in site.posts limit:6 %}{% unless post.categories contains 'archives' %}
+                  <li>
+                    <h4><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h4>
+                    <div class="date">{{ post.date | date_to_long_string }}</div>
+                    {{ post.content }}
+                  </li>
+                {% endunless %}{% endfor %}
+              </ul>
+
+              <div class="linode-ad" onclick="window.location='http://www.linode.com/?r=5ea2a167caa5bec58b16800303350173e3dd0946';">
+                <p class="tag"><a href="http://www.linode.com/?r=5ea2a167caa5bec58b16800303350173e3dd0946">Banshee is proudly hosted by Linode!</a></p>
+                <p class="sub"><a href="http://www.linode.com/?r=5ea2a167caa5bec58b16800303350173e3dd0946">Sign up now to have your virtual Linux server up and running in minutes in the Linode Cloud!</a></p>
+                <p class="banner"><a href="http://www.linode.com/?r=5ea2a167caa5bec58b16800303350173e3dd0946"><img src="/images/linode_logo2.png" alt="Linode" /></a></p>
+              </div>
+            </td >
+
+            <td class="third">
+              <h3>Quick Links</h3>
+              <ul>
+                <li><a href="/support/faq">FAQ</a></li>
+                <li><a href="/support/guide">User Guide</a></li>
+                <li><a href="/about/contact">Contact</a></li>
+                <li><a href="/contribute">Contribute</a></li>
+              </ul>
+
+              <h3>Latest Release</h3>
+              <a href="/download/archives/{{site.release-info.banshee.version}}/">Banshee {{site.release-info.banshee.display-version}}</a><br/>
+              {{site.release-info.banshee.date}}<br/>
+              <a href="/download">Get It Now!</a>
+            </td>
+          </tr >
+        </table>
+      </div>
+    </div><!--#content-->
+
+    <div id="footer">
+      {% include footer %}
+    </div>
+    
+  </div><!--#wrapper-->
+
+{% include page_bottom %}
+
+</div><!--#page-->
+</body>
+</html>

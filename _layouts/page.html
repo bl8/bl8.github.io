@@ -2,20 +2,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <title>{{ site.name }} » {{ page.title}}</title>
-  
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  
-  <link rel="stylesheet" type="text/css" href="/css/style.css" media="screen" />
-  <link rel="stylesheet" type="text/css" href="/css/banshee.css" media="screen" />
-  <link rel="stylesheet" type="text/css" href="/css/syntax.css" media="screen" />
-  <link rel="alternate" type="application/rss+xml" title="Banshee RSS 2.0 Feed" href="{{ site.url }}{{ site.rss_path }}" />
-  <link rel="alternate" type="application/atom+xml" title="Banshee Atom Feed" href="{{ site.url }}{{ site.atom_path }}" />
-  <link rel="icon" href="/images/favicon.ico"></link>
-  <link rel="SHORTCUT ICON" href="/images/favicon.ico"></link>
-  <link rel="apple-touch-icon" href="/images/appleicon.ico" />
 
-  <script type="text/javascript" src="/js/scriptaculous/prototype.js"></script>
-  <script type="text/javascript" src="/js/scriptaculous/scriptaculous.js"></script>
+{% include html_head %}
 
 {% include analytics %}
 {% include google-search %}
@@ -23,16 +11,8 @@
 </head>
 <body>
 <div id="page">
-  <div id="header">
-    <h1>{{ site.name }}</h1>
-    <a href="/"><img src="/images/header-logo.png" alt="{{ site.name }}" /></a>
 
-    {% include header-tabs %}
-
-    <div id="search">
-      <gcse:searchbox-only></gcse:searchbox-only>
-    </div>
-  </div>
+  {% include page_header %}
   
   <div id="content-header"><h2>{% if page.long-title %}{{ page.long-title }}{% else %}{{ page.title }}{% endif %}</h2></div>
 
@@ -59,11 +39,7 @@
     
   </div><!--#wrapper-->
 
-</div>
-
-<center>
-<p style="font-size:.7em;">Copyright 2013 Banshee contributors.  Banshee is a registered trademark of <a href="http://www.novell.com/linux">Novell</a>.</p>
-</center>
+{% include page_bottom %}
 
 </div><!--#page-->
 </body>

@@ -1,0 +1,13 @@
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  
+  <link rel="stylesheet" type="text/css" href="/css/style.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="/css/banshee.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="/css/syntax.css" media="screen" />
+  <link rel="alternate" type="application/rss+xml" title="Banshee RSS 2.0 Feed" href="{{ site.url }}{{ site.rss_path }}" />
+  <link rel="alternate" type="application/atom+xml" title="Banshee Atom Feed" href="{{ site.url }}{{ site.atom_path }}" />
+  <link rel="icon" href="/images/favicon.ico"></link>
+  <link rel="SHORTCUT ICON" href="/images/favicon.ico"></link>
+  <link rel="apple-touch-icon" href="/images/appleicon.ico" />
+
+  <script type="text/javascript" src="/js/scriptaculous/prototype.js"></script>
+  <script type="text/javascript" src="/js/scriptaculous/scriptaculous.js"></script>
