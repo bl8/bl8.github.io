@@ -1,0 +1,40 @@
+---
+layout: page
+title: Banshee Blog
+show-sidebar: true
+sidebar-group: none
+---
+
+{% comment %}<!--
+Release notes pages are handled as posts for convenience, and they are in the 'download' and 'archives' categories.
+But we don't want them in the feed, so we skip them. This means the number of posts per page will not be exact,
+but it's better than no pagination.
+-->{% endcomment %}
+{% for post in paginator.posts %}{% unless post.categories contains 'archives' %}
+<div class="post">
+  <div class="header">
+    <span class="date"><strong>{{ post.date | date_to_long_string }}</strong></span>
+    <h2 class="item">
+      <a href="{{ post.url}}" rel="bookmark">{% if post.long-title %}{{ post.long-title }}{% else %}{{ post.title }}{% endif %}</a>
+    </h2>
+  </div>
+  <div class="content">
+    {{ post.content }}
+  </div>
+</div>
+{% endunless %}{% endfor %}
+
+<!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.previous_page %}
+    {% if paginator.previous_page == 1 %}
+      <a href="/blog/" class="previous">« Previous Page</a>
+    {% else %}
+      <a href="/blog/page{{ paginator.previous_page }}/" class="previous">« Previous Page</a>
+    {% endif %}
+  {% endif %}
+  {% if paginator.previous_page and paginator.next_page %} — {% endif %}
+  {% if paginator.next_page %}
+    <a href="/blog/page{{ paginator.next_page }}/" class="next">Next Page »</a>
+  {% endif %}
+</div>

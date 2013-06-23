@@ -1,7 +1,15 @@
+name: Banshee
+description: Banshee Media Player
+url: http://banshee.fm
+rss_path : /feed/
+atom_path : /feed/atom/
+
 markdown: rdiscount
 permalink: pretty
+relative_permalinks: false
 
-name: Banshee
+paginate: 20
+paginate_path: "/blog/page:num"
 
 release-info:
   banshee:
