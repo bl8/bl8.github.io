@@ -5,13 +5,14 @@ permalink: /feed/
 ---
 
 <?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>{{ site.name }}</title>
     <description>{{ site.description }}</description>
     <link>{{ site.url }}</link>
-    <lastBuildDate>{{ site.time | date_to_xmlschema }}</lastBuildDate>
-    <pubDate>{{ site.time | date_to_xmlschema }}</pubDate>
+    <atom:link rel="self" type="application/rss+xml" href="{{ site.url }}{{ page.url }}" />
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
 
 {% comment %}<!--
 Release notes pages are handled as posts for convenience, and they are in the 'download' and 'archives' categories.
@@ -23,7 +24,7 @@ But we don't want them in the feed.
       <description>{{ post.content | xml_escape }}</description>
       <link>{{ site.url }}{{ post.url }}</link>
       <guid>{{ site.url }}{{ post.id }}</guid>
-      <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
+      <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
     </item>
 {% endunless %}{% endfor %}
 
