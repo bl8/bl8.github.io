@@ -17,7 +17,7 @@ permalink: /feed/
 Release notes pages are handled as posts for convenience, and they are in the 'download' and 'archives' categories.
 But we don't want them in the feed.
 -->{% endcomment %}
-{% for post in site.posts %}{% unless post.categories contains 'archives' %}
+{% for post in site.posts limit:20 %}{% unless post.categories contains 'archives' %}
     <item>
       <title>{{ post.title }}</title>
       <description>{{ post.content | xml_escape }}</description>
