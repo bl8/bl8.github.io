@@ -13,7 +13,7 @@ but it's better than no pagination.
 {% for post in paginator.posts %}{% unless post.categories contains 'archives' %}
 <div class="post">
   <div class="header">
-    <span class="date"><strong>{{ post.date | date_to_long_string }}</strong></span>
+    <span class="date"><strong>{{ post.date | date: "%B %-d, %Y" }}</strong></span>
     <h2 class="item">
       <a href="{{ post.url}}" rel="bookmark">{% if post.long-title %}{{ post.long-title }}{% else %}{{ post.title }}{% endif %}</a>
     </h2>

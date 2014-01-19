@@ -21,7 +21,7 @@
       <div class="post">
         <div class="header">
           <span class="date">
-              <strong>{{ page.date | date_to_long_string }}</strong>
+              <strong>{{ page.date | date: "%B %-d, %Y" }}</strong>
           </span>
           <h2 class="item">
             <a href="{{ page.url}}" rel="bookmark">{% if page.long-title %}{{ page.long-title }}{% else %}{{ page.title }}{% endif %}</a>
