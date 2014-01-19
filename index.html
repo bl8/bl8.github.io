@@ -63,8 +63,8 @@ layout: nil
               <ul id="news">
                 {% for post in site.posts limit:6 %}{% unless post.categories contains 'archives' %}
                   <li>
-                    <h4><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h4>
-                    <div class="date">{{ post.date | date_to_long_string }}</div>
+                    <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+                    <div class="date">{{ post.date | date: "%B %-d, %Y" }}</div>
                     {{ post.content }}
                   </li>
                 {% endunless %}{% endfor %}
