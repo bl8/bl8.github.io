@@ -384,6 +384,7 @@ dl.features span.new {
 #news h4 {
     float: left;
     margin-bottom: 0;
+    margin-top: 0;
     font-size: 1.2em;
 }
 
