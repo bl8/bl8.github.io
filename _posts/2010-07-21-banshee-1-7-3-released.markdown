@@ -5,6 +5,6 @@ tags:
 - news
 ---
 
-[Banshee 1.7.3](/download/archives/1-7-3/), part of the active-development 1.7 series leading to 1.8, has been released.  Read the [release notes](/download/archives/1-7-3/) for more info.
+[Banshee 1.7.3](/download/archives/1.7.3/), part of the active-development 1.7 series leading to 1.8, has been released.  Read the [release notes](/download/archives/1.7.3/) for more info.
 
 [Get it now!](/download)
