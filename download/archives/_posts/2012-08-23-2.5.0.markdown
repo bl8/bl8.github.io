@@ -177,7 +177,7 @@ to 2.6, scheduled for October 2012.
 
 
 	
-  * [Read about features added in Banshee 2.4.0](/download/archives/2-4-0)
+  * [Read about features added in Banshee 2.4.0](/download/archives/2.4.0)
 
 	
   * [Read about features added in Banshee 2.2.0](/download/archives/2.2.0)
@@ -373,15 +373,8 @@ The following people contributed updated translations to this release.    Withou
     William Friesen, William Pettersson, William Witt, Wouter Bolsterlee,
     Yuuto Tokunaga, Zhou Ting
 
-
-
-
-
-
 #### Reporting Bugs, Joining the Community
-
 
 If you encounter any bad behavior with this release, please do not hesitate to [file bugs](/contribute/file-bugs/)!
 
 We welcome new contributors - developers, translators, artists, writers, support gurus - to join our community.  [Join us!](/contribute)
-
